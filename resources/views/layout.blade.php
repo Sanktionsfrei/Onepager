@@ -52,7 +52,7 @@
         e=o.createElement(i);r=o.getElementsByTagName(i)[0];
         e.src='https://www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','{{ env('G_ANALYTICS') }}','auto');ga('send','pageview');
+    ga('create','UA-68487422-1','auto');ga('send','pageview');
 </script>
 </body>
 </html>
