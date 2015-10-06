@@ -5,7 +5,7 @@
         </div>
         <div class="col-xs-12 col-md-6">
             <ul class="list-inline">
-                <!--<li class="pull-right"><a href="/impressum">Impressum</a></li>-->
+                <li class="pull-right"><a href="/impressum">Impressum</a></li>
             </ul>
         </div>
     </div>
