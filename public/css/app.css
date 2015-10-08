@@ -8030,31 +8030,31 @@ button.close {
 @media only screen and (min-width: 480px) {
   body {
     background-size: cover;
-    background: #464646 url(/images/bg-ce-480.jpg) no-repeat fixed center center; } }
+    background: #464646 url(/images/onepager.jpg) no-repeat fixed center center; } }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   body {
     background-size: cover;
-    background: #464646 url(/images/bg-ce-800.jpg) no-repeat fixed center center; } }
+    background: #464646 url(/images/onepager.jpg) no-repeat fixed center center; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   body {
     background-size: cover;
-    background: #464646 url(/images/bg-ce-1024.jpg) no-repeat fixed center center; } }
+    background: #464646 url(/images/onepager.jpg) no-repeat fixed center center; } }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   body {
     background-size: cover;
-    background: #464646 url(/images/bg-ce-1200.jpg) no-repeat fixed center center; } }
+    background: #464646 url(/images/onepager.jpg) no-repeat fixed center center; } }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1800px) {
   body {
     background-size: cover;
-    background: #464646 url(/images/bg-ce-1800.jpg) no-repeat fixed center center; } }
+    background: #464646 url(/images/onepager.jpg) no-repeat fixed center center; } }
 
 body {
   background-size: cover;
