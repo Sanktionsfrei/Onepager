@@ -15,7 +15,7 @@
             <p>E-Mail: info@sanktionsfrei.de</p>
 
             <h4>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h4>
-            <p>Helena Sophia Steinhaus<br>
+            <p>Helena Sophia Steinhaus, Inge Hannemann<br>
                 Skalitzer Straße 85-86, Aufgang B<br>
                 10997 Berlin</p>
 
