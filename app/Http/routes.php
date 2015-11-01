@@ -24,3 +24,31 @@ Route::post('/subscribe', [
 Route::get('/impressum', function(){
    return view('imprint');
 });
+
+/*
+ * Newsletter routes
+ */
+Route::group(['middleware' => 'auth', 'prefix' => 'dashboard', 'namespace' => 'Dashboard'], function(){
+
+
+   Route::get('/', function(){
+      return redirect()->route('dashboard.newsletter.index');
+   });
+
+   Route::get('/newsletter', [
+      'as' => 'dashboard.newsletter.index',
+      'uses' => 'NewsletterController@index'
+   ]);
+
+});
+
+/*
+ * Authentication routes
+ */
+Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::post('auth/login', ['uses'=>'Auth\AuthController@postLogin']);
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
+
+// Registration routes...
+Route::get('auth/register', 'Auth\AuthController@getRegister');
+Route::post('auth/register', ['uses' =>'Auth\AuthController@postRegister']);
