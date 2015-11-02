@@ -20,7 +20,7 @@
                             <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                         </div>
                     </div>
-                    <h4 class="text-center">Bitte sag uns, warum du dich für Sanktionsfrei interessierst (Mehrfachnennungen möglich):</h4>
+                    <h4 class="text-center">Bitte sag uns, warum du dich für Sanktionsfrei interessierst<br> (Mehrfachnennungen möglich):</h4>
                     @foreach($options as $option)
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
