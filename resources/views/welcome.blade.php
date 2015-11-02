@@ -9,7 +9,7 @@
 
                 <h3 class="text-center">Hartz IV zu einer <strong>sanktionsfreien</strong> Mindestsicherung machen. </h3>
 
-                <h4 class="text-center">Sanktionsfrei geht bald online. Bleib auf dem Laufenden und trag dich in unseren Newsletter ein!</h4>
+                <h4 class="text-center">Sanktionsfrei geht bald online.<br> Bleib auf dem Laufenden und trag dich in unseren Newsletter ein!</h4>
                 <hr>
                 <form id="form" class="form-horizontal" role="form">
 
@@ -20,7 +20,7 @@
                             <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                         </div>
                     </div>
-                    <h4 class="text-center">Bitte sag uns, warum du dich für Sanktionsfrei interessierst:</h4>
+                    <h4 class="text-center">Bitte sag uns, warum du dich für Sanktionsfrei interessierst (Mehrfachnennungen möglich):</h4>
                     @foreach($options as $option)
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
