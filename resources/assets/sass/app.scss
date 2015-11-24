@@ -1,0 +1,106 @@
+$ceOrange: #da4e33;
+$ceGrey: #555555;
+$ceDarkGrey: #363636;
+$ceLightGrey: #909090;
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+@import "variables";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+@import "node_modules/font-awesome/scss/font-awesome";
+
+.wrapper{
+  min-height: 100%;
+  position: relative;
+}
+
+.jumbotron{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  h3{
+    margin-top: 0;
+
+  }
+  h4{
+    margin-top: 30px;
+  }
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  body {
+    background: #464646;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  body {
+    background-size: cover;
+    background: #464646 url(/images/onepager.jpg) no-repeat fixed center center;
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  body {
+    background-size: cover;
+    background: #464646 url(/images/onepager.jpg) no-repeat fixed center center;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  body {
+    background-size: cover;
+    background: #464646 url(/images/onepager.jpg) no-repeat fixed center center;
+  }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  body {
+    background-size: cover;
+    background: #464646 url(/images/onepager.jpg) no-repeat fixed center center;
+  }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1800px) {
+  body {
+    background-size: cover;
+    background: #464646 url(/images/onepager.jpg) no-repeat fixed center center;
+  }
+}
+
+body {
+  background-size: cover;
+  padding-bottom: 80px;
+  //background: #464646 url(/images/bg-ce.jpg) no-repeat fixed center center;
+}
+
+.form-button {
+  margin-top: 30px;
+}
+
+.content-container{
+  background-color: #ffffff;
+}
+
+footer {
+  min-height: 55px;
+  padding-top: 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+}
