@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="Responsive Bootstrap App Landing Page Template">
-<meta name="keywords" content="Kane, Bootstrap, Landing page, Template, App, Mobile">
-<meta name="author" content="Mizanur Rahman">
+<meta name="description" content="Sanktionsfrei - der digitale Advokat der Herabgewürdigten. Gemeinsam gegen Hartz IV Sanktionierung.">
+<meta name="keywords" content="Sanktionsfrei, Hartz IV, Sanktionen, Digitaler Advokat der Unterdrückten, etc">
+<meta name="author" content="Sanktionsfrei">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <!-- SITE TITLE -->
@@ -137,30 +137,27 @@
 				<div class="intro-section">
 					
 					<!-- WELCOM MESSAGE -->
-					<h1 class="intro">Present your app in beautiful way with Kane.</h1>
-					<h5>Available on App Store and Play Store</h5>
+					<h1 class="intro">Die Würde des Menschen ist Sanktionsfrei</h5>
 					
 					<!-- BUTTON -->
 					<div class="buttons" id="download-button">
 						
-						<a href="#download" class="btn btn-default btn-lg standard-button"><i class="icon-app-download"></i>Download App</a>
+						<a href="#download" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Jetzt Spenden</a>
 						
 					</div>
 					<!-- /END BUTTONS -->
-					
+
 				</div>
-				<!-- /END HEADNING AND BUTTONS -->
-				
+				<!-- /END HEADING AND BUTTONS -->
+
 			</div>
 			
 			
 			<div class="col-md-6 col-sm-6 hidden-xs">
-			    
-			    <!-- PHONE IMAGE WILL BE HIDDEN IN TABLET PORTRAIT AND MOBILE-->
-			    <div class="phone-image">
-			    <img src="images/2-iphone-right.png" class="img-responsive" alt="">
-			    </div>
-			    
+				    <!-- PHONE IMAGE WILL BE HIDDEN IN TABLET PORTRAIT AND MOBILE -->
+				    <div class="phone-image">
+				    	<img src="images/2-iphone-right.png" class="img-responsive" alt="">
+				    </div>
 			</div>
 			
 		</div>
@@ -174,6 +171,112 @@
 <!-- /END HEADER -->
 
 <!-- =========================
+     BRIEF LEFT SECTION WITH VIDEO 
+============================== -->
+<section class="app-brief grey-bg" id="brief1">
+
+<div class="container">
+	
+	<div class="row">
+		
+		<!-- PHONES IMAGE -->
+		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+			<div class="video-container">
+				
+				<div class="video">
+					
+					<iframe src="//player.vimeo.com/video/88902745?byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
+					</iframe> 
+				</div>
+				
+			</div>
+
+		</div>
+		
+		<!-- RIGHT SIDE WITH BRIEF -->
+		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<!-- SECTION TITLE -->
+			<h2 class="dark-text">Kampagne</h2>
+			
+			<div class="colored-line-left">
+			</div>
+			
+			<p>
+				Hier kann das Kampagnenvideo eingefügt werden. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/><br/>
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+			</p>
+			
+		</div>
+		<!-- /END RIGHT BRIEF -->
+		
+	</div>
+	<!-- /END ROW -->
+	
+	<!-- PROGRESS BAR ROW -->
+	<div class="row">
+		<div class="col-md-12 center wow animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<div class="progress progress-striped active funding-bar">
+			  <div class="progress-bar progress-bar-success funding-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+				<span class="funding-text">45% finanziert</span>
+			  </div>
+			</div>
+
+		</div>
+	</div>
+	<!-- /END ROW -->
+
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END SECTION -->
+
+<!-- =========================
+     BRIEF RIGHT SECTION 
+============================== -->
+<section class="app-brief" id="brief2">
+
+<div class="container">
+	
+	<div class="row">
+		
+		<!-- BRIEF -->
+		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<!-- SECTION TITLE -->
+			<h2 class="dark-text">Hintergrund</h2>
+			
+			<div class="colored-line-left">
+			</div>
+			
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/><br/>
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			
+		</div>
+		<!-- /ENDBRIEF -->
+		
+		<!-- PHONES IMAGE -->
+		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+			<div class="phone-image">
+				<img src="images/2-iphone-right.png" alt="">
+			</div>
+		</div>
+		<!-- /END PHONES IMAGE -->
+		
+	</div>
+	<!-- /END ROW -->
+	
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END SECTION -->
+
+<!-- =========================
      FEATURES 
 ============================== -->
 <section class="features" id="features">
@@ -184,7 +287,7 @@
 	<div class="section-header wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Amazing Features</h2>
+		<h2 class="dark-text">Website / App</h2>
 		<div class="colored-line">
 		</div>
 		<div class="section-description">
@@ -353,158 +456,6 @@
 </section>
 <!-- /END FEATURES SECTION -->
 
-
-<!-- =========================
-     BRIEF LEFT SECTION 
-============================== -->
-<section class="app-brief grey-bg" id="brief1">
-
-<div class="container">
-	
-	<div class="row">
-		
-		<!-- PHONES IMAGE -->
-		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-			<div class="phone-image">
-				<img src="images/2-iphone-left.png" alt="">
-			</div>
-		</div>
-		
-		<!-- RIGHT SIDE WITH BRIEF -->
-		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SECTION TITLE -->
-			<h2 class="dark-text">Explain why it's best</h2>
-			
-			<div class="colored-line-left">
-			</div>
-			
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			</p>
-			
-			<!-- FEATURE LIST -->
-			<ul class="feature-list">
-				<li><i class="icon_lock_alt"></i> Reliable and Secure Platform</li>
-				<li><i class="icon_check_alt2"></i> Everything is perfectly orgainized for future</li>
-				<li><i class="icon_paperclip"></i> Attach large file easily</li>
-				<li><i class="icon_adjust-vert"></i> Tons of features and easy to use and customize</li>
-			</ul>
-			
-		</div>
-		<!-- /END RIGHT BRIEF -->
-		
-	</div>
-	<!-- /END ROW -->
-	
-</div>
-<!-- /END CONTAINER -->
-
-</section>
-<!-- /END SECTION -->
-
-
-<!-- =========================
-     BRIEF RIGHT SECTION 
-============================== -->
-<section class="app-brief" id="brief2">
-
-<div class="container">
-	
-	<div class="row">
-		
-		<!-- BRIEF -->
-		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SECTION TITLE -->
-			<h2 class="dark-text">Great way to describe your app</h2>
-			
-			<div class="colored-line-left">
-			</div>
-			
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/><br/>
-				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			
-		</div>
-		<!-- /ENDBRIEF -->
-		
-		<!-- PHONES IMAGE -->
-		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-			<div class="phone-image">
-				<img src="images/2-iphone-right.png" alt="">
-			</div>
-		</div>
-		<!-- /END PHONES IMAGE -->
-		
-	</div>
-	<!-- /END ROW -->
-	
-</div>
-<!-- /END CONTAINER -->
-
-</section>
-<!-- /END SECTION -->
-
-
-<!-- =========================
-     BRIEF LEFT SECTION WITH VIDEO 
-============================== -->
-<section class="app-brief grey-bg" id="brief1">
-
-<div class="container">
-	
-	<div class="row">
-		
-		<!-- PHONES IMAGE -->
-		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-			<div class="video-container">
-				
-                <!--
-				<div class="video">
-					
-					<iframe src="//player.vimeo.com/video/88902745?byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
-					</iframe> 
-				</div>
-				-->
-				
-				<div class="video">
-					
-					<iframe width="640" height="360" src="//www.youtube.com/embed/VjbGg-VuqbU?rel=0" frameborder="0" allowfullscreen></iframe>
-				</div>
-				
-			</div>
-
-		</div>
-		
-		<!-- RIGHT SIDE WITH BRIEF -->
-		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SECTION TITLE -->
-			<h2 class="dark-text">Description with video</h2>
-			
-			<div class="colored-line-left">
-			</div>
-			
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/><br/>
-				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-			</p>
-			
-			
-		</div>
-		<!-- /END RIGHT BRIEF -->
-		
-	</div>
-	<!-- /END ROW -->
-	
-</div>
-<!-- /END CONTAINER -->
-
-</section>
-<!-- /END SECTION -->
-
 <!-- =========================
      TESTIMONIALS 
 ============================== -->
@@ -622,7 +573,7 @@
 	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">It's Awesome</h2>
+		<h2 class="dark-text">Starterkit</h2>
 		
 		<div class="colored-line">
 		</div>
@@ -788,7 +739,7 @@
 	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Affordable Packages</h2>
+		<h2 class="dark-text">Starterkit</h2>
 		<div class="colored-line">
 		</div>
 		
@@ -902,13 +853,12 @@
 				
 				<!-- DOWNLOAD BUTTONS AREA -->
 				<div class="download-container">
-					<h2 class=" wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Download the app on</h2>
+					<h2 class=" wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Sanktionsfrei unterstützen</h2>
 					
 					<!-- BUTTONS -->
 					<div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 						
-						<a href="" class="btn btn-default btn-lg standard-button"><i class="icon-app-store"></i>App Store</a>
-						<a href="" class="btn btn-default btn-lg standard-button"><i class="icon-google-play"></i>Play Store</a>
+						<a href="" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Startnext Kampagne</a>
 						
 					</div>
 					<!-- /END BUTTONS -->
@@ -920,7 +870,7 @@
 				<!-- SUBSCRIPTION FORM WITH TITLE -->
 				<div class="subscription-form-container">
 					
-					<h2 class="wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Subscribe Now!</h2>
+					<h2 class="wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Auf dem Laufenden bleiben</h2>
 					
 					<!-- =====================
 					     MAILCHIMP FORM STARTS 
