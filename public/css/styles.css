@@ -820,3 +820,21 @@ footer .copyright {
     padding-top: 10px;
     margin-bottom: 50px;
 }
+
+/*********************
+     OWN STYLES
+**********************/
+
+.progress.funding-bar {
+    border-radius: 4px; 
+    height: 40px;
+}
+
+.progress-bar.funding-bar {
+    padding-top:     10px;
+    padding-bottom:  10px;
+}
+
+.funding-text {
+    font-size: 30px;
+}
