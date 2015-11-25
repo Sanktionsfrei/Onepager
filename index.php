@@ -7,7 +7,6 @@
 <meta name="author" content="Sanktionsfrei">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<!-- SITE TITLE -->
 <title>Sanktionsfrei</title>
 
 <!-- =========================
@@ -30,7 +29,7 @@
 <!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
 
 <!-- WEB FONTS -->
-<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet' type='text/css'>
+<!-- will be loaded in style.css -->
 
 <!-- CAROUSEL AND LIGHTBOX -->
 <link rel="stylesheet" href="css/owl.theme.css">
@@ -70,6 +69,7 @@
 </head>
 
 <body>
+
 <!-- =========================
      PRE LOADER       
 ============================== -->
@@ -83,7 +83,7 @@
 <header class="header" data-stellar-background-ratio="0.5" id="home">
 
 <!-- COLOR OVER IMAGE -->
-<div class="color-overlay"> <!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
+<div class="color-overlay full-screen"> <!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
 
 	<!-- STICKY NAVIGATION -->
 	<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
@@ -98,7 +98,7 @@
 				<span class="icon-bar"></span>
 				</button>
 
-				<a class="navbar-brand" href="#"><img src="images/logo-black.png" alt=""></a>
+				<a class="navbar-brand" href="#home"><img src="images/logo-black-large.svg" alt="Sanktionsfrei Logo" height="20px"></a>
 				
 			</div>
 			
@@ -106,12 +106,12 @@
 			<div class="navbar-collapse collapse" id="kane-navigation">
 				<ul class="nav navbar-nav navbar-right main-navigation">
 					<li><a href="#home">Home</a></li>
+					<li><a href="#kampagne">Kampagne</a></li>
+					<li><a href="#hintergrund">Hintergrund</a></li>
 					<li><a href="#features">Features</a></li>
-					<li><a href="#brief1">Why Us?</a></li>
-					<li><a href="#brief2">Desicribe</a></li>
-					<li><a href="#services">Services</a></li>
-					<li><a href="#screenshot-section">Screenshots</a></li>
-					<li><a href="#download">Download</a></li>
+					<li><a href="#geschenke">Geschenke</a></li>
+					<li><a href="#unterstuetzen">Unterstützen</a></li>
+					<li><a href="#newsletter">Newsletter</a>
 				</ul>
 			</div>
 		</div> <!-- /END CONTAINER -->
@@ -125,7 +125,7 @@
 		<div class="only-logo">
 			<div class="navbar">
 				<div class="navbar-header">
-					<img src="images/logo-white-large.svg" height="80px" alt="Sanktionsfrei Logo">
+					<img src="images/logo-white-compact.svg" height="80px" alt="Sanktionsfrei Logo">
 				</div>
 			</div>
 		</div> <!-- /END ONLY LOGO ON HEADER -->
@@ -137,12 +137,12 @@
 				<div class="intro-section">
 					
 					<!-- WELCOM MESSAGE -->
-					<h1 class="intro">Die Würde des Menschen ist Sanktionsfrei</h5>
+					<h1 class="intro">Die Würde des Menschen ist Sanktionsfrei.</h5>
 					
 					<!-- BUTTON -->
 					<div class="buttons" id="download-button">
 						
-						<a href="#download" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Jetzt Spenden</a>
+						<a href="#download" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Zur Kampagne</a>
 						
 					</div>
 					<!-- /END BUTTONS -->
@@ -156,7 +156,7 @@
 			<div class="col-md-6 col-sm-6 hidden-xs">
 				    <!-- PHONE IMAGE WILL BE HIDDEN IN TABLET PORTRAIT AND MOBILE -->
 				    <div class="phone-image">
-				    	<img src="images/2-iphone-right.png" class="img-responsive" alt="">
+				    	<img src="images/mockup-phone.png" class="img-responsive" alt="Sanktionsfrei Prototyp">
 				    </div>
 			</div>
 			
@@ -171,9 +171,9 @@
 <!-- /END HEADER -->
 
 <!-- =========================
-     BRIEF LEFT SECTION WITH VIDEO 
+     KAMPAGNE MIT VIDEO 
 ============================== -->
-<section class="app-brief grey-bg" id="brief1">
+<section class="app-brief grey-bg" id="kampagne">
 
 <div class="container">
 	
@@ -215,12 +215,19 @@
 	
 	<!-- PROGRESS BAR ROW -->
 	<div class="row">
-		<div class="col-md-12 center wow animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<div class="col-md-12 center wow fadeIn animated" data-wow-offset="20" data-wow-duration="1.5s">
 
 			<div class="progress progress-striped active funding-bar">
 			  <div class="progress-bar progress-bar-success funding-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
 				<span class="funding-text">45% finanziert</span>
 			  </div>
+			</div>
+
+			<!-- BUTTON -->
+			<div class="buttons referer-button">
+				
+				<a href="#" class="btn btn-default btn-lg standard-button">Zur Kampagne</a>
+				
 			</div>
 
 		</div>
@@ -234,9 +241,9 @@
 <!-- /END SECTION -->
 
 <!-- =========================
-     BRIEF RIGHT SECTION 
+     HINTERGRUNDINFOS 
 ============================== -->
-<section class="app-brief" id="brief2">
+<section class="app-brief" id="hintergrund">
 
 <div class="container">
 	
@@ -259,13 +266,13 @@
 		</div>
 		<!-- /ENDBRIEF -->
 		
-		<!-- PHONES IMAGE -->
-		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-			<div class="phone-image">
-				<img src="images/2-iphone-right.png" alt="">
+		<!-- INGE-IMAGE -->
+		<div class="col-md-6 wow fadeInRight animated offset-top-150" data-wow-offset="10" data-wow-duration="1.5s">
+			<div class="inge-image">
+				<img src="images/inge_video.png" alt="" class="img-thumbnail">
 			</div>
 		</div>
-		<!-- /END PHONES IMAGE -->
+		<!-- /END INGE-IMAGE -->
 		
 	</div>
 	<!-- /END ROW -->
@@ -274,7 +281,112 @@
 <!-- /END CONTAINER -->
 
 </section>
-<!-- /END SECTION -->
+<!-- /END HINTERGRUNDINFOS -->
+
+<!-- =========================
+     GESCHICHTEN 
+============================== -->
+<section class="testimonials" id="geschichten">
+
+<div class="color-overlay">
+	
+	<div class="container wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+		
+		<!-- FEEDBACKS -->
+		<div id="feedbacks" class="owl-carousel owl-theme">
+			
+			<!-- SINGLE FEEDBACK -->
+			<div class="feedback">
+				
+				<!-- IMAGE -->
+				<div class="image">
+					<!-- i class=" icon_quotations"></i -->
+					<img src="images/clients-pic/3.jpg" alt="">
+				</div>
+				
+				<div class="message">
+					 Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness.
+				</div>
+				
+				<div class="white-line">
+				</div>
+				
+				<!-- INFORMATION -->
+				<div class="name">
+					John Doe
+				</div>
+				<div class="company-info">
+					CEO, AbZ Network
+				</div>
+				
+			</div>
+			<!-- /END SINGLE FEEDBACK -->
+			
+			<!-- SINGLE FEEDBACK -->
+			<div class="feedback">
+				
+				<!-- IMAGE -->
+				<div class="image">
+					<!-- i class=" icon_quotations"></i -->
+					<img src="images/clients-pic/1.jpg" alt="">
+				</div>
+				
+				<div class="message">
+					 Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness.
+				</div>
+				
+				<div class="white-line">
+				</div>
+				
+				<!-- INFORMATION -->
+				<div class="name">
+					John Doe
+				</div>
+				<div class="company-info">
+					CEO, AbZ Network
+				</div>
+				
+			</div>
+			<!-- /END SINGLE FEEDBACK -->
+			
+			<!-- SINGLE FEEDBACK -->
+			<div class="feedback">
+				
+				<!-- IMAGE -->
+				<div class="image">
+					<!-- i class=" icon_quotations"></i -->
+					<img src="images/clients-pic/2.jpg" alt="">
+				</div>
+				
+				<div class="message">
+					 Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness.
+				</div>
+				
+				<div class="white-line">
+				</div>
+				
+				<!-- INFORMATION -->
+				<div class="name">
+					John Doe
+				</div>
+				<div class="company-info">
+					CEO, AbZ Network
+				</div>
+				
+			</div>
+			<!-- /END SINGLE FEEDBACK -->
+			
+		</div>
+		<!-- /END FEEDBACKS -->
+		
+	</div>
+	<!-- /END CONTAINER -->
+	
+</div>
+<!-- /END COLOR OVERLAY -->
+
+</section>
+<!-- /END GESCHICHTEN SECTION -->
 
 <!-- =========================
      FEATURES 
@@ -287,7 +399,7 @@
 	<div class="section-header wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Website / App</h2>
+		<h2 class="dark-text">Features</h2>
 		<div class="colored-line">
 		</div>
 		<div class="section-description">
@@ -457,205 +569,6 @@
 <!-- /END FEATURES SECTION -->
 
 <!-- =========================
-     TESTIMONIALS 
-============================== -->
-<section class="testimonials">
-
-<div class="color-overlay">
-	
-	<div class="container wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-		
-		<!-- FEEDBACKS -->
-		<div id="feedbacks" class="owl-carousel owl-theme">
-			
-			<!-- SINGLE FEEDBACK -->
-			<div class="feedback">
-				
-				<!-- IMAGE -->
-				<div class="image">
-					<!-- i class=" icon_quotations"></i -->
-					<img src="images/clients-pic/3.jpg" alt="">
-				</div>
-				
-				<div class="message">
-					 Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness.
-				</div>
-				
-				<div class="white-line">
-				</div>
-				
-				<!-- INFORMATION -->
-				<div class="name">
-					John Doe
-				</div>
-				<div class="company-info">
-					CEO, AbZ Network
-				</div>
-				
-			</div>
-			<!-- /END SINGLE FEEDBACK -->
-			
-			<!-- SINGLE FEEDBACK -->
-			<div class="feedback">
-				
-				<!-- IMAGE -->
-				<div class="image">
-					<!-- i class=" icon_quotations"></i -->
-					<img src="images/clients-pic/1.jpg" alt="">
-				</div>
-				
-				<div class="message">
-					 Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness.
-				</div>
-				
-				<div class="white-line">
-				</div>
-				
-				<!-- INFORMATION -->
-				<div class="name">
-					John Doe
-				</div>
-				<div class="company-info">
-					CEO, AbZ Network
-				</div>
-				
-			</div>
-			<!-- /END SINGLE FEEDBACK -->
-			
-			<!-- SINGLE FEEDBACK -->
-			<div class="feedback">
-				
-				<!-- IMAGE -->
-				<div class="image">
-					<!-- i class=" icon_quotations"></i -->
-					<img src="images/clients-pic/2.jpg" alt="">
-				</div>
-				
-				<div class="message">
-					 Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness.
-				</div>
-				
-				<div class="white-line">
-				</div>
-				
-				<!-- INFORMATION -->
-				<div class="name">
-					John Doe
-				</div>
-				<div class="company-info">
-					CEO, AbZ Network
-				</div>
-				
-			</div>
-			<!-- /END SINGLE FEEDBACK -->
-			
-		</div>
-		<!-- /END FEEDBACKS -->
-		
-	</div>
-	<!-- /END CONTAINER -->
-	
-</div>
-<!-- /END COLOR OVERLAY -->
-
-</section>
-<!-- /END TESTIMONIALS SECTION -->
-
-
-<!-- =========================
-     SERVICES
-============================== -->
-<section class="services" id="services">
-
-<div class="container">
-	
-	<!-- SECTION HEADER -->
-	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-		
-		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Starterkit</h2>
-		
-		<div class="colored-line">
-		</div>
-		<div class="section-description">
-			List your app features and all the details Lorem ipsum dolor kadr
-		</div>
-		<div class="colored-line">
-		</div>
-		
-	</div>
-	<!-- /END SECTION HEADER -->
-	
-	<div class="row">
-		
-		<!-- SINGLE SERVICE -->
-		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SERVICE ICON -->
-			<div class="service-icon">
-				<i class="icon_cloud-upload_alt"></i>
-			</div>
-			
-			<!-- SERVICE HEADING -->
-			<h3>Your Data in Cloud</h3>
-			
-			<!-- SERVICE DESCRIPTION -->
-			<p>
-				 Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness evening there them multiply all spirit for isn't, him land every you'll heaven bearing.
-			</p>
-			
-		</div>
-		<!-- /END SINGLE SERVICE -->
-		
-		<!-- SINGLE SERVICE -->
-		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SERVICE ICON -->
-			<div class="service-icon">
-				<i class="icon_gift_alt"></i>
-			</div>
-			
-			<!-- SERVICE HEADING -->
-			<h3>Monthly Rewards</h3>
-			
-			<!-- SERVICE DESCRIPTION -->
-			<p>
-				 Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness evening there them multiply all spirit for isn't, him land every you'll heaven bearing.
-			</p>
-			
-		</div>
-		<!-- /END SINGLE SERVICE -->
-		
-		<!-- SINGLE SERVICE -->
-		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SERVICE ICON -->
-			<div class="service-icon">
-				<i class="icon_chat_alt"></i>
-			</div>
-			
-			<!-- SERVICE HEADING -->
-			<h3>24/7 Support</h3>
-			
-			<!-- SERVICE DESCRIPTION -->
-			<p>
-				 Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness evening there them multiply all spirit for isn't, him land every you'll heaven bearing.
-			</p>
-			
-		</div>
-		<!-- /END SINGLE SERVICE -->
-		
-	</div>
-	<!-- /END ROW -->
-	
-</div>
-<!-- /END CONTAINER -->
-
-</section>
-<!-- /END FEATURES SECTION -->
-
-
-<!-- =========================
      SCREENSHOTS
 ============================== -->
 <section class="screenshots grey-bg" id="screenshot-section">
@@ -729,9 +642,9 @@
 
 
 <!-- =========================
-     PRICING TABLE | Added on version 1.7   
+     Geschenke   
 ============================== -->
-<section class="packages" id="packages">
+<section class="packages" id="geschenke">
 
 <div class="container">
 	
@@ -739,12 +652,12 @@
 	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Starterkit</h2>
+		<h2 class="dark-text">Geschenke</h2>
 		<div class="colored-line">
 		</div>
 		
 		<div class="section-description">
-			 List your app features and all the details Lorem ipsum dolor kadr
+			 Wir danken dir für deine Unterstützung der Kampagne!
 		</div>
 		
 		<div class="colored-line">
@@ -760,7 +673,7 @@
 			<div class="single-package">
 				
 				<h3 class="package-heading main-color">
-				Personal </h3>
+				Zwei </h3>
 				
 				<div class="price">
 					<h2><span class="sign">$</span>50 <span class="month">/month</span></h2>
@@ -785,7 +698,7 @@
 			<div class="single-package">
 				
 				<h3 class="package-heading main-color">
-				Business </h3>
+				Eins </h3>
 				
 				<div class="price">
 					<div class="color-bg">
@@ -811,7 +724,7 @@
 			<div class="single-package">
 				
 				<h3 class="package-heading main-color">
-				Ultimate </h3>
+				Drei </h3>
 				
 				<div class="price">
 					<h2><span class="sign">$</span>99 <span class="month">/month</span></h2>
@@ -835,15 +748,13 @@
 </div>
 <!-- /END CONTAINER -->
 </section>
-<!-- /END PRICING TABLE SECTION -->
-
-
+<!-- /END GESCHENKE SECTION -->
 
 
 <!-- =========================
-     DOWNLOAD NOW 
+     UNTERSTÜTZEN 
 ============================== -->
-<section class="download" id="download">
+<section class="download" id="unterstuetzen">
 
 <div class="color-overlay">
 
@@ -851,69 +762,20 @@
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				
-				<!-- DOWNLOAD BUTTONS AREA -->
+				<!-- BUTTONS AREA -->
 				<div class="download-container">
 					<h2 class=" wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Sanktionsfrei unterstützen</h2>
 					
 					<!-- BUTTONS -->
 					<div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 						
-						<a href="" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Startnext Kampagne</a>
+						<a href="" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Spenden</a>
 						
 					</div>
 					<!-- /END BUTTONS -->
 					
 				</div>
-				<!-- END OF DOWNLOAD BUTTONS AREA -->
-				
-				
-				<!-- SUBSCRIPTION FORM WITH TITLE -->
-				<div class="subscription-form-container">
-					
-					<h2 class="wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Auf dem Laufenden bleiben</h2>
-					
-					<!-- =====================
-					     MAILCHIMP FORM STARTS 
-					     ===================== -->
-					
-					<form class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form">
-						
-						<!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
-						<h4 class="subscription-success"></h4>
-						<h4 class="subscription-error"></h4>
-						
-						<!-- EMAIL INPUT BOX -->
-						<input type="email" name="email" id="subscriber-email" placeholder="Your Email" class="form-control input-box">
-						
-						<!-- SUBSCRIBE BUTTON -->
-						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Subscribe</button>
-						
-					</form>
-					<!-- /END MAILCHIMP FORM STARTS -->
-					
-					<!-- =====================
-					     LOCAL TXT FORM STARTS 
-					     ===================== -->
-					     
-					<!-- THIS FORM IS COMMENTED TO HIDE 
-					
-					<form class="subscription-form form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" id="subscribe" role="form">
-						
-						<h4 class="subscription-success"><i class="icon_check"></i> Thank you! We will notify you soon.</h4>
-						<h4 class="subscription-error">Something Wrong!</h4>
-						
-						<input type="email" name="email" id="subscriber-email" placeholder="Your Email" class="form-control input-box">
-						
-						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Subscribe</button>
-						
-					</form>
-					
-					-->
-					
-					<!-- / LOCAL TXT SAVING FORM END -->
-
-				</div>
-                <!-- END OF SUBSCRIPTION FORM WITH TITLE -->
+				<!-- END OF BUTTONS AREA -->
 				
 			</div> 
 			<!-- END COLUMN -->
@@ -927,7 +789,7 @@
 <!-- /END COLOR OVERLAY -->
 
 </section>
-<!-- /END DOWNLOAD SECTION -->
+<!-- /END UNTERSTÜTZEN SECTION -->
 
 
 <!-- =========================
@@ -935,7 +797,7 @@
 ============================== -->
 <footer>
 
-<div class="container">
+<div class="container" id="newsletter">
 	
 	<div class="contact-box wow rotateIn animated" data-wow-offset="10" data-wow-duration="1.5s">
 		
@@ -947,37 +809,33 @@
 		<div class="row expanded-contact-form">
 			
 			<div class="col-md-8 col-md-offset-2">
-				
-				<!-- FORM -->
-				<form class="contact-form" id="contact" role="form">
+
+				<!-- SUBSCRIPTION FORM WITH TITLE -->
+				<div class="subscription-form-container">
 					
-					<!-- IF MAIL SENT SUCCESSFULLY -->
-					<h4 class="success">
-						<i class="icon_check"></i> Your message has been sent successfully.
-					</h4>
+					<h2 class="wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Auf dem Laufenden bleiben</h2>
 					
-					<!-- IF MAIL SENDING UNSUCCESSFULL -->
-					<h4 class="error">
-						<i class="icon_error-circle_alt"></i> E-mail must be valid and message must be longer than 1 character.
-					</h4>
+					<!-- =====================
+					     FORM
+					     ===================== -->
 					
-					<div class="col-md-6">
-						<input class="form-control input-box" id="name" type="text" name="name" placeholder="Your Name">
-					</div>
-					
-					<div class="col-md-6">
-						<input class="form-control input-box" id="email" type="email" name="email" placeholder="Your Email">
-					</div>
-					
-					<div class="col-md-12">
-						<input class="form-control input-box" id="subject" type="text" name="subject" placeholder="Subject">
-						<textarea class="form-control textarea-box" id="message" rows="8" placeholder="Message"></textarea>
-					</div>
-					
-					<button class="btn btn-primary standard-button2 ladda-button" type="submit" id="submit" name="submit" data-style="expand-left">Send Message</button>
-					
-				</form>
-				<!-- /END FORM -->
+					<form class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form">
+						
+						<!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
+						<h4 class="subscription-success"></h4>
+						<h4 class="subscription-error"></h4>
+						
+						<!-- EMAIL INPUT BOX -->
+						<input type="email" name="email" id="subscriber-email" placeholder="E-Mail Adresse" class="form-control input-box">
+						
+						<!-- SUBSCRIBE BUTTON -->
+						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Abonnieren</button>
+						
+					</form>
+					<!-- END FORM -->
+
+				</div>
+                <!-- END OF SUBSCRIPTION FORM WITH TITLE -->
 				
 			</div>
 			
@@ -988,7 +846,7 @@
 	<!-- /END CONTACT BOX -->
 	
 	<!-- LOGO -->
-	<img src="images/logo-grey-compact.svg" height="100px" alt="LOGO" class="responsive-img">
+	<img src="images/logo-grey-compact.svg" height="60px" alt="LOGO" class="responsive-img">
 	
 	<!-- SOCIAL ICONS -->
 	<ul class="social-icons">
