@@ -8,13 +8,20 @@ GLOBAL STYLES
 =========================================
 -----------------------------------------*/
 
+/* ROBOTO */
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic);
+/* PT SANS */
+/*
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700&subset=latin,latin-ext);
+*/
+
 html {
     font-size: 100%;
 }
 
 body {
     background: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;*/
     font-size: 16px;
     font-weight: 300;
     color: #313131;
@@ -279,7 +286,7 @@ header {
 }
 
 header .color-overlay {
-    min-height: 900px;
+    min-height: 600px;
 }
 
 header .full-screen {
@@ -353,7 +360,7 @@ header .intro-section .standard-button {
 header .phone-image {
     max-width: 350px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 header .phone-image img {
@@ -432,7 +439,7 @@ header .intro-section .buttons {
 .features .phone-image {
     max-width: 250px;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
 }
 
 .features .phone-image img {
@@ -837,4 +844,18 @@ footer .copyright {
 
 .funding-text {
     font-size: 30px;
+}
+
+.referer-button {
+    margin-top: 10px;
+}
+
+.inge-image {
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.inge-image img {
+    width: 100%;
 }
