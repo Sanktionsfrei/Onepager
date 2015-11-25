@@ -21,7 +21,7 @@ html {
 
 body {
     background: #ffffff;
-    font-family: 'Roboto', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #313131;
@@ -843,7 +843,8 @@ footer .copyright {
 }
 
 .funding-text {
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Lane', sans-serif;
 }
 
 .referer-button {
@@ -851,11 +852,27 @@ footer .copyright {
 }
 
 .inge-image {
-    max-width: 450px;
+    max-width: 400px;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .inge-image img {
     width: 100%;
+}
+
+.offset-top-100 {
+    margin-top: 100px;
+}
+
+.offset-top-150 {
+    margin-top: 150px;
+}
+
+
+.offset-top-200 {
+    margin-top: 200px;
+}
+
+.offset-top-250 {
+    margin-top: 250px;
 }
