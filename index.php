@@ -142,7 +142,7 @@
 					<!-- BUTTON -->
 					<div class="buttons" id="download-button">
 						
-						<a href="#download" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Zur Kampagne</a>
+						<a href="#" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Zur Kampagne</a>
 						
 					</div>
 					<!-- /END BUTTONS -->
@@ -819,18 +819,63 @@
 					     FORM
 					     ===================== -->
 					
-					<form class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form">
+					<form id="newsletter-form" class="subscription-form form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form">
 						
 						<!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
-						<h4 class="subscription-success"></h4>
-						<h4 class="subscription-error"></h4>
+						<h4 class="subscription-success text-success">Erfolgreich eingetragen!</h4>
+						<h4 class="subscription-error text-danger">Fehler!</h4>
 						
 						<!-- EMAIL INPUT BOX -->
-						<input type="email" name="email" id="subscriber-email" placeholder="E-Mail Adresse" class="form-control input-box">
+						<input type="email" name="email" id="subscriber-email" placeholder="E-Mail Adresse" class="form-control input-box" onclick="">
 						
 						<!-- SUBSCRIBE BUTTON -->
-						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Abonnieren</button>
-						
+						<button form="newsletter-form" type="submit" id="subscribe-button" class="btn btn-default standard-button">Abonnieren</button>
+
+						 <!-- =====================
+							Themen Checkboxes
+					     ===================== -->
+						<div class="form-group" id="themenkategorien">
+						  <div class="col-md-6 col-md-offset-3">
+							  <div class="checkbox">
+							    <label for="newsletter-themen-0">
+							      <input type="checkbox" name="newsletter-themen" id="newsletter-themen-0" value="1">
+							      Ich beziehe ALG II ("Hartz-IV")
+							    </label>
+							  </div>
+							  <div class="checkbox">
+							    <label for="newsletter-themen-1">
+							      <input type="checkbox" name="newsletter-themen" id="newsletter-themen-1" value="2">
+							      Ich beziehe (noch) kein ALG II („Hartz IV“)
+							    </label>
+							  </div>
+							  <div class="checkbox">
+							    <label for="newsletter-themen-2">
+							      <input type="checkbox" name="newsletter-themen" id="newsletter-themen-2" value="3">
+							      Ich bin Anwältin/Anwalt
+							    </label>
+							  </div>
+							  <div class="checkbox">
+							    <label for="newsletter-themen-3">
+							      <input type="checkbox" name="newsletter-themen" id="newsletter-themen-3" value="4">
+							      Ich bin Jobcenter-Mitarbeiter*in
+							    </label>
+							  </div>
+							  <div class="checkbox">
+							    <label for="newsletter-themen-4">
+							      <input type="checkbox" name="newsletter-themen" id="newsletter-themen-4" value="5">
+							      Ich könnte mir vorstellen, beim Crowdfunding Geld zu spenden
+							    </label>
+							  </div>
+							  <div class="checkbox">
+							    <label for="newsletter-themen-5">
+							      <input type="checkbox" name="newsletter-themen" id="newsletter-themen-5" value="6">
+							      Ich interessiere mich für das Projekt
+							    </label>
+							  </div>
+						  </div>
+						</div>
+						<!-- END THEMEN CHECKBOXES -->
+
 					</form>
 					<!-- END FORM -->
 
@@ -840,7 +885,7 @@
 			</div>
 			
 		</div>
-		<!-- /END EXPANDED CONTACT FORM -->
+		<!-- /END EXPANDED FORM -->
 		
 	</div>
 	<!-- /END CONTACT BOX -->
