@@ -876,3 +876,15 @@ footer .copyright {
 .offset-top-250 {
     margin-top: 250px;
 }
+
+#themenkategorien {
+    display: none;
+}
+
+.subscription-success {
+    display: none;
+}
+
+.subscription-error {
+    display: none;
+}
