@@ -198,7 +198,7 @@ $("#subscribe").submit(function (e) {
 /* ==================================
 === EXPAND NEWSLETTER CHECKBOXES ====
 =================================== */
-$("#subscriber-email").bind('keydown', function() {
+$("#subscriber-email").bind('keyup', function() {
         if($("#subscriber-email").val() != ""){
             $("#themenkategorien").fadeIn(1000);
             $("#themenkategorien").css("display", "inline");

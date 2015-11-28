@@ -567,6 +567,17 @@ object {
     margin-bottom: 30px;
 }
 
+.testimonials .feedback .message-help{
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.testimonials .feedback .message-help a{
+    color: #FFF;
+    font-size: 16px;
+}
+
 .testimonials .feedback .name {
     margin-top: 15px;
     font-weight: 400;

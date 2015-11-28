@@ -313,12 +313,12 @@
 				
 				<!-- INFORMATION -->
 				<div class="name">
-					John Doe
+					Christiane C.
 				</div>
 				<div class="company-info">
 					CEO, AbZ Network
 				</div>
-				
+
 			</div>
 			<!-- /END SINGLE FEEDBACK -->
 			
@@ -340,7 +340,7 @@
 				
 				<!-- INFORMATION -->
 				<div class="name">
-					John Doe
+					Beate B.
 				</div>
 				<div class="company-info">
 					CEO, AbZ Network
@@ -367,7 +367,7 @@
 				
 				<!-- INFORMATION -->
 				<div class="name">
-					John Doe
+					Alexander A.
 				</div>
 				<div class="company-info">
 					CEO, AbZ Network
@@ -375,7 +375,7 @@
 				
 			</div>
 			<!-- /END SINGLE FEEDBACK -->
-			
+
 		</div>
 		<!-- /END FEEDBACKS -->
 		
@@ -485,7 +485,7 @@
 		<!-- PHONE IMAGE -->
 		<div class="col-md-4 col-sm-4">
 			<div class="phone-image wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-				<img src="images/single-iphone.png" alt="">
+				<img src="images/mockup-phone-language.png" alt="">
 			</div>
 		</div>
 		
