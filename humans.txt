@@ -3,11 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- @sanktionsfrei
+    Christian -- Web Developer
+    Jannis -- Made this Website and Structure --@Der_Hutt 
+    Helena -- Project Lead
 
 # THANKS
 
-    <name>
+    
 
 # TECHNOLOGY COLOPHON
 
