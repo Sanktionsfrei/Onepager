@@ -828,7 +828,7 @@ Doch nur fünf Prozent der Betroffenen fordern ihre Rechte ein. Genau hier setzt
 <!-- /END CONTAINER -->
 
 </section>
-<!-- /END SCREENSHOTS SECTION -->
+<!-- /END FAQ SECTION -->
 
 <!-- =========================
      UNTERSTÜTZEN 
