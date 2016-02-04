@@ -38,13 +38,23 @@ Route::group(['middleware' => 'auth', 'prefix' => 'dashboard', 'namespace' => 'D
 
     Route::get('/export', function () {
 
-        $subscribers = \App\Newsletter::all();
+        $newsletters = \App\Newsletter::get();
 
-        Excel::create('Filename', function ($excel) use ($subscribers) {
+        $subscriber = new \Illuminate\Support\Collection();
 
-            $excel->sheet('Subscriber', function ($sheet) use ($subscribers) {
+        foreach ($newsletters as $newsletter) {
+            $subscriber->push([
+                'id'    => $newsletter->id,
+                'email' => $newsletter->email,
+            ]);
+        }
 
-                $sheet->fromModel($subscribers, null, 'A1', false);
+
+        Excel::create('Filename', function ($excel) use ($subscriber) {
+
+            $excel->sheet('Subscriber', function ($sheet) use ($subscriber) {
+
+                $sheet->fromArray($subscriber, null, 'A1', false);
             });
 
         })->download('csv');
