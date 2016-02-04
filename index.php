@@ -848,7 +848,7 @@ Doch nur fünf Prozent der Betroffenen fordern ihre Rechte ein. Genau hier setzt
 					<!-- BUTTONS -->
 					<div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 						
-						<a href="" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Zur Kampagne</a>
+						<a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Zur Kampagne</a>
 						
 					</div>
 					<!-- /END BUTTONS -->
