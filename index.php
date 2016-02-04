@@ -681,7 +681,7 @@
 		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 
 			<!-- SECTION TITLE -->
-			<h4 class="dark-text">&raquo;Eins&laquo;</h4>
+			<h4 class="dark-text">&raquo;Muss ich die Eingliederungsvereinbarung unterschreiben?&laquo;</h4>
 
 			<div class="video-container">
 				
@@ -692,7 +692,7 @@
 
 				</div>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus tincidunt consectetur. Sed vestibulum rhoncus lectus a blandit. Quisque quis arcu a lorem sodales efficitur eu a nisl.</p>
+				<p>Nein! Unbedingt darauf warten, dass sie als Rechtsakt ergeht, denn nur dann kann man gegen sie klagen</p>
 				
 			</div>
 
@@ -703,7 +703,7 @@
 		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
 			
 			<!-- SECTION TITLE -->
-			<h4 class="dark-text">&raquo;Zwei&laquo;</h4>
+			<h4 class="dark-text">&raquo;Welche Rechte haben Hartz IV Leistungsberechtigte?&laquo;</h4>
 			
 			<div class="video-container">
 				
@@ -714,7 +714,7 @@
 
 				</div>
 
-				<p>Ut tincidunt, lorem vel condimentum pharetra, tellus augue ornare odio, ac maximus lacus odio in purus. Nullam vitae mi pharetra, posuere nulla vitae, iaculis libero.</p>
+				<p>Jeder Leistungsberechtigte hat das Recht, gegen Bescheide in den Widerspruch zu gehen.  Sehr unbeliebt bei den Jobcentern: Die Überprüfungsanträge. Die kann man bis zu 1 Jahr rückwirkend stellen.</p>
 				
 			</div>
 			
@@ -730,7 +730,7 @@
 		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 
 			<!-- SECTION TITLE -->
-			<h4 class="dark-text">&raquo;Drei&laquo;</h4>
+			<h4 class="dark-text">&raquo;Die meisten ALG II Leistungsberechtigten sind doch ungelernt, oder?&laquo;</h4>
 
 			<div class="video-container">
 				
@@ -741,7 +741,7 @@
 
 				</div>
 
-				<p>Vivamus egestas nec justo a aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque magna at lorem malesuada interdum. Duis vitae augue non ex condimentum congue ut vitae orci.</p>
+				<p>Das stimmt nicht. Laut Statistik sind zwar 70% Ungelernt, das kommt aber so zustande: Leistungberechtigten, die 4 Jahre nicht in ihrem Bereich tätig waren, wird ihre Ausbildung aberkannt.</p>
 				
 			</div>
 
@@ -752,7 +752,7 @@
 		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
 			
 			<!-- SECTION TITLE -->
-			<h4 class="dark-text">&raquo;Vier&laquo;</h4>
+			<h4 class="dark-text">&raquo;Warum verletzen Sanktionen die Menschenwürde?&laquo;</h4>
 			
 			<div class="video-container">
 				
@@ -763,12 +763,61 @@
 
 				</div>
 
-				<p>Nam ut faucibus ligula. Aenean vehicula, dui ut dignissim ornare, turpis ex rutrum purus, eleifend tincidunt elit sapien ac ante.</p>
+				<p>Eine Sanktion beschneidet das Existenzminimum, also die Lebensgrundlage eines Menschen. Das verstößt gegen die Menschenwürde und ist verfassungswidrig.</p>
 				
 			</div>
 			
 		</div>
 		<!-- /END Video 4 -->
+
+	</div>
+	<!-- /END ROW -->
+
+	<div class="row">
+
+		<!-- Video 5 -->
+		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SECTION TITLE -->
+			<h4 class="dark-text">&raquo;Was habe ich mit Sanktionen zu tun?&laquo;</h4>
+
+			<div class="video-container">
+				
+				<div class="video">
+					
+					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
+					</iframe> 
+
+				</div>
+
+				<p>Was habe ich mit Sanktionen zu tun?</p>
+				
+			</div>
+
+		</div>
+		<!-- END Video 5 -->
+
+		<!-- Video 6 -->
+		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<!-- SECTION TITLE -->
+			<h4 class="dark-text">&raquo;Die meisten Hartz IV Beziehenden sind doch faul und haben Zeit, oder?&laquo;</h4>
+			
+			<div class="video-container">
+				
+				<div class="video">
+					
+					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
+					</iframe> 
+
+				</div>
+
+				<p>Viele pflegen Angehörige, erziehen ihre Kinder, arbeiten und müssen mit Hartz IV aufstocken. Nur rund 3% befinden sich in der sogenannten „sozialen Hängematte“.</p>
+				
+			</div>
+			
+		</div>
+		<!-- /END Video 6 -->
 
 	</div>
 	<!-- /END ROW -->
