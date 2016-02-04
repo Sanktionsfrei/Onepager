@@ -39,7 +39,7 @@
 
 <!-- ANIMATIONS -->
 <link rel="stylesheet" href="css/animate.min.css">
-
+<!-- 42 -->
 <!-- CUSTOM STYLESHEETS -->
 <link rel="stylesheet" href="css/styles.css">
 
@@ -183,7 +183,6 @@
 					<li><a href="#kampagne">Kampagne</a></li>
 					<li><a href="#hintergrund">Hintergrund</a></li>
 					<li><a href="#features">Features</a></li>
-					<li><a href="#faq">FAQ</a></li>
 					<!--<li><a href="#team">Team</a></li>-->
 					<li><a href="#unterstuetzen">Unterstützen</a></li>
 					<li><a href="#newsletter">Newsletter</a></li>
@@ -654,183 +653,6 @@ Doch nur fünf Prozent der Betroffenen fordern ihre Rechte ein. Genau hier setzt
 <!-- /END FEATURES SECTION -->
 
 <!-- =========================
-     FAQ
-============================== -->
-<section class="faq grey-bg" id="faq">
-
-<div class="container">
-	
-	<!-- SECTION HEADER -->
-	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-		
-		<!-- SECTION TITLE -->
-		<h2 class="dark-text">FAQ</h2>
-		
-		<div class="colored-line">
-		</div>
-		<div class="section-description">
-			Inge Hannemann beantwortet häufig gestellte Fragen
-		</div>
-		<div class="colored-line">
-		</div>
-		
-	</div>
-	<!-- /END SECTION HEADER -->
-	
-	<div class="row">
-
-		<!-- Video 1 -->
-		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-
-			<!-- SECTION TITLE -->
-			<h4 class="dark-text">&raquo;Muss ich die Eingliederungsvereinbarung unterschreiben?&laquo;</h4>
-
-			<div class="video-container">
-				
-				<div class="video">
-					
-					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
-					</iframe> 
-
-				</div>
-
-				<p>Nein! Unbedingt darauf warten, dass sie als Rechtsakt ergeht, denn nur dann kann man gegen sie klagen</p>
-				
-			</div>
-
-		</div>
-		<!-- END Video 1 -->
-
-		<!-- Video 2 -->
-		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SECTION TITLE -->
-			<h4 class="dark-text">&raquo;Welche Rechte haben Hartz IV Leistungsberechtigte?&laquo;</h4>
-			
-			<div class="video-container">
-				
-				<div class="video">
-					
-					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
-					</iframe> 
-
-				</div>
-
-				<p>Jeder Leistungsberechtigte hat das Recht, gegen Bescheide in den Widerspruch zu gehen.  Sehr unbeliebt bei den Jobcentern: Die Überprüfungsanträge. Die kann man bis zu 1 Jahr rückwirkend stellen.</p>
-				
-			</div>
-			
-		</div>
-		<!-- /END Video 2 -->
-
-	</div>
-	<!-- /END ROW -->
-	
-	<div class="row">
-
-		<!-- Video 3 -->
-		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-
-			<!-- SECTION TITLE -->
-			<h4 class="dark-text">&raquo;Die meisten ALG II Leistungsberechtigten sind doch ungelernt, oder?&laquo;</h4>
-
-			<div class="video-container">
-				
-				<div class="video">
-					
-					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
-					</iframe> 
-
-				</div>
-
-				<p>Das stimmt nicht. Laut Statistik sind zwar 70% Ungelernt, das kommt aber so zustande: Leistungberechtigten, die 4 Jahre nicht in ihrem Bereich tätig waren, wird ihre Ausbildung aberkannt.</p>
-				
-			</div>
-
-		</div>
-		<!-- END Video 3 -->
-
-		<!-- Video 4 -->
-		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SECTION TITLE -->
-			<h4 class="dark-text">&raquo;Warum verletzen Sanktionen die Menschenwürde?&laquo;</h4>
-			
-			<div class="video-container">
-				
-				<div class="video">
-					
-					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
-					</iframe> 
-
-				</div>
-
-				<p>Eine Sanktion beschneidet das Existenzminimum, also die Lebensgrundlage eines Menschen. Das verstößt gegen die Menschenwürde und ist verfassungswidrig.</p>
-				
-			</div>
-			
-		</div>
-		<!-- /END Video 4 -->
-
-	</div>
-	<!-- /END ROW -->
-
-	<div class="row">
-
-		<!-- Video 5 -->
-		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-
-			<!-- SECTION TITLE -->
-			<h4 class="dark-text">&raquo;Was habe ich mit Sanktionen zu tun?&laquo;</h4>
-
-			<div class="video-container">
-				
-				<div class="video">
-					
-					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
-					</iframe> 
-
-				</div>
-
-				<p>Was habe ich mit Sanktionen zu tun?</p>
-				
-			</div>
-
-		</div>
-		<!-- END Video 5 -->
-
-		<!-- Video 6 -->
-		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SECTION TITLE -->
-			<h4 class="dark-text">&raquo;Die meisten Hartz IV Beziehenden sind doch faul und haben Zeit, oder?&laquo;</h4>
-			
-			<div class="video-container">
-				
-				<div class="video">
-					
-					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
-					</iframe> 
-
-				</div>
-
-				<p>Viele pflegen Angehörige, erziehen ihre Kinder, arbeiten und müssen mit Hartz IV aufstocken. Nur rund 3% befinden sich in der sogenannten „sozialen Hängematte“.</p>
-				
-			</div>
-			
-		</div>
-		<!-- /END Video 6 -->
-
-	</div>
-	<!-- /END ROW -->
-
-</div>
-<!-- /END CONTAINER -->
-
-</section>
-<!-- /END FAQ SECTION -->
-
-<!-- =========================
      UNTERSTÜTZEN 
 ============================== -->
 <section class="download" id="unterstuetzen">
@@ -913,7 +735,7 @@ Doch nur fünf Prozent der Betroffenen fordern ihre Rechte ein. Genau hier setzt
 						 <!-- =====================
 							Themen Checkboxes
 					     ===================== -->
-						<div class="form-group" id="themenkategorien">
+						<div class="form-group text-left" id="themenkategorien">
 						  <div class="col-md-6 col-md-offset-3">
 							  <div class="checkbox">
 							    <label for="newsletter-themen-0">
