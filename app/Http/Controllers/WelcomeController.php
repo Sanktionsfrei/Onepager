@@ -7,6 +7,7 @@ namespace App\Http\Controllers;
 use App\Newsletter;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
+use App\Services\NewsletterManager;
 
 class WelcomeController extends Controller
 {
@@ -19,7 +20,7 @@ class WelcomeController extends Controller
 
     }
 
-    public function subscribe(Request $request)
+    public function subscribe(Request $request, NewsletterManager $newsletterManager)
     {
         $this->validate($request, [
             'email' => 'email|required|unique:newsletter,email'
@@ -38,6 +39,8 @@ class WelcomeController extends Controller
             'email' => $request->input('email'),
             'onepager_options' => $onepager_options
         ]);
+
+        $newsletterManager->addEmailToList($request->input('email'));
 
         return response()->json(['status' => 'ok', 'message' => 'Email added to newsletter.']);
 
