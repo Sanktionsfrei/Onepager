@@ -50,7 +50,7 @@ Route::group(['middleware' => 'auth', 'prefix' => 'dashboard', 'namespace' => 'D
         }
 
 
-        Excel::create('Filename', function ($excel) use ($subscriber) {
+        Excel::create('Newsletter_Subscriber', function ($excel) use ($subscriber) {
 
             $excel->sheet('Subscriber', function ($sheet) use ($subscriber) {
 
