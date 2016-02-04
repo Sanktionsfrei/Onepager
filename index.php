@@ -279,8 +279,9 @@
 			</div>
 			
 			<p>
-				Hier kann das Kampagnenvideo eingefügt werden. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/><br/>
-				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+Sechs Millionen Menschen leben in Deutschland von Hartz IV - darunter 1,7 Millionen Kinder. Der Regelbedarf beträgt 404 € für eine alleinstehende Person. Was viele nicht wissen: Die deutschen Jobcenter dürfen gegen Menschen, die sich auf die finanzielle Hilfe des Staates verlassen müssen, Sanktionen verhängen. Sie können die monatlichen Leistungen damit unter das Existenzminimum kürzen.<br/>
+Wir finden Sanktionen unangemessen und menschenunwürdig. Ein Existenzminimum muss ein Existenzminimum bleiben.<br/>
+Unser Ziel ist es, mit eurer Hilfe die Sanktionen abzuschaffen.
 			</p>
 			
 		</div>
@@ -302,7 +303,7 @@
 			<!-- BUTTON -->
 			<div class="buttons referer-button">
 				
-				<a href="#" class="btn btn-default btn-lg standard-button">Zur Kampagne</a>
+				<a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button">Zur Kampagne</a>
 				
 			</div>
 
