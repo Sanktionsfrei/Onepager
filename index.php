@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="Sanktionsfrei - der digitale Advokat der Herabgewürdigten. Gemeinsam gegen Hartz IV Sanktionierung.">
-<meta name="keywords" content="Sanktionsfrei, Hartz IV, Sanktionen, Digitaler Advokat der Unterdrückten, etc">
-<meta name="author" content="Sanktionsfrei">
+<meta name="description" content="Initiative mit dem Ziel, Hartz IV zu einer sanktionsfreien Mindestsicherung zu machen.">
+<meta name="keywords" content="sanktionsfrei, sanktionen, hartz iv, hartz 4, arbeitslosengeld, alg 2, alg ii, projekt, initiative">
+<meta name="author" content="Sanktionsfrei e.V.">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <title>Sanktionsfrei</title>
@@ -45,14 +45,6 @@
 
 <!-- COLORS -->
 <link rel="stylesheet" href="css/colors/sanktionsfrei.css">
-<!-- <link rel="stylesheet" href="css/colors/blue.css"> -->
-<!-- <link rel="stylesheet" href="css/colors/red.css"> --> 
-<!-- <link rel="stylesheet" href="css/colors/green.css"> --> 
-<!-- <link rel="stylesheet" href="css/colors/purple.css"> --> 
-<!-- <link rel="stylesheet" href="css/colors/orange.css"> --> 
-<!-- <link rel="stylesheet" href="css/colors/blue-munsell.css"> --> 
-<!-- <link rel="stylesheet" href="css/colors/slate.css"> --> 
-<!-- <link rel="stylesheet" href="css/colors/yellow.css"> -->
 
 <!-- RESPONSIVE FIXES -->
 <link rel="stylesheet" href="css/responsive.css">
@@ -64,7 +56,7 @@
 <![endif]-->
 
 <!-- JQUERY -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 
 </head>
 
@@ -78,12 +70,94 @@
 </div>
 
 <!-- =========================
+     MODAL MIT IMPRESSUM       
+============================== -->
+
+<div class="modal fade" id="impressum" tabindex="-1" role="dialog" aria-labelledby="impressumModal" aria-hidden="true">
+  	<div class="modal-dialog">
+	    <div class="modal-content">
+		    <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        <h4 class="modal-title" id="impressumModal">Impressum</h4>
+		    </div>
+	    <div class="modal-body text-left">
+	      		<h3>Angaben gemä&szlig; &sect; 5 TMG</h3>
+					<address>
+					  <strong>Sanktionsfrei n.e.V.</strong><br>
+					  Skalitzer Straße 85-86<br>
+					  10997 Berlin<br>
+					  <abbr title="Telefonnummer">Tel.:</abbr> +49 160 3772951<br>
+					  <abbr title="E-Mail">Mail:</abbr> info@sanktionsfrei.de
+					</address>
+					Vertreten durch: Inge Hannemann, Helena Sophia Steinhaus
+
+				<h3>Fragen &amp; Hilfe</h3>
+					<abbr title="E-Mail">Mail:</abbr> info@sanktionsfrei.de
+
+				<h3>Verantwortlich für den Inhalt nach &sect; 55 Abs. 2 RStV</h3>
+					<address>
+					  Inge Hannemann, Helena Sophia Steinhaus<br>
+					  Skalitzer Straße 85-86<br>
+					  10997 Berlin<br>
+					  <abbr title="Telefonnummer">Tel.:</abbr> +49 160 3772951<br>
+					  <abbr title="E-Mail">Mail:</abbr> info@sanktionsfrei.de
+					</address>
+				<h3>Spenden</h3>
+					<dl class="dl-horizontal">
+						<dt>Konto-Nr</dt>
+							<dd>1181458700</dd>
+						<dt>Bankleitzahl</dt>
+							<dd>43060967</dd>
+						<dt>Bank</dt>
+							<dd>GLS Gemeinschaftsbank</dd>
+						<dt>IBAN</dt>
+							<dd>DE53 4306 0967 1181 4587 00</dd>
+						<dt>BIC</dt>
+							<dd>GENODEM1GLS</dd>
+						<dt>Betreff</dt>
+							<dd>Spende</dd>
+					</dl>
+				<h3>Quellenangabe / Bildnachweis</h3>
+					<p>Sanktionsfrei e.V. ist der alleinige Rechteinhaber aller auf der Website verwendeten Bilder, wenn nicht anders angegeben.<br>
+					Bild <code>bg-2.jpg</code> <em>Stairs</em> von <a href="https://www.flickr.com/photos/115954955@N07">Elisabetta Foco</a> (CC0).</p>
+		</div>
+	    	<div class="modal-footer">
+	        	<button type="button" class="btn btn-default" data-dismiss="modal">schlie&szlig;en</button>
+	      	</div>
+	    </div>
+  	</div>
+</div>
+
+<!-- =========================
+     MODAL MIT PRESSEKONTAKT       
+============================== -->
+
+<div class="modal fade" id="press" tabindex="-1" role="dialog" aria-labelledby="presseModal" aria-hidden="true">
+  	<div class="modal-dialog">
+	    <div class="modal-content">
+		    <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        <h4 class="modal-title" id="presseModal">Pressebereich</h4>
+		    </div>
+	    <div class="modal-body">
+	    	<?php 
+	    		include("presse/content.php"); 
+	    	?>
+		</div>
+	    	<div class="modal-footer">
+	        	<button type="button" class="btn btn-default" data-dismiss="modal">schlie&szlig;en</button>
+	      	</div>
+	    </div>
+  	</div>
+</div>
+
+<!-- =========================
      HEADER   
 ============================== -->
 <header class="header" data-stellar-background-ratio="0.5" id="home">
 
 <!-- COLOR OVER IMAGE -->
-<div class="color-overlay full-screen"> <!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
+<div class="color-overlay"> <!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
 
 	<!-- STICKY NAVIGATION -->
 	<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
@@ -109,9 +183,11 @@
 					<li><a href="#kampagne">Kampagne</a></li>
 					<li><a href="#hintergrund">Hintergrund</a></li>
 					<li><a href="#features">Features</a></li>
-					<li><a href="#geschenke">Geschenke</a></li>
+					<li><a href="#faq">FAQ</a></li>
+					<!--<li><a href="#team">Team</a></li>-->
 					<li><a href="#unterstuetzen">Unterstützen</a></li>
-					<li><a href="#newsletter">Newsletter</a>
+					<li><a href="#newsletter">Newsletter</a></li>
+					<li><a href="#presse" data-toggle="modal" data-target="#press">Presse</a></li>
 				</ul>
 			</div>
 		</div> <!-- /END CONTAINER -->
@@ -185,7 +261,7 @@
 				
 				<div class="video">
 					
-					<iframe src="//player.vimeo.com/video/88902745?byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
+					<iframe src="https://player.vimeo.com/video/153759979?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
 					</iframe> 
 				</div>
 				
@@ -248,9 +324,9 @@
 <div class="container">
 	
 	<div class="row">
-		
+
 		<!-- BRIEF -->
-		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<div class="col-md-6 left-align wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 			
 			<!-- SECTION TITLE -->
 			<h2 class="dark-text">Hintergrund</h2>
@@ -265,14 +341,21 @@
 			
 		</div>
 		<!-- /ENDBRIEF -->
-		
-		<!-- INGE-IMAGE -->
-		<div class="col-md-6 wow fadeInRight animated offset-top-150" data-wow-offset="10" data-wow-duration="1.5s">
-			<div class="inge-image">
-				<img src="images/inge_video.png" alt="" class="img-thumbnail">
+
+		<!-- INGE-Erklärvideo -->
+		<div class="col-md-6 wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+			<div class="video-container">
+				
+				<div class="video">
+					
+					<iframe src="https://player.vimeo.com/video/153759979?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
+					</iframe> 
+				</div>
+				
 			</div>
+
 		</div>
-		<!-- /END INGE-IMAGE -->
+		<!-- /END INGE-Erklärvideo -->
 		
 	</div>
 	<!-- /END ROW -->
@@ -316,7 +399,7 @@
 					Christiane C.
 				</div>
 				<div class="company-info">
-					CEO, AbZ Network
+					wird seit 4 Monaten vollsanktioniert
 				</div>
 
 			</div>
@@ -343,7 +426,7 @@
 					Beate B.
 				</div>
 				<div class="company-info">
-					CEO, AbZ Network
+					wird seit einem Monat sanktioniert
 				</div>
 				
 			</div>
@@ -370,7 +453,7 @@
 					Alexander A.
 				</div>
 				<div class="company-info">
-					CEO, AbZ Network
+					wird seit einem halben Jahr sanktioniert
 				</div>
 				
 			</div>
@@ -403,7 +486,7 @@
 		<div class="colored-line">
 		</div>
 		<div class="section-description">
-			List your app features and all the details Lorem ipsum dolor kadr
+			Sanktionsfrei ist wunderbar und supergeil.
 		</div>
 		<div class="colored-line">
 		</div>
@@ -417,20 +500,20 @@
 		<div class="col-md-4 col-sm-4 features-left wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
 			
 			<!-- FEATURE -->
-			<div class="feature">
+			<div class="feature" id="feature-1">
 				
 				<!-- ICON -->
 				<div class="icon-container">
 					<div class="icon">
-						<i class="icon_map_alt"></i>
+						<i class="icon_documents_alt"></i>
 					</div>
 				</div>
 				
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">Responsive Design</h4>
+				<div class="feature-details">
+					<h4 class="main-color">Erstantrag</h4>
 					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+						 Mit <em>Sanktionsfrei</em> kannst du deinen Erstantrag auf Arbeitslosengeld II stellen.
 					</p>
 				</div>
 				
@@ -438,20 +521,20 @@
 			<!-- /END SINGLE FEATURE -->
 			
 			<!-- FEATURE -->
-			<div class="feature">
+			<div class="feature" id="feature-2">
 				
 				<!-- ICON -->
 				<div class="icon-container">
 					<div class="icon">
-						<i class="icon_gift_alt"></i>
+						<i class="icon_globe-2"></i>
 					</div>
 				</div>
 				
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">Bootstrap 3.1</h4>
+				<div class="feature-details">
+					<h4 class="main-color">Internationalisierung</h4>
 					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+						 <em>Sanktionsfrei</em> wird in verschiedenen Sprachen verfügbar sein.
 					</p>
 				</div>
 				
@@ -459,20 +542,20 @@
 			<!-- /END SINGLE FEATURE -->
 			
 			<!-- FEATURE -->
-			<div class="feature">
+			<div class="feature" id="feature-3">
 				
 				<!-- ICON -->
 				<div class="icon-container">
 					<div class="icon">
-						<i class="icon_tablet"></i>
+						<i class="icon_mail_alt"></i>
 					</div>
 				</div>
 				
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">Cross-Browser Support</h4>
+				<div class="feature-details">
+					<h4 class="main-color">Briefverkehr</h4>
 					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magn.
+						 <em>Sanktionsfrei</em> übernimmt für dich den Briefverkehr. Kostenfrei und mit Zustellbestätigung.
 					</p>
 				</div>
 				
@@ -483,9 +566,9 @@
 		<!-- /END FEATURES LEFT -->
 		
 		<!-- PHONE IMAGE -->
-		<div class="col-md-4 col-sm-4">
+		<div class="col-md-4 hidden-xs">
 			<div class="phone-image wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-				<img src="images/mockup-phone-language.png" alt="">
+				<img id="feature-image" src="images/mockup-phone-language.png" alt="">
 			</div>
 		</div>
 		
@@ -493,20 +576,20 @@
 		<div class="col-md-4 col-sm-4 features-right wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 			
 			<!-- FEATURE -->
-			<div class="feature">
+			<div class="feature" id="feature-4">
 				
 				<!-- ICON -->
 				<div class="icon-container">
 					<div class="icon">
-						<i class="icon_genius"></i>
+						<i class="icon_chat_alt"></i>
 					</div>
 				</div>
 				
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">360+ Icon Fonts</h4>
+				<div class="feature-details">
+					<h4 class="main-color">Reaktionsmaschine</h4>
 					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+						 <em>Sanktionsfrei</em> schlägt dir vor, wie du am besten auf Post vom Jobcenter reagierst.
 					</p>
 				</div>
 				
@@ -514,20 +597,20 @@
 			<!-- /END SINGLE FEATURE -->
 			
 			<!-- FEATURE -->
-			<div class="feature">
+			<div class="feature" id="feature-5">
 				
 				<!-- ICON -->
 				<div class="icon-container">
 					<div class="icon">
-						<i class="icon_lightbulb_alt"></i>
+						<i class="icon_phone"></i>
 					</div>
 				</div>
 				
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">Creative Design</h4>
+				<div class="feature-details">
+					<h4 class="main-color">Anwaltliche Beratung</h4>
 					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+						 Erfahrene Anwälte stehen bereit und beraten dich kostenfrei.
 					</p>
 				</div>
 				
@@ -536,20 +619,20 @@
 			<!-- /END SINGLE FEATURE -->
 			
 			<!-- FEATURE -->
-			<div class="feature">
+			<div class="feature" id="feature-6">
 				
 				<!-- ICON -->
 				<div class="icon-container">
 					<div class="icon">
-						<i class="icon_ribbon_alt"></i>
+						<i class="icon_lock"></i>
 					</div>
 				</div>
 				
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">More Features</h4>
+				<div class="feature-details">
+					<h4 class="main-color">Deine Daten gehören dir</h4>
 					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+						 Alle Daten werden verschlüsselt auf deinem Computer abgelegt.
 					</p>
 				</div>
 				
@@ -569,9 +652,9 @@
 <!-- /END FEATURES SECTION -->
 
 <!-- =========================
-     SCREENSHOTS
+     FAQ
 ============================== -->
-<section class="screenshots grey-bg" id="screenshot-section">
+<section class="faq grey-bg" id="faq">
 
 <div class="container">
 	
@@ -579,12 +662,12 @@
 	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Screenshots</h2>
+		<h2 class="dark-text">FAQ</h2>
 		
 		<div class="colored-line">
 		</div>
 		<div class="section-description">
-			List your app features and all the details Lorem ipsum dolor kadr
+			Inge Hannemann beantwortet häufig gestellte Fragen
 		</div>
 		<div class="colored-line">
 		</div>
@@ -592,164 +675,109 @@
 	</div>
 	<!-- /END SECTION HEADER -->
 	
-	<div class="row wow bounceIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-		
-		<div id="screenshots" class="owl-carousel owl-theme">
-			
-			<div class="shot">
-				<a href="images/screenshots/1.jpg" data-lightbox-gallery="screenshots-gallery"><img src="images/screenshots/1.jpg" alt="Screenshot"></a>
+	<div class="row">
+
+		<!-- Video 1 -->
+		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SECTION TITLE -->
+			<h4 class="dark-text">&raquo;Eins&laquo;</h4>
+
+			<div class="video-container">
+				
+				<div class="video">
+					
+					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
+					</iframe> 
+
+				</div>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus tincidunt consectetur. Sed vestibulum rhoncus lectus a blandit. Quisque quis arcu a lorem sodales efficitur eu a nisl.</p>
+				
 			</div>
+
+		</div>
+		<!-- END Video 1 -->
+
+		<!-- Video 2 -->
+		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
 			
-			<div class="shot">
-				<a href="images/screenshots/3.jpg" data-lightbox-gallery="screenshots-gallery"><img src="images/screenshots/3.jpg" alt="Screenshot"></a>
-			</div>
+			<!-- SECTION TITLE -->
+			<h4 class="dark-text">&raquo;Zwei&laquo;</h4>
 			
-			<div class="shot">
-				<a href="images/screenshots/2.jpg" data-lightbox-gallery="screenshots-gallery"><img src="images/screenshots/2.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="images/screenshots/4.jpg" data-lightbox-gallery="screenshots-gallery"><img src="images/screenshots/4.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="images/screenshots/1.jpg" data-lightbox-gallery="screenshots-gallery"><img src="images/screenshots/1.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="images/screenshots/3.jpg" data-lightbox-gallery="screenshots-gallery"><img src="images/screenshots/3.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="images/screenshots/2.jpg" data-lightbox-gallery="screenshots-gallery"><img src="images/screenshots/2.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="images/screenshots/4.jpg" data-lightbox-gallery="screenshots-gallery"><img src="images/screenshots/4.jpg" alt="Screenshot"></a>
+			<div class="video-container">
+				
+				<div class="video">
+					
+					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
+					</iframe> 
+
+				</div>
+
+				<p>Ut tincidunt, lorem vel condimentum pharetra, tellus augue ornare odio, ac maximus lacus odio in purus. Nullam vitae mi pharetra, posuere nulla vitae, iaculis libero.</p>
+				
 			</div>
 			
 		</div>
-		<!-- /END SCREENSHOTS -->
-		
+		<!-- /END Video 2 -->
+
 	</div>
 	<!-- /END ROW -->
 	
+	<div class="row">
+
+		<!-- Video 3 -->
+		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SECTION TITLE -->
+			<h4 class="dark-text">&raquo;Drei&laquo;</h4>
+
+			<div class="video-container">
+				
+				<div class="video">
+					
+					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
+					</iframe> 
+
+				</div>
+
+				<p>Vivamus egestas nec justo a aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque magna at lorem malesuada interdum. Duis vitae augue non ex condimentum congue ut vitae orci.</p>
+				
+			</div>
+
+		</div>
+		<!-- END Video 3 -->
+
+		<!-- Video 4 -->
+		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<!-- SECTION TITLE -->
+			<h4 class="dark-text">&raquo;Vier&laquo;</h4>
+			
+			<div class="video-container">
+				
+				<div class="video">
+					
+					<iframe src="https://player.vimeo.com/video/88902745?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
+					</iframe> 
+
+				</div>
+
+				<p>Nam ut faucibus ligula. Aenean vehicula, dui ut dignissim ornare, turpis ex rutrum purus, eleifend tincidunt elit sapien ac ante.</p>
+				
+			</div>
+			
+		</div>
+		<!-- /END Video 4 -->
+
+	</div>
+	<!-- /END ROW -->
+
 </div>
 <!-- /END CONTAINER -->
 
 </section>
 <!-- /END SCREENSHOTS SECTION -->
-
-
-<!-- =========================
-     Geschenke   
-============================== -->
-<section class="packages" id="geschenke">
-
-<div class="container">
-	
-	<!-- SECTION HEADER -->
-	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-		
-		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Geschenke</h2>
-		<div class="colored-line">
-		</div>
-		
-		<div class="section-description">
-			 Wir danken dir für deine Unterstützung der Kampagne!
-		</div>
-		
-		<div class="colored-line">
-		</div>
-	</div>
-	<!-- /END SECTION HEADER -->
-	
-    <div class="row">
-		
-		<!-- SINGLE PACKACGE -->
-		<div class="col-md-4 col-sm-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<div class="single-package">
-				
-				<h3 class="package-heading main-color">
-				Zwei </h3>
-				
-				<div class="price">
-					<h2><span class="sign">$</span>50 <span class="month">/month</span></h2>
-				</div>
-				
-				<ul class="package-feature">
-					<li><span class="main-color icon_check_alt2"></span>Unlimited Photos</li>
-					<li><span class="main-color icon_check_alt2"></span>Secure Online Transfer</li>
-					<li><span class="main-color icon_check_alt2"></span>Unlimited Styles</li>
-					<li><span class="main-color icon_check_alt2"></span>Cloud Storage</li>
-					<li><span class="main-color icon_close_alt2"></span>24/7 Customer Service</li>
-					<li><span class="main-color icon_close_alt2"></span>Automatic Backup</li>
-				</ul>
-				
-			</div>
-		</div>
-		<!-- /END SINGLE PACKACGE -->
-		
-		<!-- SINGLE PACKACGE -->
-		<div class="col-md-4 col-sm-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<div class="single-package">
-				
-				<h3 class="package-heading main-color">
-				Eins </h3>
-				
-				<div class="price">
-					<div class="color-bg">
-						<h2><span class="sign">$</span>75 <span class="month">/month</span></h2>
-					</div>
-				</div>
-				
-				<ul class="package-feature">
-					<li><span class="main-color icon_check_alt2"></span>Unlimited Photos</li>
-					<li><span class="main-color icon_check_alt2"></span>Secure Online Transfer</li>
-					<li><span class="main-color icon_check_alt2"></span>Unlimited Styles</li>
-					<li><span class="main-color icon_check_alt2"></span>Cloud Storage</li>
-					<li><span class="main-color icon_check_alt2"></span>24/7 Customer Service</li>
-					<li><span class="main-color icon_close_alt2"></span>Automatic Backup</li>
-				</ul>
-			</div>
-		</div>
-		<!-- /END SINGLE PACKACGE -->
-		
-		<!-- SINGLE PACKACGE -->
-		<div class="col-md-4 col-sm-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<div class="single-package">
-				
-				<h3 class="package-heading main-color">
-				Drei </h3>
-				
-				<div class="price">
-					<h2><span class="sign">$</span>99 <span class="month">/month</span></h2>
-				</div>
-				
-				<ul class="package-feature">
-					<li><span class="main-color icon_check_alt2"></span>Unlimited Photos</li>
-					<li><span class="main-color icon_check_alt2"></span>Secure Online Transfer</li>
-					<li><span class="main-color icon_check_alt2"></span>Unlimited Styles</li>
-					<li><span class="main-color icon_check_alt2"></span>Cloud Storage</li>
-					<li><span class="main-color icon_check_alt2"></span>24/7 Customer Service</li>
-					<li><span class="main-color icon_check_alt2"></span>Automatic Backup</li>
-				</ul>
-			</div>
-		</div>
-		<!-- /END SINGLE PACKACGE -->
-		
-	</div>
-	<!-- /END ROW -->
-	
-</div>
-<!-- /END CONTAINER -->
-</section>
-<!-- /END GESCHENKE SECTION -->
-
 
 <!-- =========================
      UNTERSTÜTZEN 
@@ -769,7 +797,7 @@
 					<!-- BUTTONS -->
 					<div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 						
-						<a href="" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Spenden</a>
+						<a href="" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Zur Kampagne</a>
 						
 					</div>
 					<!-- /END BUTTONS -->
@@ -839,7 +867,7 @@
 							  <div class="checkbox">
 							    <label for="newsletter-themen-0">
 							      <input type="checkbox" name="newsletter-themen" id="newsletter-themen-0" value="1">
-							      Ich beziehe ALG II ("Hartz-IV")
+							      Ich beziehe ALG II („Hartz IV“)
 							    </label>
 							  </div>
 							  <div class="checkbox">
@@ -857,7 +885,7 @@
 							  <div class="checkbox">
 							    <label for="newsletter-themen-3">
 							      <input type="checkbox" name="newsletter-themen" id="newsletter-themen-3" value="4">
-							      Ich bin Jobcenter-Mitarbeiter*in
+							      Ich arbeite in einem Jobcenter
 							    </label>
 							  </div>
 							  <div class="checkbox">
@@ -897,15 +925,13 @@
 	<ul class="social-icons">
 		<li><a href="https://facebook.com/sanktionsfrei"><i class="social_facebook_square"></i></a></li>
 		<li><a href="https://twitter.com/sanktionsfrei"><i class="social_twitter_square"></i></a></li>
-		<li><a href="https://www.pinterest.com/sanktionsfrei/"><i class="social_pinterest_square"></i></a></li>
-		<!-- <li><a href=""><i class="social_googleplus_square"></i></a></li> G+, LOL -->
-		<li><a href="https://instagram.com/sanktionsfrei/"><i class="social_instagram_square"></i></a></li>
-		<li><a href="https://youtube.com/channel/sanktionsfrei"><i class="social_youtube_square"></i></a></li>
+		<li><a href="https://instagram.com/sanktionsfrei"><i class="social_instagram_square"></i></a></li>
+		<li><a href="https://youtube.com/c/sanktionsfrei"><i class="social_youtube_square"></i></a></li>
 	</ul>
 	
 	<!-- COPYRIGHT TEXT -->
-	<p class="copyright">
-		Copyright &copy; 2015 Kapitalismusagentur &middot; <a href="/impressum">Impressum</a>
+	<p id="presse" class="copyright">
+		Copyright &copy; 2015 Sanktionsfrei n.e.V. &middot; <a href="#press" data-toggle="modal" data-target="#press">Presse</a> &middot; <a href="#impressum" data-toggle="modal" data-target="#impressum">Impressum</a>
 	</p>
 
 </div>

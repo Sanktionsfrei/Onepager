@@ -3,13 +3,23 @@
 
 # TEAM
 
-    Christian -- Web Developer
-    Jannis -- Made this Website and Structure --@Der_Hutt 
+    Christian -- Web Developer, Server Administrator -- @ZengineChris
+    Jannis -- Website and Structure, Videos -- @Der_Hutt 
     Helena -- Project Lead
+    Inge Hannemann -- @IngeHannemann
+    Michael Bohmeyer -- @michabohmeyer
+    Meera Zaremba -- @shantiphant
+    Maheba Goedeke Tort -- @MahebaGT
+    Johannes Ponader -- @JohannesPonader
+    Amira Jehia
+    Julia
+    Helwig
+    Krisch
 
 # THANKS
 
-    
+	Peng! Collective -- @PengBerlin
+
 
 # TECHNOLOGY COLOPHON
 

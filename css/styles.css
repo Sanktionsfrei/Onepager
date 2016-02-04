@@ -283,6 +283,7 @@ header {
     background: url(../images/bg-1.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
             background-size: cover;
+    background-attachment: scroll;
 }
 
 header .color-overlay {
@@ -291,7 +292,7 @@ header .color-overlay {
 
 header .full-screen {
     width: 100%;
-    height: 100px;
+    height: 600px;
 }
 
 /* TOP BAR WITH NAVIGATION */
@@ -452,7 +453,7 @@ header .intro-section .buttons {
 -----------------------------------------*/
 
 .app-brief {
-    padding-top: 110px;
+    padding-top: 0;
     padding-bottom: 60px;
 }
 

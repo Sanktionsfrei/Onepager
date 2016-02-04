@@ -3,16 +3,12 @@
 RESPONSIVE FIXES
 =========================================
 -----------------------------------------*/
- 
 
  @media (max-width: 1024px) {
 
     .animated {
         -webkit-transform: translateZ(0);
     }
-
-    
- 
     
     body {
         font-size: 15px;
