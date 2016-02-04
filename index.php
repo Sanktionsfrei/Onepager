@@ -280,7 +280,7 @@
 			
 			<p>
 Sechs Millionen Menschen leben in Deutschland von Hartz IV - darunter 1,7 Millionen Kinder. Der Regelbedarf beträgt 404 € für eine alleinstehende Person. Was viele nicht wissen: Die deutschen Jobcenter dürfen gegen Menschen, die sich auf die finanzielle Hilfe des Staates verlassen müssen, Sanktionen verhängen. Sie können die monatlichen Leistungen damit unter das Existenzminimum kürzen.<br/>
-Wir finden Sanktionen unangemessen und menschenunwürdig. Ein Existenzminimum muss ein Existenzminimum bleiben.<br/>
+Wir finden Sanktionen unangemessen und menschenunwürdig. <strong>Ein Existenzminimum muss ein Existenzminimum bleiben</strong>.<br/>
 Unser Ziel ist es, mit eurer Hilfe die Sanktionen abzuschaffen.
 			</p>
 			
@@ -336,8 +336,9 @@ Unser Ziel ist es, mit eurer Hilfe die Sanktionen abzuschaffen.
 			</div>
 			
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/><br/>
-				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Im Schnitt ist jede vierte leistungsberechtigte Person einmal pro Jahr von Sanktionierungen betroffen. Dass die Sanktionen dabei häufig gegen Gesetze verstoßen, belegt die hohe Erfolgsquote der Widersprüche: Über 40% Prozent aller Klagen sind erfolgreich.<br/>
+Doch nur fünf Prozent der Betroffenen fordern ihre Rechte ein. Genau hier setzt Sanktionsfrei an: Inge Hannemann und das Berliner Team aus kreativen Querdenkenden um Michael Bohmeyer wollen schaffen, was die Politik seit über zehn Jahren versäumt: das Hartz-IV-System in eine sanktionsfreie Mindestsicherung umgestalten. 
+
 			</p>
 			
 		</div>
@@ -385,11 +386,11 @@ Unser Ziel ist es, mit eurer Hilfe die Sanktionen abzuschaffen.
 				<!-- IMAGE -->
 				<div class="image">
 					<!-- i class=" icon_quotations"></i -->
-					<img src="images/clients-pic/3.jpg" alt="">
+					<img src="images/clients-pic/garen.jpg" alt="">
 				</div>
 				
 				<div class="message">
-					 Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness.
+					 Ich habe eine Bar aufgemacht und musste mit Hartz IV aufstocken. 10% Sanktion, da ich einen Termin versäumt habe um meine Frau zur Geburtsvorbereitung zu begleiten. 1 Monat Vollsanktion, da ich 21 Tage Urlaub gemacht habe. Mir wurde mit Sanktionen gedroht, damit ich die <abbr title="Eingliederungsvereinbarung">EGV</abbr> unterschreibe und an Maßnahmen teilnehme. Post vom Jobcenter belastet mich psychisch und macht mich krank.
 				</div>
 				
 				<div class="white-line">
@@ -397,7 +398,7 @@ Unser Ziel ist es, mit eurer Hilfe die Sanktionen abzuschaffen.
 				
 				<!-- INFORMATION -->
 				<div class="name">
-					Christiane C.
+					Garen K.
 				</div>
 				<div class="company-info">
 					wird seit 4 Monaten vollsanktioniert
