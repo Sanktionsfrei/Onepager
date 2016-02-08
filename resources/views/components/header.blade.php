@@ -4,7 +4,7 @@
     <div class="color-overlay"> {{-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  --}}
 
         {{-- STICKY NAVIGATION --}}
-        <div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
+        <div id="main-nav" class="navbar navbar-inverse bs-docs-nav navbar-fixed-top main-nav">
             <div class="container">
                 <div class="navbar-header">
 
@@ -60,7 +60,7 @@
                         {{-- BUTTON --}}
                         <div class="buttons" id="download-button">
 
-                            <a href="https://startnext.de/sanktionsfrei" target="_blank" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Zur Kampagne</a>
+                            <a href="https://startnext.de/sanktionsfrei" target="_blank" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Mehr erfahren</a>
 
                         </div>
                         {{-- /END BUTTONS --}}

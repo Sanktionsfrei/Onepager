@@ -10798,7 +10798,7 @@ header .full-screen {
 
 /* TOP BAR WITH NAVIGATION */
 
-.sticky-navigation {
+.main-nav {
   min-height: 60px;
   background: #FFFFFF;
   border: none;
@@ -10809,25 +10809,25 @@ header .full-screen {
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
 }
 
-.sticky-navigation .navbar-header img {
+.main-nav .navbar-header img {
   max-height: 30px;
   -webkit-backface-visibility: hidden;
 }
 
-.sticky-navigation .main-navigation .current a {
+.main-nav .main-navigation .current a {
   color: #000000 !important;
   position: relative;
   outline: none;
 }
 
-.sticky-navigation .main-navigation li a {
+.main-nav .main-navigation li a {
   line-height: 30px;
   font-weight: 400;
   font-size: 13px;
   text-transform: uppercase;
 }
 
-.sticky-navigation .main-navigation li a:hover {
+.main-nav .main-navigation li a:hover {
   color: #000000;
 }
 
@@ -11531,22 +11531,22 @@ RESPONSIVE FIXES
     min-height: 780px;
   }
 
-  .sticky-navigation .navbar-header {
+  .main-nav .navbar-header {
     width: 100%;
     position: relative;
     text-align: center;
     margin-top: 10px;
   }
 
-  .sticky-navigation .navbar-header a {
+  .main-nav .navbar-header a {
     float: none !important;
   }
 
-  .sticky-navigation .navbar-header img {
+  .main-nav .navbar-header img {
     max-height: 40px;
   }
 
-  .sticky-navigation .main-navigation {
+  .main-nav .main-navigation {
     text-align: center;
     width: 100%;
     padding-top: 0;

@@ -48,21 +48,21 @@ RESPONSIVE FIXES
         min-height: 780px;
     }
 
-    .sticky-navigation .navbar-header {
+    .main-nav .navbar-header {
         width: 100%;
         position: relative;
         text-align: center;
         margin-top: 10px;
     }
-    .sticky-navigation .navbar-header a {
+    .main-nav .navbar-header a {
         float: none !important;
     }
     
-    .sticky-navigation .navbar-header img {
+    .main-nav .navbar-header img {
         max-height: 40px;
     }
     
-    .sticky-navigation .main-navigation {
+    .main-nav .main-navigation {
         text-align: center;
         width: 100%;
         padding-top: 0;

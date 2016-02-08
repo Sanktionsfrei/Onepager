@@ -25,6 +25,18 @@ Route::get('/impressum', function () {
     return view('imprint');
 });
 
+Route::get('/presse', function () {
+    return view('press');
+});
+
+Route::get('/stream', function () {
+    return redirect('https://www.youtube.com/watch?v=gS65yoNcq88', 307);
+});
+
+Route::get('/live', function () {
+    return redirect('https://www.youtube.com/watch?v=gS65yoNcq88', 307);
+});
+
 
 /*
  * Newsletter routes

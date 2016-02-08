@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.main')
 
 @section('content')
     {{-- KAMPAGNE MIT VIDEO --}}
@@ -14,9 +14,7 @@
 
                         <div class="video">
 
-                            <iframe src="https://player.vimeo.com/video/153759979?byline=0&portrait=0&color=ffffff"
-                                    width="600" height="338" frameborder="0" allowfullscreen>
-                            </iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/goh1tNmKh6A" frameborder="0" allowfullscreen></iframe>
                         </div>
 
                     </div>
@@ -27,7 +25,7 @@
                 <div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
 
                     {{-- SECTION TITLE --}}
-                    <h2 class="dark-text">Kampagne</h2>
+                    <h2 class="dark-text">Über Sanktionsfrei</h2>
 
                     <div class="colored-line-left">
                     </div>
@@ -65,8 +63,7 @@
                     {{-- BUTTON --}}
                     <div class="buttons referer-button">
 
-                        <a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button">Zur
-                            Kampagne</a>
+                        <a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button">Jetzt unterstützen</a>
 
                     </div>
 
@@ -88,7 +85,7 @@
             <div class="row">
 
                 {{-- BRIEF --}}
-                <div class="col-md-6 left-align wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+                <div class="col-md-12 left-align wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 
                     {{-- SECTION TITLE --}}
                     <h2 class="dark-text">Hintergrund</h2>
@@ -459,7 +456,7 @@
 
                                 <a target="_blank" href="https://startnext.de/sanktionsfrei"
                                    class="btn btn-default btn-lg standard-button"><i
-                                            class="icon_like"></i>Zur Kampagne</a>
+                                            class="icon_like"></i>Mehr erfahren</a>
 
                             </div>
                             {{-- /END BUTTONS --}}
