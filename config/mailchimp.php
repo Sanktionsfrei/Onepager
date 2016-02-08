@@ -11,6 +11,6 @@ return [
     |
     */
 
-    'apikey' => '9b7e6321672029018e305e34672a32a4-us12',
+    'apikey' => env('MAIL_CHIMP'),
 
 ];
