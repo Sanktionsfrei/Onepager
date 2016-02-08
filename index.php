@@ -260,8 +260,7 @@
 				
 				<div class="video">
 					
-					<iframe src="https://player.vimeo.com/video/153759979?byline=0&portrait=0&color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
-					</iframe> 
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/goh1tNmKh6A" frameborder="0" allowfullscreen></iframe> 
 				</div>
 				
 			</div>
@@ -326,7 +325,7 @@ Unser Ziel ist es, mit eurer Hilfe die Sanktionen abzuschaffen.
 	<div class="row">
 
 		<!-- BRIEF -->
-		<div class="col-md-6 left-align wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<div class="col-md-12 left-align wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 			
 			<!-- SECTION TITLE -->
 			<h2 class="dark-text">Hintergrund</h2>
