@@ -217,7 +217,7 @@
 					<!-- BUTTON -->
 					<div class="buttons" id="download-button">
 						
-						<a href="#" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Zur Kampagne</a>
+						<a href="#" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Mehr erfahren</a>
 						
 					</div>
 					<!-- /END BUTTONS -->
@@ -272,7 +272,7 @@
 		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
 			
 			<!-- SECTION TITLE -->
-			<h2 class="dark-text">Kampagne</h2>
+			<h2 class="dark-text">Über Sanktionsfrei</h2>
 			
 			<div class="colored-line-left">
 			</div>
@@ -302,7 +302,7 @@ Unser Ziel ist es, mit eurer Hilfe die Sanktionen abzuschaffen.
 			<!-- BUTTON -->
 			<div class="buttons referer-button">
 				
-				<a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button">Zur Kampagne</a>
+				<a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button">Jetzt unterstützen!</a>
 				
 			</div>
 
@@ -342,8 +342,8 @@ Doch nur fünf Prozent der Betroffenen fordern ihre Rechte ein. Genau hier setzt
 			
 		</div>
 		<!-- /ENDBRIEF -->
-
-		<!-- INGE-Erklärvideo -->
+<!--
+		<!-#- INGE-Erklärvideo -#->
 		<div class="col-md-6 wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
 			<div class="video-container">
 				
@@ -356,8 +356,8 @@ Doch nur fünf Prozent der Betroffenen fordern ihre Rechte ein. Genau hier setzt
 			</div>
 
 		</div>
-		<!-- /END INGE-Erklärvideo -->
-		
+		<!-#- /END INGE-Erklärvideo -#->
+-->		
 	</div>
 	<!-- /END ROW -->
 	
@@ -670,7 +670,7 @@ Doch nur fünf Prozent der Betroffenen fordern ihre Rechte ein. Genau hier setzt
 					<!-- BUTTONS -->
 					<div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 						
-						<a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Zur Kampagne</a>
+						<a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Mehr erfahren</a>
 						
 					</div>
 					<!-- /END BUTTONS -->
