@@ -40,6 +40,8 @@ Route::get('/live', function () {
 
 /*
  * Newsletter routes
+ *
+ * Muig9%41
  */
 Route::group(['middleware' => 'auth', 'prefix' => 'dashboard', 'namespace' => 'Dashboard'], function () {
 

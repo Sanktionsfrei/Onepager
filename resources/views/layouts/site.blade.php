@@ -19,7 +19,7 @@
     <script src="{{ url('js/respond.min.js') }}"></script>
     <![endif]-->
 
-    <link rel="stylesheet" href="{{ url('/css/app.css') }}">
+    <link rel="stylesheet" href="{{ url('css/app.css') }}">
     <script src="{{ url('js/vendor/modernizr-2.8.3.min.js') }}"></script>
 </head>
 <body>
