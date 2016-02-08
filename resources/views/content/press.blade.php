@@ -10,10 +10,6 @@
     <dt>Texte</dt>
     <dd><a href="https://docs.google.com/uc?id=0B8p7nXAP_GL_MjRIUHdKeVBjVmc&export=download">Pressemitteilung (PDF) &raquo;</a></dd>
     <dd><a href="https://docs.google.com/uc?id=0B2a8aX_CyNJveGs0QnEyTURnNVE&export=download">Pressemappe Sanktionsfrei (PDF) &raquo;</a></dd>
-    <!--
-    <dd><a href="">Hintergrundinformationen Hartz-IV (PDF) &raquo;</a></dd>
-    <dd><a href="">Hintergrundinformationen Sanktionsfrei (PDF) &raquo;</a></dd>
-    -->
     <hr/>
     <dt>O-Töne</dt>
     <dd style="color: #595959;">Werden nach der Pressekonferenz hochgeladen.</dd>
