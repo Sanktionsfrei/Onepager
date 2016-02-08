@@ -31,14 +31,9 @@
                     </div>
 
                     <p>
-                        Sechs Millionen Menschen leben in Deutschland von Hartz IV - darunter 1,7 Millionen Kinder. Der
-                        Regelbedarf beträgt 404 € für eine alleinstehende Person. Was viele nicht wissen: Die deutschen
-                        Jobcenter dürfen gegen Menschen, die sich auf die finanzielle Hilfe des Staates verlassen
-                        müssen,
-                        Sanktionen verhängen. Sie können die monatlichen Leistungen damit unter das Existenzminimum
-                        kürzen.<br/>
-                        Wir finden Sanktionen unangemessen und menschenunwürdig. <strong>Ein Existenzminimum muss ein
-                            Existenzminimum bleiben</strong>.<br/>
+                        Sechs Millionen Menschen leben in Deutschland von Hartz IV - darunter 1,7 Millionen Kinder. Der Regelbedarf beträgt 404 € für eine alleinstehende Person. Was viele nicht wissen: Die Jobcenter verhängen gegen Menschen, die sich auf die finanzielle Hilfe des Staates verlassen müssen, Sanktionen. Sie kürzen die monatlichen Leistungen damit unter das Existenzminimum.<br/>
+                        Wir finden Sanktionen unangemessen und menschenunwürdig.<br/>
+                        <strong>Ein Existenzminimum muss ein Existenzminimum bleiben</strong>.<br/>
                         Unser Ziel ist es, mit eurer Hilfe die Sanktionen abzuschaffen.
                     </p>
 
@@ -156,7 +151,7 @@
                             Garen K.
                         </div>
                         <div class="company-info">
-                            wird seit 4 Monaten vollsanktioniert
+                            vom Jobcenter vollsanktioniert
                         </div>
 
                     </div>
@@ -187,7 +182,7 @@
                             Isabella B.
                         </div>
                         <div class="company-info">
-                            wird seit einem Monat sanktioniert
+                            vom Jobcenter sanktioniert
                         </div>
 
                     </div>
@@ -215,10 +210,10 @@
 
                         {{-- INFORMATION --}}
                         <div class="name">
-                            Jobcentermitarbeiter
+                            Jobcentermitarbeiter, will anonym bleiben
                         </div>
                         <div class="company-info">
-                            anonym
+                            muss sanktionieren
                         </div>
 
                     </div>
@@ -249,7 +244,7 @@
                 <div class="colored-line">
                 </div>
                 <div class="section-description">
-                    Sanktionsfrei ist wunderbar und supergeil.
+                    Mit diesen Features wollen wir anfangen.
                 </div>
                 <div class="colored-line">
                 </div>
@@ -275,9 +270,9 @@
 
                         {{-- FEATURE HEADING AND DESCRIPTION --}}
                         <div class="feature-details">
-                            <h4 class="main-color">Erstantrag</h4>
+                            <h4 class="main-color">Online-Anträge</h4>
                             <p>
-                                Mit <em>Sanktionsfrei</em> kannst du deinen Erstantrag auf Arbeitslosengeld II stellen.
+                                Mit Sanktionsfrei kannst du deine Anträge unkompliziert online ausfüllen.
                             </p>
                         </div>
 
@@ -296,9 +291,9 @@
 
                         {{-- FEATURE HEADING AND DESCRIPTION --}}
                         <div class="feature-details">
-                            <h4 class="main-color">Internationalisierung</h4>
+                            <h4 class="main-color">Mehrsprachigkeit</h4>
                             <p>
-                                <em>Sanktionsfrei</em> wird in verschiedenen Sprachen verfügbar sein.
+                                Sanktionsfrei wird in verschiedenen Sprachen verfügbar sein.
                             </p>
                         </div>
 
@@ -319,7 +314,7 @@
                         <div class="feature-details">
                             <h4 class="main-color">Briefverkehr</h4>
                             <p>
-                                <em>Sanktionsfrei</em> übernimmt für dich den Briefverkehr. Kostenfrei und mit
+                                Sanktionsfrei übernimmt für dich den Briefverkehr, kostenfrei und mit
                                 Zustellbestätigung.
                             </p>
                         </div>
@@ -333,7 +328,7 @@
                 {{-- PHONE IMAGE --}}
                 <div class="col-md-4 hidden-xs">
                     <div class="phone-image wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <img id="feature-image" src="images/mockup-phone-language.png" alt="">
+                        <img id="feature-image" src="images/screenshots/features/1.png" alt="">
                     </div>
                 </div>
 
@@ -355,7 +350,7 @@
                         <div class="feature-details">
                             <h4 class="main-color">Reaktionsmaschine</h4>
                             <p>
-                                <em>Sanktionsfrei</em> schlägt dir vor, wie du am besten auf Post vom Jobcenter
+                                Sanktionsfrei schlägt dir vor, wie du am besten auf Post vom Jobcenter
                                 reagierst.
                             </p>
                         </div>
@@ -377,7 +372,7 @@
                         <div class="feature-details">
                             <h4 class="main-color">Anwaltliche Beratung</h4>
                             <p>
-                                Erfahrene Anwälte stehen bereit und beraten dich kostenfrei.
+                                Erfahrene Anwälte stehen bereit und beraten per Videochat.
                             </p>
                         </div>
 
@@ -399,7 +394,7 @@
                         <div class="feature-details">
                             <h4 class="main-color">Deine Daten gehören dir</h4>
                             <p>
-                                Alle Daten werden verschlüsselt auf deinem Computer abgelegt.
+                                Alle Daten werden verschlüsselt auf deinem Computer abgelegt und nur bei Bedarf übertragen.
                             </p>
                         </div>
 
@@ -437,8 +432,7 @@
                             <div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 
                                 <a target="_blank" href="https://startnext.de/sanktionsfrei"
-                                   class="btn btn-default btn-lg standard-button"><i
-                                            class="icon_like"></i>Mehr erfahren</a>
+                                   class="btn btn-default btn-lg standard-button">Mehr erfahren</a>
 
                             </div>
                             {{-- /END BUTTONS --}}

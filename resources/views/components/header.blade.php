@@ -55,7 +55,7 @@
                     <div class="intro-section">
 
                         {{-- WELCOM MESSAGE --}}
-                        <h1 class="intro">Die Würde des Menschen ist Sanktionsfrei.</h1>
+                        <h1 class="intro">Die Würde des Menschen ist sanktionsfrei.</h1>
 
                         {{-- BUTTON --}}
                         <div class="buttons" id="download-button">
