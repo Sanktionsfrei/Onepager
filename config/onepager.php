@@ -2,11 +2,10 @@
 
 return [
     'options' => [
-        ['name' => 'option_1', 'label' => 'Ich beziehe ALG II („Hartz IV“).'],
-        ['name' => 'option_2', 'label' => 'Ich beziehe (noch) kein ALG II („Hartz IV“).'],
-        ['name' => 'option_3', 'label' => 'Ich bin Anwältin/Anwalt.'],
-        ['name' => 'option_4', 'label' => 'Ich bin Jobcenter-Mitarbeiter_in.'],
-        ['name' => 'option_5', 'label' => 'Ich könnte mir vorstellen, beim Crowdfunding Geld zu spenden.'],
-        ['name' => 'option_6', 'label' => 'Ich interessiere mich für das Projekt.'],
+        ['name' => 'option_1', 'data' => false, 'label' => 'ich bin von ALG II betroffen und interessiere mich für die Plattform'],
+        ['name' => 'option_2', 'data' => false, 'label' => 'ich möchte die Plattform unterstützen'],
+        ['name' => 'option_3', 'data' => false, 'label' => 'ich bin Anwältin/Anwalt.'],
+        ['name' => 'option_4', 'data' => true, 'label' => 'ich bin professionell/ehrenamtlich in der Hartz-IV-Beratung aktiv. Organisation: '],
+        ['name' => 'option_5', 'data' => true, 'label' => 'Sonstiges:'],
     ],
 ];
