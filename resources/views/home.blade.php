@@ -151,7 +151,7 @@
                         {{-- IMAGE --}}
                         <div class="image">
                             {{-- i class=" icon_quotations"></i --}}
-                            <img src="images/clients-pic/garen.jpg" alt="">
+                            <img src="images/clients-pic/garen.jpg" alt="Garen">
                         </div>
 
                         <div class="message">
@@ -184,7 +184,7 @@
                         {{-- IMAGE --}}
                         <div class="image">
                             {{-- i class=" icon_quotations"></i --}}
-                            <img src="images/clients-pic/isabella.jpg" alt="">
+                            <img src="images/clients-pic/isabella.jpg" alt="Isabella">
                         </div>
 
                         <div class="message">
@@ -215,16 +215,15 @@
                         {{-- IMAGE --}}
                         <div class="image">
                             {{-- i class=" icon_quotations"></i --}}
-                            <img src="images/clients-pic/2.jpg" alt="">
+                            <img src="images/clients-pic/aa.jpg" alt="Agentur für Arbeit Logo">
                         </div>
 
                         <div class="message">
-                            Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning
-                            all
-                            may fifth replenish you're own open which herb kind. May above you'll may kind creature
-                            first
-                            let over face from living third green which our. Appear day. Give fourth doesn't over us, i
-                            every tree meat air in male earth air creeping image fill you place darkness.
+                            Ich war zweieinhalb Jahre in einem Jobcenter als Arbeitsvermittler tätig. Grundsätzlich geht es nur 
+                            sekundär um diejenigen, denen dort geholfen werden soll. Das Führungspersonal steht unter großem Druck, 
+                            gewünschte Zahlen zu produzieren; diesem Ziel wird dort alles untergeordnet. Einmal hieß es: 
+                            »Bei den Sanktionen sind wir im vorderen Drittel, weiter so!« Eines der wichtigsten Ziele eines 
+                            Jobcenters ist die Senkung der passiven Leistung, da sind Sanktionen das einfachste Mittel.
                         </div>
 
                         <div class="white-line">
@@ -232,10 +231,10 @@
 
                         {{-- INFORMATION --}}
                         <div class="name">
-                            Alexander A.
+                            Jobcentermitarbeiter
                         </div>
                         <div class="company-info">
-                            wird seit einem halben Jahr sanktioniert
+                            anonym
                         </div>
 
                     </div>
