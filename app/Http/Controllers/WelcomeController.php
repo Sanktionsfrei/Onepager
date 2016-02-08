@@ -76,7 +76,7 @@ class WelcomeController extends Controller
             'onepager_options' => $onepager_options
         ]);
 
-        //$newsletterManager->addEmailToList($request->input('email'));
+        $newsletterManager->addEmailToList($request->input('email'));
 
         return response()->json(['status' => 'ok', 'message' => 'Email added to newsletter.']);
 
