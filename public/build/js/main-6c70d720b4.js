@@ -301,6 +301,87 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
     document.querySelector('head').appendChild(msViewportStyle)
 }
 
+
+/* =================================
+ ===  Iterate through abilities of sanktionsfrei
+ =================================== */
+function iterateFunctions() {
+    var pattern = /[1-6](?=.png)/;
+    var currentI = pattern.exec( $('#feature-image').prop('src') );
+    currentI==6 ? currentI = 1 : currentI++;
+    $('#feature-'+currentI).trigger('mouseover');
+}
+
+function resetColors(current){
+    var allFeatures = [1,2,3,4,5,6];
+    var currentNumber = Number(String(current).match(/\d+/));
+    for (var i = 0; i <= 6; i++) {
+        if(allFeatures[i] != currentNumber){
+            changeStyles("#feature-"+allFeatures[i], "reset");
+        }
+    }
+
+}
+
+function changeStyles(element, state){
+    if(state == "hover"){
+        $(element).find(".icon").css({
+            "background":   "#1FACB6",
+            "color":        "#FFFFFF",
+            "border": "2px solid #FFFFFF",
+            "-webkit-box-shadow": "0px 0px 0px 2px #1FACB6",
+            "box-shadow": "0px 0px 0px 2px #1FACB6"
+        });
+    }else{
+        $(element).find(".icon").css({
+            "background":   "#FFFFFF",
+            "color":        "#1FACB6",
+            "border": "1px solid #1FACB6",
+            "-webkit-box-shadow": "0px 0px 0px 1px #FFFFFF",
+            "box-shadow": "0px 0px 0px 1px #FFFFFF"
+        });
+    }
+}
+
+var featureCarousel = setInterval(iterateFunctions, 15000);
+
+$('.feature').hover(function () {
+    clearInterval(featureCarousel);
+    switch ( this.id ){
+        case 'feature-1':
+            //Feature 1
+            var imgpath = 'images/screenshots/features/1.png';
+            break;
+        case 'feature-2':
+            //Feature 2
+            var imgpath = 'images/screenshots/features/2.png';
+            break;
+        case 'feature-3':
+            //Feature 3
+            var imgpath = 'images/screenshots/features/3.png';
+            break;
+        case 'feature-4':
+            //Feature 4
+            var imgpath = 'images/screenshots/features/4.png';
+            break;
+        case 'feature-5':
+            //Feature 5
+            var imgpath = 'images/screenshots/features/5.png';
+            break;
+        case 'feature-6':
+            //Feature 6
+            var imgpath = 'images/screenshots/features/6.png';
+            break;
+    }
+
+    changeStyles("#"+this.id, "hover");
+    $('#feature-image').attr("src", imgpath);
+    resetColors(this.id);
+
+}, function () {
+    //var defaultimgpath = 'images/screenshots/features/1.png';
+    //$('#feature-image').attr("src", defaultimgpath);
+});
 $(document).ready(function () {
     "use strict";
     var Form = $('#form');

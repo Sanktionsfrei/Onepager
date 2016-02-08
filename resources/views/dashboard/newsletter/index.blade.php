@@ -4,7 +4,6 @@
     @include('dashboard.newsletter._partials.header')
     <div class="row">
         <div class="col-xs-12 col-md-8 col-md-offset-2">
-            @include('_partials.flash-messages')
             <table class="table">
                 <thead class="thead-inverse">
                 <tr>

@@ -110,22 +110,6 @@
                 </div>
                 {{-- /ENDBRIEF --}}
 
-                {{-- INGE-Erklärvideo --}}
-                <div class="col-md-6 wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-                    <div class="video-container">
-
-                        <div class="video">
-
-                            <iframe src="https://player.vimeo.com/video/153759979?byline=0&portrait=0&color=ffffff"
-                                    width="600" height="338" frameborder="0" allowfullscreen>
-                            </iframe>
-                        </div>
-
-                    </div>
-
-                </div>
-                {{-- /END INGE-Erklärvideo --}}
-
             </div>
             {{-- /END ROW --}}
 
