@@ -426,7 +426,7 @@ Doch nur fünf Prozent der Betroffenen fordern ihre Rechte ein. Genau hier setzt
 					Isabella B.
 				</div>
 				<div class="company-info">
-					wird seit einem Monat sanktioniert
+					wird seit zwei Monaten sanktioniert
 				</div>
 				
 			</div>
