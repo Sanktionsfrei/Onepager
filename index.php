@@ -411,11 +411,11 @@ Doch nur fünf Prozent der Betroffenen fordern ihre Rechte ein. Genau hier setzt
 				<!-- IMAGE -->
 				<div class="image">
 					<!-- i class=" icon_quotations"></i -->
-					<img src="images/clients-pic/1.jpg" alt="">
+					<img src="images/clients-pic/isabella.jpg" alt="">
 				</div>
 				
 				<div class="message">
-					 Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness.
+					 Nach Ende des Studiums habe ich zur Überbrückung ein paar Monate in einem Café gejobbt und mich nebenher für Stellen beworben. Das Geld hat nicht einmal für die Miete gereicht, weshalb ich den Job aufgab und ALGII beantragte. Kurz nach Bewilligung kam die Sanktion ins Haus geflattert – 30% Minderung. Um mich dafür abzustrafen, dass ich nicht unter Existenzminimum leben wollte? Das macht keinen Sinn.
 				</div>
 				
 				<div class="white-line">
@@ -423,7 +423,7 @@ Doch nur fünf Prozent der Betroffenen fordern ihre Rechte ein. Genau hier setzt
 				
 				<!-- INFORMATION -->
 				<div class="name">
-					Beate B.
+					Isabella B.
 				</div>
 				<div class="company-info">
 					wird seit einem Monat sanktioniert
