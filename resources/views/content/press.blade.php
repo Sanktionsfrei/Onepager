@@ -12,7 +12,7 @@
     <dd><a href="https://docs.google.com/uc?id=0B2a8aX_CyNJveGs0QnEyTURnNVE&export=download">Pressemappe Sanktionsfrei (PDF) &raquo;</a></dd>
     <hr/>
     <dt>O-Töne</dt>
-    <dd style="color: #595959;">Werden nach der Pressekonferenz hochgeladen.</dd>
+    <dd style="color: #595959;">Werden im Laufe des Tages hochgeladen.</dd>
     <!--
     <dd><a href="">Inge Hannemann (MP3) &raquo;</a></dd>
     <dd><a href="">Michael Bohmeyer (MP3) &raquo;</a></dd>
@@ -20,12 +20,7 @@
     -->
     <hr/>
     <dt>Bilder</dt>
-    <dd style="color: #595959;">Ein Fotoarchiv mit Bildern der Pressekonferenz wird nach ebenjener hochgeladen.</dd>
-    <!--
-    <dd><a href="">Inge Hannemann &raquo;</a></dd>
-    <dd><a href="">Michael Bohmeyer &raquo;</a></dd>
-    <dd><a href="">Fotoarchiv Pressekonferenz &raquo;</a></dd>
-    -->
+    <dd><a href="https://docs.google.com/uc?id=0B0iD0BOEbWImUzZyWkxRNDdDX2c&export=download">Fotoarchiv Pressekonferenz &raquo;</a></dd>
     <hr/>
     <dt>Video</dt>
     <dd><a href="https://www.youtube.com/watch?v=goh1tNmKh6A">Kampagnenvideo bei YouTube &raquo;</a></dd>
