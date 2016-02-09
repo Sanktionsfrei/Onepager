@@ -19,8 +19,4 @@
 <meta property="og:image" content="{{ url('images/bg-1.jpg') }}" />
 <meta property="og:description" content="Sanktionsfrei - der digitale Advokat der Herabgewürdigten. Gemeinsam gegen Hartz IV Sanktionierung." />
 <meta property="og:site_name" content="Sanktionsfrei" />
-<meta property="article:published_time" content="2016-02-08T05:59:00+01:00" />
-<meta property="article:modified_time" content="2016-02-09T19:08:47+01:00" />
-<meta property="article:section" content="Article Section" />
-<meta property="article:tag" content="Sanktionsfrei, Hartz IV, Sanktionen, Digitaler Advokat der Unterdrückten," />
 <meta property="fb:app_id" content="1297764360250524" />
