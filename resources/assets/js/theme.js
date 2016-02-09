@@ -127,8 +127,8 @@ $(document).ready(function () {
     $("#feedbacks").owlCarousel({
 
         navigation: false, // Show next and prev buttons
-        slideSpeed: 40000,
-        paginationSpeed: 400,
+        slideSpeed: 400,
+        paginationSpeed: 80000,
         autoPlay: 5000,
         singleItem: true
     });
