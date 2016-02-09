@@ -48,13 +48,13 @@
                                                 <label for="{{ $option['name'] }}">
                                                     <input type="checkbox" name="{{ $option['name'] }}"
                                                            id="{{ $option['name'] }}">
-                                                    {{ $option['label'] }}
+                                                    {!! $option['label'] !!}
                                                 </label>
                                             </div>
                                         </div>
                                         @if($option['data'])
                                             <div class="col-md-10 col-md-offset-1">
-                                                <textarea class="form-control" name="{{ $option['name'] }}_data" id="{{ $option['name'] }}_data" rows="3" cols="50"></textarea>
+                                                <input class="form-control" name="{{ $option['name'] }}_data" id="{{ $option['name'] }}_data">
                                             </div>
                                         @endif
                                     @endforeach
