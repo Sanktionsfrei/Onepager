@@ -37,28 +37,28 @@
 
 
         {{-- CONTAINER --}}
-        <div class="container">
+        <div class="container container-intro">
 
             {{-- ONLY LOGO ON HEADER --}}
             <div class="only-logo">
                 <div class="navbar">
                     <div class="navbar-header">
-                        <img src="images/logo-white-compact.svg" height="80px" alt="Sanktionsfrei Logo">
+                        <img src="images/logo-white-compact.svg" height="120px" alt="Sanktionsfrei Logo">
                     </div>
                 </div>
             </div> {{-- /END ONLY LOGO ON HEADER --}}
 
             <div class="row home-contents">
-                <div class="col-md-6 col-sm-6">
+                <div class="col-xs-12">
 
                     {{-- HEADING AND BUTTONS --}}
                     <div class="intro-section">
 
                         {{-- WELCOM MESSAGE --}}
-                        <h1 class="intro">Die Würde des Menschen ist sanktionsfrei.</h1>
+                        <h1 class="intro text-xs-center text-center">Die Würde des Menschen ist<br> sanktionsfrei.</h1>
 
                         {{-- BUTTON --}}
-                        <div class="buttons" id="download-button">
+                        <div class="buttons text-xs-center text-center" id="download-button">
 
                             <a href="https://startnext.de/sanktionsfrei" target="_blank" class="btn btn-default btn-lg standard-button"><i class="icon_like"></i>Mehr erfahren</a>
 
@@ -68,14 +68,6 @@
                     </div>
                     {{-- /END HEADING AND BUTTONS --}}
 
-                </div>
-
-
-                <div class="col-md-6 col-sm-6 hidden-xs">
-                    {{-- PHONE IMAGE WILL BE HIDDEN IN TABLET PORTRAIT AND MOBILE --}}
-                    <div class="phone-image">
-                        <img src="images/mockup-phone.png" class="img-responsive" alt="Sanktionsfrei Prototyp">
-                    </div>
                 </div>
 
             </div>
