@@ -51,7 +51,7 @@
                         <div class="progress-bar progress-bar-success funding-bar" role="progressbar"
                              aria-valuenow="{{ $percent }}" aria-valuemin="0" aria-valuemax="100"
                              style="width:{{ $percent }}%">
-                            <span class="funding-text">{{ $percent }}% finanziert</span>
+                            <span class="funding-text" style="display: block; width: 120px; color: #dddddd">{{ $percent }}% finanziert</span>
                         </div>
                     </div>
 

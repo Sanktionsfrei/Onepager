@@ -37,7 +37,7 @@ class WelcomeController extends Controller
             $crawler = new Crawler($html);
             $styleString = $crawler->filter('.bar.bar-1')->attr('style');
             $stringArray = explode(':', $styleString);
-            $percent = substr($stringArray[1], 0,2);
+            $percent = substr($stringArray[1], 0,-2);
         }
 
         return view('home', ['options' => $options, 'percent' => $percent]);
