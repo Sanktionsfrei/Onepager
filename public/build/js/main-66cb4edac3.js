@@ -152,9 +152,10 @@ $(document).ready(function () {
     $("#feedbacks").owlCarousel({
 
         navigation: false, // Show next and prev buttons
-        slideSpeed: 40000,
-        paginationSpeed: 40000,
+        slideSpeed: 400,
+        paginationSpeed: 100,
         autoPlay: 5000,
+        stopOnHover: true,
         singleItem: true
     });
 
