@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Sanktionsfrei</title>
-    <meta name="description" content="Sanktionsfrei - der digitale Advokat der Herabgewürdigten. Gemeinsam gegen Hartz IV Sanktionierung.">
-    <meta name="keywords" content="Sanktionsfrei, Hartz IV, Sanktionen, Digitaler Advokat der Unterdrückten, etc">
+    <meta name="description" content="Die deutschen Jobcenter dürfen ihre Hilfen unter das Existenzminimum kürzen. Das ist nicht okay. Wir machen deshalb Hartz IV sanktionsfrei.">
+    <meta name="keywords" content="Sanktionsfrei, Hartz IV, Sanktionen, Hartz 4, ALG II, Arbeitslosengeld 2">
     <meta name="author" content="Sanktionsfrei">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
