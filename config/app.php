@@ -147,6 +147,7 @@ return [
 
         Skovmand\Mailchimp\MailchimpServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
+        Fideloper\Proxy\TrustedProxyServiceProvider::class,
 
     ],
 
