@@ -12,10 +12,9 @@
     <dd><a href="https://docs.google.com/uc?id=0B2a8aX_CyNJveGs0QnEyTURnNVE&export=download">Pressemappe Sanktionsfrei (PDF) &raquo;</a></dd>
     <hr/>
     <dt>O-Töne</dt>
-    <dd style="color: #595959;">Werden im Laufe des Tages hochgeladen.</dd>
+    <dd><a href="https://docs.google.com/uc?id=0B0iD0BOEbWImUDczVnFnUzM4c3c&export=download">Inge Hannemann (MP3) &raquo;</a></dd>
+    <dd><a href="https://docs.google.com/uc?id=0B0iD0BOEbWImY29fanljbUdkaWs&export=download">Michael Bohmeyer (MP3) &raquo;</a></dd>
     <!--
-    <dd><a href="">Inge Hannemann (MP3) &raquo;</a></dd>
-    <dd><a href="">Michael Bohmeyer (MP3) &raquo;</a></dd>
     <dd><a href="">Dirk Feiertag (MP3) &raquo;</a></dd>
     -->
     <hr/>
