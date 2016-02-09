@@ -14,7 +14,7 @@
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Sanktionsfrei" />
-<meta property="og:type" content="organization" />
+<meta property="og:type" content="website" />
 <meta property="og:url" content="{{ url('/') }}" />
 <meta property="og:image" content="{{ url('images/bg-1.jpg') }}" />
 <meta property="og:description" content="Sanktionsfrei - der digitale Advokat der Herabgewürdigten. Gemeinsam gegen Hartz IV Sanktionierung." />
