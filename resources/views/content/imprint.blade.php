@@ -16,7 +16,6 @@ Vertreten durch: Inge Hannemann, Helena Sophia Steinhaus
     Inge Hannemann, Helena Sophia Steinhaus<br>
     Skalitzer Straße 85-86<br>
     10997 Berlin<br>
-    <abbr title="Telefonnummer">Tel.:</abbr> +49 160 3772951<br>
     <abbr title="E-Mail">Mail:</abbr> info@sanktionsfrei.de
 </address>
 <h3>Spenden</h3>
