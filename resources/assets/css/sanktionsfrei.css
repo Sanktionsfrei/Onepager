@@ -96,6 +96,10 @@ footer .social-icons li a:hover {
     min-height: 100vh;
 }
 
+.navbar-intro{
+    padding-bottom: 20px!important;
+}
+
 .container-intro h1{
     font-size: 4.5rem;
 }

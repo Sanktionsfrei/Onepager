@@ -41,7 +41,7 @@
 
             {{-- ONLY LOGO ON HEADER --}}
             <div class="only-logo">
-                <div class="navbar">
+                <div class="navbar navbar-intro">
                     <div class="navbar-header">
                         <img src="images/logo-white-compact.svg" height="120px" alt="Sanktionsfrei Logo">
                     </div>
