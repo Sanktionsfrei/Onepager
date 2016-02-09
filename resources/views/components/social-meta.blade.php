@@ -23,4 +23,4 @@
 <meta property="article:modified_time" content="2016-02-09T19:08:47+01:00" />
 <meta property="article:section" content="Article Section" />
 <meta property="article:tag" content="Sanktionsfrei, Hartz IV, Sanktionen, Digitaler Advokat der Unterdrückten," />
-<meta property="fb:admins" content="1297764360250524" />
+<meta property="fb:app_id" content="1297764360250524" />
