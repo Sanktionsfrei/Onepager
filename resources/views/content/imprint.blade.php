@@ -1,6 +1,6 @@
 <h3>Angaben gemä&szlig; &sect; 5 TMG</h3>
 <address>
-    <strong>Sanktionsfrei n.e.V.</strong><br>
+    <strong>Sanktionsfrei n.e.V. (gemeinnützig)</strong><br>
     Skalitzer Straße 85-86<br>
     10997 Berlin<br>
     <abbr title="Telefonnummer">Tel.:</abbr> +49 160 3772951<br>
