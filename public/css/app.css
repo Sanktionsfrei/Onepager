@@ -11488,6 +11488,18 @@ footer .contact-box .expanded-contact-form .textarea-box:focus {
 footer .social-icons li a:hover {
   color: #1FACB6;
 }
+
+.container-intro {
+  min-height: 100vh;
+}
+
+.container-intro h1 {
+  font-size: 4.5rem;
+}
+
+.container-intro .only-logo {
+  margin-top: 20vh;
+}
 /* --------------------------------------
 =========================================
 RESPONSIVE FIXES
