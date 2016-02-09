@@ -119,7 +119,7 @@
 
         <div class="color-overlay">
 
-            <div class="container wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+            <div class="container wow fadeIn animated" data-wow-offset="10" data-wow-duration="10s">
 
                 {{-- FEEDBACKS --}}
                 <div id="feedbacks" class="owl-carousel owl-theme">
