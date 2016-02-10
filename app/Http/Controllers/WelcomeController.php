@@ -34,13 +34,19 @@ class WelcomeController extends Controller
         $percent = 0;
 
         if($status == 200){
-            $crawler = new Crawler($html);
+            $crawler = new Crawler;
+            $crawler->addHTMLContent($html, 'UTF-8');
+
+            // get the percentage for the progressbar
             $styleString = $crawler->filter('.bar.bar-1')->attr('style');
             $stringArray = explode(':', $styleString);
             $percent = substr($stringArray[1], 0,-2);
+            // get the text for the progressbar
+            $textArray = $crawler->filter('.status-text span')->extract(['_text']);
+
         }
 
-        return view('home', ['options' => $options, 'percent' => $percent]);
+        return view('home', ['options' => $options, 'percent' => $percent,'progressText' => $textArray[0]]);
 
     }
 
