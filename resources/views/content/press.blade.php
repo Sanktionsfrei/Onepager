@@ -19,7 +19,10 @@
     -->
     <hr/>
     <dt>Bilder</dt>
-    <dd><a href="https://docs.google.com/uc?id=0B0iD0BOEbWImUzZyWkxRNDdDX2c&export=download">Fotoarchiv Pressekonferenz &raquo;</a></dd>
+    <dd><a href="https://docs.google.com/uc?id=0B0iD0BOEbWImLXlUdTYyWHNHYkE&export=download">Fotoarchiv Pressekonferenz (Chris Grodotzki & Sophie Marschner) &raquo;</a></dd>
+    <dd><a href="https://docs.google.com/uc?id=0B0iD0BOEbWImS1NoZm1ONmlrSEk&export=download">Portrait Inge Hannemann &raquo;</a></dd>
+    <dd><a href="https://docs.google.com/uc?id=0B0iD0BOEbWImMm45OGdnbVVzdm8&export=download">Portrait Michael Bohmeyer &raquo;</a></dd>
+    <dd><a href="https://docs.google.com/uc?id=0B0iD0BOEbWImY2Z2U3FheVFQQkU&export=download">Portrait Dirk Feiertag &raquo;</a></dd>
     <hr/>
     <dt>Video</dt>
     <dd><a href="https://www.youtube.com/watch?v=goh1tNmKh6A">Kampagnenvideo bei YouTube &raquo;</a></dd>
