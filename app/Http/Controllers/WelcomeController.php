@@ -45,7 +45,6 @@ class WelcomeController extends Controller
                 $percent = substr($stringArray[1], 0,-2);
                 // get the text for the progressbar
                 $textArray = $crawler->filter('.status-text span')->extract(['_text']);
-
             }
 
             return [
@@ -57,7 +56,7 @@ class WelcomeController extends Controller
 
         $stringArray = explode(' ', $progressBar['progressText']);
 
-        $displayString = "$stringArray[0] von 75.000 € finanziert $stringArray[3]";
+        $displayString = substr($stringArray[0],0,-3) . " von 75.000 € finanziert $stringArray[3]";
 
         return view('home', ['options' => $options, 'percent' => $progressBar['percent'],'progressText' => $displayString]);
 
