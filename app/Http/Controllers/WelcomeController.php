@@ -45,12 +45,12 @@ class WelcomeController extends Controller
                 $percent = substr($stringArray[1], 0,-2);
                 // get the text for the progressbar
                 $textArray = $crawler->filter('.status-text span')->extract(['_text']);
-
+                $amount = substr($textArray[0], 0, strpos($textArray[0], ','));
             }
 
             return [
                 'percent' => $percent,
-                'progressText' => $textArray[0]
+                'progressText' => $amount . ' von 75.000 € finanziert (' . $percent . '%)'
             ];
 
         },5);
