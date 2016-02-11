@@ -47,8 +47,6 @@
             <div class="row">
                 <div class="col-md-12 center wow fadeIn animated" data-wow-offset="20" data-wow-duration="1.5s">
 
-                    <h4>{{ $progressText }}</h4>
-
                     <div class="progress progress-striped active funding-bar">
                         <div class="progress-bar progress-bar-success funding-bar" role="progressbar"
                              aria-valuenow="{{ $percent }}" aria-valuemin="0" aria-valuemax="100"
