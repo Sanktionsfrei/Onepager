@@ -55,7 +55,11 @@ class WelcomeController extends Controller
 
         },5);
 
-        return view('home', ['options' => $options, 'percent' => $progressBar['percent'],'progressText' => $progressBar['progressText']]);
+        $stringArray = explode(' ', $progressBar['progressText']);
+
+        $displayString = "$stringArray[0] von 75.000 € finanziert $stringArray[3]";
+
+        return view('home', ['options' => $options, 'percent' => $progressBar['percent'],'progressText' => $displayString]);
 
     }
 
