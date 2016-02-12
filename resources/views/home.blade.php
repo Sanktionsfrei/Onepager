@@ -135,9 +135,8 @@
 
                         <div class="message">
                             Ich habe eine Bar aufgemacht und musste mit Hartz IV aufstocken. 10% Sanktion, da ich einen
-                            Termin versäumt habe um meine Frau zur Geburtsvorbereitung zu begleiten. 1 Monat
-                            Vollsanktion,
-                            da ich 21 Tage Urlaub gemacht habe. Mir wurde mit Sanktionen gedroht, damit ich die <abbr
+                            Termin versäumt habe, um meine Frau zur Geburtsvorbereitung zu begleiten. 1 Monat
+                            Vollsanktion, da ich 21 Tage Urlaub gemacht habe. Mir wurde mit Sanktionen gedroht, damit ich die <abbr
                                     title="Eingliederungsvereinbarung">EGV</abbr> unterschreibe und an Maßnahmen
                             teilnehme.
                             Post vom Jobcenter belastet mich psychisch und macht mich krank.
@@ -170,7 +169,7 @@
                             Nach Ende des Studiums habe ich zur Überbrückung ein paar Monate in einem Café gejobbt 
                             und mich nebenher für Stellen beworben. Das Geld hat nicht einmal für die Miete gereicht, 
                             weshalb ich den Job aufgab und ALGII beantragte. Kurz nach Bewilligung kam die Sanktion ins 
-                            Haus geflattert – 30% Minderung. Um mich dafür abzustrafen, dass ich nicht unter 
+                            Haus geflattert: 30% Minderung. Um mich dafür abzustrafen, dass ich nicht unter 
                             Existenzminimum leben wollte? Das macht keinen Sinn.
                         </div>
 
