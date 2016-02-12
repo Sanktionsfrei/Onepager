@@ -861,7 +861,7 @@ footer .copyright {
     margin-left: 5px;
     display: block;
     width: 500px;
-    color: #FFF;
+    color: #000; /* >#FFF */
     text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.74);
 }
 
