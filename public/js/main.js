@@ -386,7 +386,7 @@ $('.feature').hover(function () {
 });
 
 function notWorkingYet() {
-    alert("Dies ist nur eine Vorschau. Noch sammeln wir Geld um diese Funktion anbieten zu können. Um auf dem Laufenden zu bleiben kannst du dich unten in den Newsletter eintragen.");
+    alert("Dies ist nur eine Vorschau. Noch sammeln wir Geld um diese Funktion anbieten zu können. Um auf dem Laufenden zu bleiben, kannst du dich unten in den Newsletter eintragen.");
 }
 $(document).ready(function () {
     "use strict";
