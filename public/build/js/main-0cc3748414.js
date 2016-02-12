@@ -384,6 +384,10 @@ $('.feature').hover(function () {
     //var defaultimgpath = 'images/screenshots/features/1.png';
     //$('#feature-image').attr("src", defaultimgpath);
 });
+
+function notWorkingYet() {
+    alert("Dies ist nur eine Vorschau. Noch sammeln wir Geld um diese Funktion anbieten zu können.");
+}
 $(document).ready(function () {
     "use strict";
     var Form = $('#form');

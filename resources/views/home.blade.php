@@ -258,7 +258,7 @@
                      data-wow-duration="1.5s">
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-1">
+                    <div class="feature" id="feature-1" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">
@@ -271,7 +271,7 @@
                         <div class="feature-details">
                             <h4 class="main-color">Online-Anträge</h4>
                             <p>
-                                Mit Sanktionsfrei kannst du deine Anträge unkompliziert online ausfüllen.
+                                Mit Sanktionsfrei kannst du deine Anträge unkompliziert online ausfüllen.<br/>
                             </p>
                         </div>
 
@@ -279,7 +279,7 @@
                     {{-- /END SINGLE FEATURE --}}
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-2">
+                    <div class="feature" id="feature-2" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">
@@ -300,7 +300,7 @@
                     {{-- /END SINGLE FEATURE --}}
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-3">
+                    <div class="feature" id="feature-3" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">
@@ -336,7 +336,7 @@
                      data-wow-duration="1.5s">
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-4">
+                    <div class="feature" id="feature-4" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">
@@ -358,7 +358,7 @@
                     {{-- /END SINGLE FEATURE --}}
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-5">
+                    <div class="feature" id="feature-5" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">
@@ -380,7 +380,7 @@
                     {{-- /END SINGLE FEATURE --}}
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-6">
+                    <div class="feature" id="feature-6" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">
