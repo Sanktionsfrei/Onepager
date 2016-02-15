@@ -1,7 +1,7 @@
 <header class="header" data-stellar-background-ratio="0.5" id="home">
 
     {{-- COLOR OVER IMAGE --}}
-    <div class="color-overlay"> {{-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  --}}
+    <div class="color-overlay">
 
         {{-- STICKY NAVIGATION --}}
         <div id="main-nav" class="navbar navbar-inverse bs-docs-nav navbar-fixed-top main-nav">
