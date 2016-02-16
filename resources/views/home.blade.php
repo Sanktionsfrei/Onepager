@@ -243,7 +243,7 @@
                 <div class="colored-line">
                 </div>
                 <div class="section-description">
-                    Mit diesen Features wollen wir anfangen.
+                    Mit diesen Funktionen wollen wir anfangen.
                 </div>
                 <div class="colored-line">
                 </div>
