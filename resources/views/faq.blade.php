@@ -3,13 +3,11 @@
 @section('content')
     <section class="container">
         <div class="row">
-            <div class="col-xs-12 content-container">
-                <h1 class="dark-text">Häufig gestellte Fragen (FAQ)</h1>
-                <div class="colored-line"></div>
-                	<div class="section-description">
-                		Vielen Dank, dass ihr so aktiv Sanktionsfrei verfolgt! Uns ist aufgefallen, dass einige eurer Fragen sich wiederholen, deshalb haben wir die häufigsten hier beantwortet.
-                	</div>
-                <div class="colored-line"></div>
+            <div class="col-xs-12 content-container" style="text-align:left; margin-top: 50px;">
+
+				<div class="colored-line"></div>
+                	<h1 class="dark-text" style="text-align:center;">Häufig gestellte Fragen (FAQ)</h1>
+				<div class="colored-line"></div>
 
                 <h4 id="1" class="main-color">Was ist Sanktionsfrei? <a href="#1"><i class="icon_link_alt"></i></a></h4>
                 <p>Sanktionsfrei verbindet zwei Sachen zu einem Projekt: sanktionsfrei.de wird eine Plattform, die Betroffene im Umgang mit dem Jobcenter unterstützt und stärkt, gleichzeitig ist Sanktionsfrei eine Kampagne zur Abschaffung der Sanktionen.</p>
@@ -52,7 +50,8 @@
 
                 <h4 id="9" class="main-color">Wie wird sich Sanktionsfrei darüber hinaus finanzieren? <a href="#9"><i class="icon_link_alt"></i></a></h4>
                 <p>Das Crowdfunding für die Entwicklung der Plattform ist der erste Test, um zu sehen, ob es Unterstützung für die Idee der Solidarität mit Hartz-IV-Leistungsberechtigten gibt. Wenn die Idee die Unterstützung erfährt, die wir uns wünschen und an die wir glauben, werden wir die dauerhafte Entwicklung und Pflege sowie den geplanten Solidarfondsrtopf auf Basis von Spenden und aus den Rückvergütungen von gewonnen Widersprüchen und Klagen finanzieren.</p>
-                <hr/>                
+                <hr/>
+
             </div>
         </div>
     </section>
