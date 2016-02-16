@@ -24,9 +24,7 @@
 
         {{-- COPYRIGHT TEXT --}}
         <p id="presse" class="copyright">
-            Copyright &copy; 2016 Sanktionsfrei n.e.V. &middot; <a href="#press" data-toggle="modal"
-                                                                   data-target="#press">Presse</a> &middot; <a
-                    href="#impressum" data-toggle="modal" data-target="#impressum">Impressum</a>
+            Copyright &copy; 2016 Sanktionsfrei n.e.V. &middot; <a href="#press" data-toggle="modal" data-target="#press">Presse</a> &middot; <a href="{{ url('/faq') }}">Häufige Fragen</a> &middot; <a href="#impressum" data-toggle="modal" data-target="#impressum">Impressum</a>
         </p>
 
     </div>
