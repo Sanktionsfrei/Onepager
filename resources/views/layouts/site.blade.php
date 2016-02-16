@@ -30,8 +30,6 @@
     <div class="status">&nbsp;</div>
 </div>
 
-@include('components.header-small')
-
 @yield('content')
 
 @include('components.footer-small')
