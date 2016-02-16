@@ -3,11 +3,13 @@
 @section('content')
     <section class="container">
         <div class="row">
-            <div class="col-xs-12 content-container" style="text-align:left; margin-top: 50px;">
+            <div class="col-xs-12 content-container" style="text-align:left; margin-top: 65px;">
 
 				<div class="colored-line"></div>
                 	<h1 class="dark-text" style="text-align:center;">Häufig gestellte Fragen (FAQ)</h1>
 				<div class="colored-line"></div>
+
+				<br/><br/><br/>
 
                 <h4 id="1" class="main-color">Was ist Sanktionsfrei? <a href="#1"><i class="icon_link_alt"></i></a></h4>
                 <p>Sanktionsfrei verbindet zwei Sachen zu einem Projekt: sanktionsfrei.de wird eine Plattform, die Betroffene im Umgang mit dem Jobcenter unterstützt und stärkt, gleichzeitig ist Sanktionsfrei eine Kampagne zur Abschaffung der Sanktionen.</p>
