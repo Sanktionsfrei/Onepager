@@ -25,6 +25,10 @@ Route::get('/impressum', function () {
     return view('imprint');
 });
 
+Route::get('/faq', function(){
+    return view('faq');
+});
+
 Route::get('/presse', function () {
     return view('press');
 });
@@ -41,7 +45,6 @@ Route::get('/live', function () {
 /*
  * Newsletter routes
  *
- * Muig9%41
  */
 Route::group(['middleware' => 'auth', 'prefix' => 'dashboard', 'namespace' => 'Dashboard'], function () {
 
