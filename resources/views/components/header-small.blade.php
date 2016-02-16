@@ -26,7 +26,7 @@
                         <li><a href="{{ url('/') }}#unterstuetzen">Unterstützen</a></li>
                         <li><a href="{{ url('/') }}#newsletter">Newsletter</a></li>
                         <li><a href="{{ url('/') }}#presse" data-toggle="modal" data-target="#press">Presse</a></li>
-                        <li><a href="{{ url('/') }}faq">Fragen</a></li>
+                        <li><a href="{{ url('/') }}/faq">Fragen</a></li>
                     </ul>
                 </div>
             </div> {{-- /END CONTAINER --}}
