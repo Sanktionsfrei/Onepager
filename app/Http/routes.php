@@ -33,6 +33,10 @@ Route::get('/presse', function () {
     return view('press');
 });
 
+Route::get('/hartzhurts', function () {
+    return view('hartzhurts');
+});
+
 Route::get('/stream', function () {
     return redirect('https://www.youtube.com/watch?v=gS65yoNcq88', 307);
 });
