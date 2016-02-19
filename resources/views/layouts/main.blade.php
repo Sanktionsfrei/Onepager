@@ -22,6 +22,12 @@
 
     <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
     <script src="{{ url('js/vendor/modernizr-2.8.3.min.js') }}"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="https://github.com/niklasvh/html2canvas/releases/download/0.4.1/html2canvas.js"></script>
+  <script type="text/javascript" src="http://www.nihilogic.dk/labs/canvas2image/base64.js"></script>
+  <script type="text/javascript" src="http://www.nihilogic.dk/labs/canvas2image/canvas2image.js"></script>
+
 </head>
 <body>
 <!--[if lt IE 8]>
