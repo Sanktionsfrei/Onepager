@@ -1,4 +1,3 @@
-<h3>Spenden</h3>
 <dl class="dl-horizontal">
     <dt>Konto-Nr</dt>
     <dd>1181458700</dd>
