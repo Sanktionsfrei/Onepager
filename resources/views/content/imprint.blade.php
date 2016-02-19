@@ -52,6 +52,18 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
 Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. 
 Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: http://tools.google.com/dlpage/gaoptout?hl=de.</p>
 
+<h3>Darenschutzerklärung für die Nutzung von New Relic</h3>
+<p>Auf dieser Webseite nutzen wir ein Plugin des Webanalyse-Dienstes von New Relic. Es ermöglicht uns statistische Auswertungen über die Geschwindigkeit der Webseite zu erfassen. Dieser Dienst wird von der New Relic Inc., 188 Spear Street, Suite 1200 San Francisco, CA 94105, USA betrieben (“New Relic”).
+
+Wenn ein Nutzer eine Webseite dieses Angebots aufruft, die ein solches Plugin enthält, baut sein Browser eine direkte Verbindung mit den Servern von New Relic auf. Der Anbieter hat daher keinen Einfluss auf den Umfang der Daten, die New Relic mit Hilfe dieses Plugins erhebt und informiert die Nutzer daher entsprechend seinem Kenntnisstand:
+
+Durch die Einbindung des Plugins erhält New Relic die Information, dass ein Nutzer die entsprechende Seite des Angebots aufgerufen hat. Ist der Nutzer bei New Relic eingeloggt, kann New Relic den Besuch seinem Konto bei New Relic zuordnen. Falls ein Nutzer kein Mitglied von New Relic ist, besteht trotzdem die Möglichkeit, dass New Relic seine IP-Adresse in Erfahrung bringt und speichert.
+
+Zweck und Umfang der Datenerhebung und die weitere Verarbeitung und Nutzung der Daten durch New Relic sowie die diesbezüglichen Rechte und Einstellungsmöglichkeiten zum Schutz der Privatsphäre der Nutzer, können diese den Datenschutzhinweisen von New Relic entnehmen: https://newrelic.com/privacy.
+
+Wenn ein Nutzer Mitglied bei New Relic ist und nicht möchte, dass New Relic über dieses Angebot Daten über ihn sammelt und mit seinen bei New Relic gespeicherten Mitgliedsdaten verknüpft, muss er sich vor dem Besuch des Internetauftritts bei New Relic ausloggen.</p>
+
+
 <h3>Quellenangabe / Bildnachweis</h3>
 <p>Sanktionsfrei e.V. ist der alleinige Rechteinhaber aller auf der Website verwendeten Bilder, wenn nicht anders angegeben.<br>
     Bild <code>bg-2.jpg</code> <em>Stairs</em> von <a href="https://www.flickr.com/photos/115954955@N07">Elisabetta Foco</a> (CC0).</p>
