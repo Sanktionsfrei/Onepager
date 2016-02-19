@@ -61,7 +61,7 @@
                         {{-- BUTTON --}}
                         <div class="buttons text-xs-center text-center" id="download-button">
 
-                            <a href="https://startnext.de/sanktionsfrei" target="_blank" class="btn btn-default btn-lg standard-button">Mehr erfahren</a>
+                            <a href="#kampagne" target="_blank" class="btn btn-default btn-lg standard-button">Mehr erfahren</a>
 
                         </div>
                         {{-- /END BUTTONS --}}
