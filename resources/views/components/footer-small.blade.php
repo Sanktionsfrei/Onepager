@@ -16,8 +16,6 @@
             </li>
             <li><a target="_blank" href="https://twitter.com/sanktionsfrei"><i class="social_twitter_square"></i></a>
             </li>
-            <li><a target="_blank" href="https://instagram.com/sanktionsfrei"><i
-                            class="social_instagram_square"></i></a></li>
             <li><a target="_blank" href="https://www.youtube.com/channel/UC4DYx6s30apYjk86Fzc0_8g"><i class="social_youtube_square"></i></a>
             </li>
         </ul>
