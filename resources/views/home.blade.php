@@ -430,7 +430,7 @@
                             {{-- BUTTONS --}}
                             <div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 
-                                <a target="_blank" href="https://startnext.de/sanktionsfrei"
+                                <a target="_blank" href="#kampagne"
                                    class="btn btn-default btn-lg standard-button">Mehr erfahren</a>
 
                             </div>
