@@ -56,7 +56,7 @@
 
 @yield('content')
 
-@include('components.footer-small')
+@include('components.footer')
 @include('components.modals')
 
 <script src="{{ elixir('js/vendor/libs.js') }}"></script>
