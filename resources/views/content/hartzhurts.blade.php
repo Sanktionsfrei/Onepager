@@ -1,3 +1,28 @@
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+$(function() {
+    $("#btnSave").click(function() {
+        html2canvas($("#img2share"), {
+            onrendered: function(canvas) {
+                theCanvas = canvas;
+                document.body.appendChild(canvas);
+
+                // Convert and download as image
+                Canvas2Image.saveAsPNG(canvas);
+                $("#img-out").append(canvas);
+                // Clean up
+                //document.body.removeChild(canvas);
+            }
+        });
+    });
+});
+
+});
+
+</script>
+
+
+
 <h2 class="dark-text">#HartzHurts</h2>
 	<div class="colored-line"></div>
 		<div class="section-description">Teile dein Erlebnis im Jobcenter und lasse die Welt vom Unrecht wissen.</div>
@@ -5,7 +30,7 @@
 
 
 	<!-- Card Layout -->
-	<div style="background-color: #1FACB6;padding: 20px;width: 600px;text-align: center;margin-left: auto;margin-right: auto;margin-top: 35px;">
+	<div id="img2share" style="background-color: #1FACB6;padding: 20px;width: 600px;text-align: center;margin-left: auto;margin-right: auto;margin-top: 35px;">
 	  <div style="
 	    background: white;
 	    width: 100px;
@@ -69,3 +94,6 @@
 	</div>
 
 	</div>
+	<input type="button" id="btnSave" value="Save PNG"/>
+	<hr>
+	<div id="img-out"></div>
