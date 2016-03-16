@@ -20,4 +20,11 @@
         <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
         </form>
     </dd>
+    <dt>Spenden-SMS</dt>
+    <dd><code>81190</code></dd>
+    <dt>Kennwort</dt>
+    <dd><code>sanktionsfrei3</code> (3€ spenden)</dd>
+    <dd><code>sanktionsfrei10</code> (10€ spenden)</dd>
+    <dd><small>Für jede SMS führen wir 0,17 € an den Service-Betreiber ab.</small></dd>
 </dl>
+<p>Alle Spenden werden zum Sanktionsfrei-Crowdfunding auf Startnext weitergeleitet. Wir weisen darauf hin, dass Startnext insgesamt fünf Prozent der Spenden für Transaktions- und Servicegebühren einbehält.</p>
