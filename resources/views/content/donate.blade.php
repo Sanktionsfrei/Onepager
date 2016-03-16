@@ -27,3 +27,4 @@
     <dd><code>sanktionsfrei10</code> (10€ spenden)</dd>
     <dd><small>Für jede SMS führen wir 0,17 € an den Service-Betreiber ab.</small></dd>
 </dl>
+<p>Alle Spenden werden zum Sanktionsfrei-Crowdfunding auf Startnext weitergeleitet. Wir weisen darauf hin, dass Startnext insgesamt fünf Prozent der Spenden für Transaktions- und Servicegebühren einbehält.</p>
