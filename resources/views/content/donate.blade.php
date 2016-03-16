@@ -1,6 +1,6 @@
 <p>Alle Spenden werden zum Sanktionsfrei-Crowdfunding auf <a href="https://startnext.com/sanktionsfrei">Startnext.com/sanktionsfrei</a> weitergeleitet. Wir weisen darauf hin, dass Startnext insgesamt fünf Prozent der Spenden für Transaktions- und Servicegebühren einbehält.</p>
 <dl class="dl-horizontal">
-<h2>Überweisung</h2>
+<h3>Überweisung</h3>
     <dt>Konto-Nr</dt>
     <dd>1181458700</dd>
     <dt>Bankleitzahl</dt>
@@ -14,7 +14,7 @@
     <dt>Betreff</dt>
     <dd>Spende</dd>
 
-<h2>Paypal</h2>
+<h3>Paypal</h3>
     <dd>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -24,7 +24,7 @@
         </form>
     </dd>
 
-<h2>Spenden-SMS</h2>
+<h3>Spenden-SMS</h3>
     <dt>Nummer</dt>
     <dd><code>81190</code></dd>
     <dt>Kennwort</dt>
