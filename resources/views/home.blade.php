@@ -59,7 +59,7 @@
                     <div class="buttons referer-button">
 
                         <a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button">Jetzt bei Startnext unterstützen (ab 5 €)</a>
-                        <a href="#donate" data-toggle="modal" data-taget="#donate" class="btn btn-default btn-lg standard-button">Paypal/Überweisung (beliebiger Betrag)</a>
+                        <a href="#donate" data-toggle="modal" data-taget="#donate" class="btn btn-default btn-lg standard-button">Beliebigen Betrag spenden</a>
 
                     </div>
 
