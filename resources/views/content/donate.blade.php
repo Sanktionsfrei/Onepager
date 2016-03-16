@@ -1,6 +1,7 @@
 <p>Alle Spenden werden zum Sanktionsfrei-Crowdfunding auf <a href="https://startnext.com/sanktionsfrei">Startnext.com/sanktionsfrei</a> weitergeleitet. Wir weisen darauf hin, dass Startnext insgesamt fünf Prozent der Spenden für Transaktions- und Servicegebühren einbehält.</p>
-<dl class="dl-horizontal">
+
 <h3>Überweisung</h3>
+<dl class="dl-horizontal">
     <dt>Konto-Nr</dt>
     <dd>1181458700</dd>
     <dt>Bankleitzahl</dt>
@@ -13,18 +14,18 @@
     <dd>GENODEM1GLS</dd>
     <dt>Betreff</dt>
     <dd>Spende</dd>
+</dl>
 
 <h3>Paypal</h3>
-    <dd>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="FX29LMQMR4LAY">
-        <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online spenden – mit PayPal.">
-        <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-        </form>
-    </dd>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="FX29LMQMR4LAY">
+    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online spenden – mit PayPal.">
+    <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+    </form>
 
 <h3>Spenden-SMS</h3>
+<dl class="dl-horizontal">
     <dt>Nummer</dt>
     <dd><code>81190</code></dd>
     <dt>Kennwort</dt>
