@@ -25,4 +25,5 @@
     <dt>Kennwort</dt>
     <dd><code>sanktionsfrei3</code> (3€ spenden)</dd>
     <dd><code>sanktionsfrei10</code> (10€ spenden)</dd>
+    <dd><small>Für jede SMS führen wir 0,17 € an den Service-Betreiber ab.</small></dd>
 </dl>
