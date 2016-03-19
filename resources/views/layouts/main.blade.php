@@ -21,6 +21,8 @@
     <![endif]-->
 
     <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="https://github.com/niklasvh/html2canvas/releases/download/0.4.1/html2canvas.js"></script>
 </head>
 <body>
 <!--[if lt IE 8]>

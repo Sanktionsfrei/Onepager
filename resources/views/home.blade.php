@@ -100,7 +100,9 @@
                         schaffen, was die Politik seit über zehn Jahren versäumt: das Hartz-IV-System in eine
                         sanktionsfreie
                         Mindestsicherung umgestalten.
-
+                    </p>
+                    <p>
+                         <a target="_blank" href="/flyer.pdf" class="btn btn-default btn-lg standard-button">Flyer herunterladen</a>
                     </p>
 
                 </div>
@@ -167,10 +169,10 @@
                         </div>
 
                         <div class="message">
-                            Nach Ende des Studiums habe ich zur Überbrückung ein paar Monate in einem Café gejobbt 
-                            und mich nebenher für Stellen beworben. Das Geld hat nicht einmal für die Miete gereicht, 
-                            weshalb ich den Job aufgab und ALGII beantragte. Kurz nach Bewilligung kam die Sanktion ins 
-                            Haus geflattert: 30% Minderung. Um mich dafür abzustrafen, dass ich nicht unter 
+                            Nach Ende des Studiums habe ich zur Überbrückung ein paar Monate in einem Café gejobbt
+                            und mich nebenher für Stellen beworben. Das Geld hat nicht einmal für die Miete gereicht,
+                            weshalb ich den Job aufgab und ALGII beantragte. Kurz nach Bewilligung kam die Sanktion ins
+                            Haus geflattert: 30% Minderung. Um mich dafür abzustrafen, dass ich nicht unter
                             Existenzminimum leben wollte? Das macht keinen Sinn.
                         </div>
 
@@ -198,10 +200,10 @@
                         </div>
 
                         <div class="message">
-                            Ich war zweieinhalb Jahre in einem Jobcenter als Arbeitsvermittler tätig. Grundsätzlich geht es nur 
-                            sekundär um diejenigen, denen dort geholfen werden soll. Das Führungspersonal steht unter großem Druck, 
-                            gewünschte Zahlen zu produzieren; diesem Ziel wird dort alles untergeordnet. Einmal hieß es: 
-                            »Bei den Sanktionen sind wir im vorderen Drittel, weiter so!« Eines der wichtigsten Ziele eines 
+                            Ich war zweieinhalb Jahre in einem Jobcenter als Arbeitsvermittler tätig. Grundsätzlich geht es nur
+                            sekundär um diejenigen, denen dort geholfen werden soll. Das Führungspersonal steht unter großem Druck,
+                            gewünschte Zahlen zu produzieren; diesem Ziel wird dort alles untergeordnet. Einmal hieß es:
+                            »Bei den Sanktionen sind wir im vorderen Drittel, weiter so!« Eines der wichtigsten Ziele eines
                             Jobcenters ist die Senkung der passiven Leistung, da sind Sanktionen das einfachste Mittel.
                         </div>
 
