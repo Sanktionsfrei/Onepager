@@ -1,7 +1,7 @@
 <header class="header" data-stellar-background-ratio="0.5" id="home">
 
     {{-- COLOR OVER IMAGE --}}
-    <div class="color-overlay"> {{-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  --}}
+    <div class="color-overlay">
 
         {{-- STICKY NAVIGATION --}}
         <div id="main-nav" class="navbar navbar-inverse bs-docs-nav navbar-fixed-top main-nav">
@@ -30,6 +30,7 @@
                         <li><a href="#unterstuetzen">Unterstützen</a></li>
                         <li><a href="#newsletter">Newsletter</a></li>
                         <li><a href="#presse" data-toggle="modal" data-target="#press">Presse</a></li>
+                        <li><a href="{{ url('/') }}/faq">Fragen</a></li>
                     </ul>
                 </div>
             </div> {{-- /END CONTAINER --}}
@@ -60,7 +61,7 @@
                         {{-- BUTTON --}}
                         <div class="buttons text-xs-center text-center" id="download-button">
 
-                            <a href="https://startnext.de/sanktionsfrei" target="_blank" class="btn btn-default btn-lg standard-button">Mehr erfahren</a>
+                            <a href="#kampagne" target="_blank" class="btn btn-default btn-lg standard-button">Mehr erfahren</a>
 
                         </div>
                         {{-- /END BUTTONS --}}

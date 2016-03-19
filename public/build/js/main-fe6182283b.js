@@ -152,9 +152,11 @@ $(document).ready(function () {
     $("#feedbacks").owlCarousel({
 
         navigation: false, // Show next and prev buttons
-        slideSpeed: 800,
-        paginationSpeed: 400,
-        autoPlay: 5000,
+        slideSpeed: 200,
+        paginationSpeed: 800,
+        autoPlay: 120000,
+        stopOnHover: true,
+
         singleItem: true
     });
 
@@ -382,6 +384,10 @@ $('.feature').hover(function () {
     //var defaultimgpath = 'images/screenshots/features/1.png';
     //$('#feature-image').attr("src", defaultimgpath);
 });
+
+function notWorkingYet() {
+    alert("Dies ist nur eine Vorschau. Noch sammeln wir Geld um diese Funktion anbieten zu können. Um auf dem Laufenden zu bleiben, kannst du dich unten in den Newsletter eintragen.");
+}
 $(document).ready(function () {
     "use strict";
     var Form = $('#form');

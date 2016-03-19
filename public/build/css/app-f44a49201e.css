@@ -11348,11 +11348,18 @@ footer .copyright {
 .progress-bar.funding-bar {
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: #1FACB6;
 }
 
 .funding-text {
   font-size: 20px;
   font-family: 'Lane', sans-serif;
+  text-align: left;
+  margin-left: 5px;
+  display: block;
+  width: 500px;
+  color: #FFF;
+  text-shadow: 2px 1px 2px rgba(155, 155, 155, 0.74);
 }
 
 .referer-button {

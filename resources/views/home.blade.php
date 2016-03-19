@@ -51,14 +51,15 @@
                         <div class="progress-bar progress-bar-success funding-bar" role="progressbar"
                              aria-valuenow="{{ $percent }}" aria-valuemin="0" aria-valuemax="100"
                              style="width:{{ $percent }}%">
-                            <span class="funding-text">{{ $percent }}% finanziert</span>
+                             <span class="funding-text">{{ $progressText }}</span>
                         </div>
                     </div>
 
                     {{-- BUTTON --}}
                     <div class="buttons referer-button">
 
-                        <a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button">Jetzt unterstützen</a>
+                        <a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button">Jetzt bei Startnext unterstützen (ab 5 €)</a>
+                        <a href="#donate" data-toggle="modal" data-taget="#donate" class="btn btn-default btn-lg standard-button">Beliebigen Betrag spenden</a>
 
                     </div>
 
@@ -135,9 +136,8 @@
 
                         <div class="message">
                             Ich habe eine Bar aufgemacht und musste mit Hartz IV aufstocken. 10% Sanktion, da ich einen
-                            Termin versäumt habe um meine Frau zur Geburtsvorbereitung zu begleiten. 1 Monat
-                            Vollsanktion,
-                            da ich 21 Tage Urlaub gemacht habe. Mir wurde mit Sanktionen gedroht, damit ich die <abbr
+                            Termin versäumt habe, um meine Frau zur Geburtsvorbereitung zu begleiten. 1 Monat
+                            Vollsanktion, da ich 21 Tage Urlaub gemacht habe. Mir wurde mit Sanktionen gedroht, damit ich die <abbr
                                     title="Eingliederungsvereinbarung">EGV</abbr> unterschreibe und an Maßnahmen
                             teilnehme.
                             Post vom Jobcenter belastet mich psychisch und macht mich krank.
@@ -170,7 +170,7 @@
                             Nach Ende des Studiums habe ich zur Überbrückung ein paar Monate in einem Café gejobbt 
                             und mich nebenher für Stellen beworben. Das Geld hat nicht einmal für die Miete gereicht, 
                             weshalb ich den Job aufgab und ALGII beantragte. Kurz nach Bewilligung kam die Sanktion ins 
-                            Haus geflattert – 30% Minderung. Um mich dafür abzustrafen, dass ich nicht unter 
+                            Haus geflattert: 30% Minderung. Um mich dafür abzustrafen, dass ich nicht unter 
                             Existenzminimum leben wollte? Das macht keinen Sinn.
                         </div>
 
@@ -244,7 +244,7 @@
                 <div class="colored-line">
                 </div>
                 <div class="section-description">
-                    Mit diesen Features wollen wir anfangen.
+                    Mit diesen Funktionen wollen wir anfangen.
                 </div>
                 <div class="colored-line">
                 </div>
@@ -259,7 +259,7 @@
                      data-wow-duration="1.5s">
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-1">
+                    <div class="feature" id="feature-1" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">
@@ -272,7 +272,7 @@
                         <div class="feature-details">
                             <h4 class="main-color">Online-Anträge</h4>
                             <p>
-                                Mit Sanktionsfrei kannst du deine Anträge unkompliziert online ausfüllen.
+                                Mit Sanktionsfrei kannst du deine Anträge unkompliziert online ausfüllen.<br/>
                             </p>
                         </div>
 
@@ -280,7 +280,7 @@
                     {{-- /END SINGLE FEATURE --}}
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-2">
+                    <div class="feature" id="feature-2" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">
@@ -301,7 +301,7 @@
                     {{-- /END SINGLE FEATURE --}}
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-3">
+                    <div class="feature" id="feature-3" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">
@@ -337,7 +337,7 @@
                      data-wow-duration="1.5s">
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-4">
+                    <div class="feature" id="feature-4" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">
@@ -359,7 +359,7 @@
                     {{-- /END SINGLE FEATURE --}}
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-5">
+                    <div class="feature" id="feature-5" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">
@@ -381,7 +381,7 @@
                     {{-- /END SINGLE FEATURE --}}
 
                     {{-- FEATURE --}}
-                    <div class="feature" id="feature-6">
+                    <div class="feature" id="feature-6" onClick="notWorkingYet()">
 
                         {{-- ICON --}}
                         <div class="icon-container">

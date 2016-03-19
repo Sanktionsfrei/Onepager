@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Sanktionsfrei</title>
-    <meta name="description" content="Sanktionsfrei - der digitale Advokat der Herabgewürdigten. Gemeinsam gegen Hartz IV Sanktionierung.">
-    <meta name="keywords" content="Sanktionsfrei, Hartz IV, Sanktionen, Digitaler Advokat der Unterdrückten, etc">
+    <meta name="description" content="Die deutschen Jobcenter dürfen ihre Hilfen unter das Existenzminimum kürzen. Das ist nicht okay. Wir machen deshalb Hartz IV sanktionsfrei.">
+    <meta name="keywords" content="Sanktionsfrei, Hartz IV, Sanktionen, Hartz 4, ALG II, Arbeitslosengeld 2">
     <meta name="author" content="Sanktionsfrei">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,7 +20,6 @@
     <![endif]-->
 
     <link rel="stylesheet" href="{{ url('css/app.css') }}">
-    <script src="{{ url('js/vendor/modernizr-2.8.3.min.js') }}"></script>
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -30,8 +29,6 @@
     <div class="status">&nbsp;</div>
 </div>
 
-@include('components.header-small')
-
 @yield('content')
 
 @include('components.footer-small')
@@ -40,7 +37,7 @@
 <script src="{{ elixir('js/vendor/libs.js') }}"></script>
 <script src="{{ elixir('js/vendor/plugins.js') }}"></script>
 <script src="{{ elixir('js/main.js') }}"></script>
-
+<script src="{{ url('js/vendor/modernizr-2.8.3.min.js') }}"></script>
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;

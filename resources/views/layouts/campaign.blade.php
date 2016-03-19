@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="de" itemscope itemtype="http://schema.org/Organization">
+<html class="no-js" lang="de">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -8,7 +8,29 @@
     <meta name="keywords" content="Sanktionsfrei, Hartz IV, Sanktionen, Hartz 4, ALG II, Arbeitslosengeld 2">
     <meta name="author" content="Sanktionsfrei">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    @include('components.social-meta')
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Sanktionsfrei">
+    <meta itemprop="description" content="Teile dein Erlebnis im Joncenter.">
+    <meta itemprop="image" content="{{ url('images/bg-1.jpg') }}">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@sanktionsfrei">
+    <meta name="twitter:title" content="Sanktionsfrei">
+    <meta name="twitter:description" content="Teile dein Erlebnis im Joncenter.">
+    <meta name="twitter:creator" content="@sanktionsfrei">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="{{ url('images/bg-1.jpg') }}">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Sanktionsfrei" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ url('/') }}" />
+    <meta property="og:image" content="{{ url('images/bg-1.jpg') }}" />
+    <meta property="og:description" content="Teile dein Erlebnis im Joncenter.">
+    <meta property="og:site_name" content="Sanktionsfrei" />
+    <meta property="fb:app_id" content="1297764360250524" />
 
     <link rel="icon" href="{{url('/images/favicon.ico')}}">
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -20,7 +42,7 @@
     <script src="{{ url('js/respond.min.js') }}"></script>
     <![endif]-->
 
-    <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
+    <link rel="stylesheet" href="{{ url('css/app.css') }}">
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -29,7 +51,6 @@
 <div class="preloader">
     <div class="status">&nbsp;</div>
 </div>
-
 @include('components.header')
 
 @yield('content')
