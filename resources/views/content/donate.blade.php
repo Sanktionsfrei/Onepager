@@ -1,5 +1,3 @@
-<p>Alle Spenden werden zum Sanktionsfrei-Crowdfunding auf <a href="https://startnext.com/sanktionsfrei">Startnext.com/sanktionsfrei</a> weitergeleitet. Wir weisen darauf hin, dass Startnext insgesamt fünf Prozent der Spenden für Transaktions- und Servicegebühren einbehält.</p>
-
 <h3>Überweisung</h3>
 <dl class="dl-horizontal">
     <dt>Konto-Nr</dt>
@@ -33,3 +31,4 @@
     <dd><code>sanktionsfrei10</code> (10€ spenden)</dd>
     <small>Für jede SMS führen wir 0,17 € an den Service-Betreiber ab.</small>
 </dl>
+<p>Alle Spenden werden zum Sanktionsfrei-Crowdfunding auf <a href="https://startnext.com/sanktionsfrei">Startnext.com/sanktionsfrei</a> weitergeleitet. Wir weisen darauf hin, dass Startnext insgesamt fünf Prozent der Spenden für Transaktions- und Servicegebühren einbehält.</p>
