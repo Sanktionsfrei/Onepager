@@ -45,7 +45,7 @@ Route::get('/live', function () {
     return redirect('https://www.youtube.com/watch?v=gS65yoNcq88', 307);
 });
 
-Route::group(['prefix' => 'api/v1', 'middleware' => ['cors'] ], function(){
+Route::group(['prefix' => 'api/v1' ], function(){
 
     Route::post('/subscribe', [
         'as'   => 'api.onepager.subscribe',
