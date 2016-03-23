@@ -26,7 +26,7 @@
 <dl class="dl-horizontal">
     <dt>Nummer</dt>
     <dd><code>81190</code></dd>
-    <dt>Kennwort</dt>
+    <dt>Text</dt>
     <dd><code>sanktionsfrei3</code> (3€ spenden)</dd>
     <dd><code>sanktionsfrei10</code> (10€ spenden)</dd>
     <small>Für jede SMS führen wir 0,17 € an den Service-Betreiber ab.</small>
