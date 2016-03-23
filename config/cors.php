@@ -12,11 +12,11 @@ return [
      |
      */
     'supportsCredentials' => false,
-    'allowedOrigins' => ['https://sanktionsfrei.de'],
+    'allowedOrigins' => ['*'],
     'allowedHeaders' => ['*'],
     'allowedMethods' => ['*'],
     'exposedHeaders' => [],
     'maxAge' => 0,
-    'hosts' => ['https://sanktionsfrei.de'],
+    'hosts' => [],
 ];
 
