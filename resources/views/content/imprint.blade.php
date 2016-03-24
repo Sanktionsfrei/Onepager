@@ -21,6 +21,8 @@ Vertreten durch: Inge Hannemann, Helena Sophia Steinhaus
 
 <h3>Spenden</h3>
 <dl class="dl-horizontal">
+    <dt>Kontoinhaber</dt>
+    <dd>Sanktionsfrei n.e.V.</dd>
     <dt>Konto-Nr</dt>
     <dd>1181458700</dd>
     <dt>Bankleitzahl</dt>
