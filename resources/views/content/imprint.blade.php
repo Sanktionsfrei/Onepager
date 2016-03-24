@@ -18,8 +18,11 @@ Vertreten durch: Inge Hannemann, Helena Sophia Steinhaus
     10997 Berlin<br>
     <abbr title="E-Mail">Mail:</abbr> info@sanktionsfrei.de
 </address>
+
 <h3>Spenden</h3>
 <dl class="dl-horizontal">
+    <dt>Kontoinhaber</dt>
+    <dd>Sanktionsfrei n.e.V.</dd>
     <dt>Konto-Nr</dt>
     <dd>1181458700</dd>
     <dt>Bankleitzahl</dt>
@@ -42,6 +45,9 @@ Vertreten durch: Inge Hannemann, Helena Sophia Steinhaus
         </form>
     </dd>
 </dl>
+<h3>Satzung</h3>
+<a href="https://drive.google.com/file/d/0B_OpgpBqRbh0cnRoNmFKeDVFX0E/view?usp=sharing">Satzung im PDF-Format.</a>
+
 <h3>Datenschutz</h3>
 <p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
 Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
