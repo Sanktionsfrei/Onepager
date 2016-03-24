@@ -1,5 +1,7 @@
 <h3>Überweisung</h3>
 <dl class="dl-horizontal">
+    <dt>Kontoinhaber</dt>
+    <dd>
     <dt>Konto-Nr</dt>
     <dd>1181458700</dd>
     <dt>Bankleitzahl</dt>
@@ -22,13 +24,13 @@
     <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
     </form>
 
-<h3>Spenden-SMS</h3>
+<h3>Unterstützenden-SMS</h3>
 <dl class="dl-horizontal">
     <dt>Nummer</dt>
     <dd><code>81190</code></dd>
     <dt>Text</dt>
-    <dd><code>sanktionsfrei3</code> (3€ spenden)</dd>
-    <dd><code>sanktionsfrei10</code> (10€ spenden)</dd>
+    <dd><code>sanktionsfrei3</code> (mit 3 € unterstützen)</dd>
+    <dd><code>sanktionsfrei10</code> (mit 10 € unterstützen)</dd>
     <small>Für jede SMS führen wir 0,17 € an den Service-Betreiber ab.</small>
 </dl>
 <p>Alle Spenden werden zum Sanktionsfrei-Crowdfunding auf <a href="https://startnext.com/sanktionsfrei">Startnext.com/sanktionsfrei</a> weitergeleitet. Wir weisen darauf hin, dass Startnext insgesamt fünf Prozent der Spenden für Transaktions- und Servicegebühren einbehält.</p>
