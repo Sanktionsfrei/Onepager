@@ -48,7 +48,7 @@ class WelcomeController extends Controller
             }
 
             return [
-                'percent' => $percent,
+                'percent' => floor($percent/2),
                 'progressText' => $textArray[0]
             ];
 
@@ -56,7 +56,7 @@ class WelcomeController extends Controller
 
         $stringArray = explode(' ', $progressBar['progressText']);
 
-        $displayString = substr($stringArray[0],0,-3) . " von 75.000 € finanziert $stringArray[3]";
+         $displayString = substr($stringArray[0],0,-3) . " von 150.000 € finanziert (" . $progressBar['percent'] . "%)";
 
         return view('home', ['options' => $options, 'percent' => $progressBar['percent'],'progressText' => $displayString]);
 
