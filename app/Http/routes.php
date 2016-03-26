@@ -33,6 +33,10 @@ Route::get('/presse', function () {
     return view('press');
 });
 
+Route::get('/support', function () {
+	return view('support');
+});
+
 Route::get('/hartzhurts', function () {
     return view('hartzhurts');
 });
