@@ -47,6 +47,12 @@ class WelcomeController extends Controller
                 $textArray = $crawler->filter('.status-text span')->extract(['_text']);
             }
 
+            include __DIR__  . '/../../../ressources/assets/localDonations.php';
+
+            $donationTarget = 150000.00;
+            $localPercentage = round($localDonations/$donationTarget*100);  
+            $localDonationsS = str_replace('.', ',', $localDonations) . ' €';
+
             return [
                 'percent' => floor($percent/2),
                 'progressText' => $textArray[0]
