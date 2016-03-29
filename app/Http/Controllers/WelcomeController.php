@@ -43,6 +43,13 @@ class WelcomeController extends Controller
                 $styleString = $crawler->filter('.bar.bar-1')->attr('style');
                 $stringArray = explode(':', $styleString);
                 $percent = substr($stringArray[1], 0,-2);
+                
+                // hardcoded, to be taken from admin panel later
+                $localDonations = 1500.00;
+                
+                $donationTarget = 150000.00;
+-               $localPercent = $localDonations/$donationTarget*100;  
+-              
                 // get the text for the progressbar
                 $textArray = $crawler->filter('.status-text span')->extract(['_text']);
             }
@@ -50,15 +57,16 @@ class WelcomeController extends Controller
             
 
             return [
-                'percent' => floor($percent/2),
-                'progressText' => $textArray[0]
+                'percent' => floor($percent/2 + $localPercent),
+                'progressText' => $textArray[0],
+                'localDonations' => $localDonations,
             ];
 
         },5);
 
         $stringArray = explode(' ', $progressBar['progressText']);
 
-         $displayString = substr($stringArray[0],0,-3) . " von 150.000 € finanziert (" . $progressBar['percent'] . "%)";
+        $displayString = substr($stringArray[0],0,-3) . " von 150.000 € finanziert, davon " . substr($localDonations,0,-3) . " über Startnext (" . $progressBar['percent'] . "%)";
 
         return view('home', ['options' => $options, 'percent' => $progressBar['percent'],'progressText' => $displayString]);
 
