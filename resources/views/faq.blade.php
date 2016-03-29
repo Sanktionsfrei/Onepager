@@ -40,7 +40,7 @@
 
 				Insgesamt kommen wir für acht Menschen und Büro auf monatliche Gesamtkosten in Höhe von 18.750 €, die sich über einen Zeitraum von 8 Monaten auf 150.000 € belaufen.<br/>
 
-				Sofern wir nur 75.000 € erreichen, können nur halb so viele Menschen am Projekt arbeiten, so dass der Aufbau der Plattform entsprechend länger dauern würde. Auch in diesem Fall bringen wir aber in den ersten sechs Monaten eine erste, kleinere Version der Plattform an den Start.</p>
+				Sofern wir nur 75.000 € erreichen, können nur halb so viele Menschen am Projekt arbeiten, so dass der Aufbau der Plattform entsprechend langsamer vorangehen würde. Auch in diesem Fall bringen wir aber in den ersten sechs Monaten eine erste, kleinere Version der Plattform an den Start, und sammeln dann ggf. weitere Spenden für den Ausbau der Plattform.</p>
                 <hr/>
                 <h4 id="9" class="main-color" style="padding-top:25px;">Wie wird sich Sanktionsfrei darüber hinaus finanzieren? <a href="#9"><i class="icon_link_alt"></i></a></h4>
                 <p>Das Crowdfunding für die Entwicklung der Plattform ist der erste Test, um zu sehen, ob es Unterstützung für die Idee der Solidarität mit Hartz-IV-Leistungsberechtigten gibt. Wenn die Idee die Unterstützung erfährt, die wir uns wünschen und an die wir glauben, werden wir die dauerhafte Entwicklung und Pflege sowie den geplanten Solidarfonds auf Basis von weiteren Spenden finanzieren.</p>
