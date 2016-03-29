@@ -55,7 +55,7 @@
                         </div>
                         <div class="progress-bar progress-bar-warning funding-bar" role="progressbar"
                              aria-valuenow="{{ $localPercent }}" aria-valuemin="0" aria-valuemax="100"
-                             style="width:{{ $localPercent }}%"-->
+                             style="width:{{ $localPercent }}%">
                              <!--span class="funding-text">{{ $progressText }}</span-->
                         </div>
                     </div>
