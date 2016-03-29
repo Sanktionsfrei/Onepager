@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-include __DIR__  . '/../assets/localDonations.php';
+<?php include __DIR__  . '/../assets/localDonations.php';?>
 
 @section('content')
     {{-- KAMPAGNE MIT VIDEO --}}
