@@ -851,7 +851,14 @@ footer .copyright {
 .progress-bar.funding-bar {
     padding-top:     10px;
     padding-bottom:  10px;
+}
+
+.progress-bar-success.funding-bar {
     background-color: #1FACB6;
+}
+
+.progress-bar-warning.funding-bar {
+    background-color: #B6B61F;
 }
 
 .funding-text {
