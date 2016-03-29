@@ -1,7 +1,5 @@
 @extends('layouts.main')
 
-<?php include __DIR__  . '/../assets/localDonations.php';?>
-
 @section('content')
     {{-- KAMPAGNE MIT VIDEO --}}
     <section class="app-brief grey-bg" id="kampagne">
