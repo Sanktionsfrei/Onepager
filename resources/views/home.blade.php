@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+include __DIR__  . '/../assets/localDonations.php';
+
 @section('content')
     {{-- KAMPAGNE MIT VIDEO --}}
     <section class="app-brief grey-bg" id="kampagne">
@@ -53,6 +55,11 @@
                              style="width:{{ $percent }}%">
                              <span class="funding-text">{{ $progressText }}</span>
                         </div>
+                        <!--div class="progress-bar progress-bar-warning funding-bar" role="progressbar"
+                             aria-valuenow="{{ $percent }}" aria-valuemin="0" aria-valuemax="100"
+                             style="width:{{ $percent }}%">
+                             <span class="funding-text">{{ $progressText }}</span>
+                        </div-->
                     </div>
 
                     {{-- BUTTON --}}
