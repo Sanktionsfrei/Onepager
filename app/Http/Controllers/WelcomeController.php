@@ -68,7 +68,7 @@ class WelcomeController extends Controller
 
         $stringArray = explode(' ', $progressBar['progressText']);
 
-        $displayString = substr($stringArray[0],0,-3) . " von 150.000 € finanziert, davon " . substr($localDonations,0,-3) . " über Startnext (" . $progressBar['totalPercent'] . "%)";
+        $displayString = substr($stringArray[0],0,-3) . " von 150.000 € finanziert, davon " . substr($localDonations,0,-3) . " € über Startnext (" . $progressBar['totalPercent'] . "%)";
 
         return view('home', ['options' => $options, 'percent' => $progressBar['percent'], 'progressText' => $displayString], 'localPercent' => $progressBar['localPercent']);
 
