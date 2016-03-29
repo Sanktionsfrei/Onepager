@@ -53,15 +53,9 @@
                              style="width:{{ $percent }}%">
                              <span class="funding-text">{{ $progressText }}</span>
                         </div>
-                        <!-- fixer Wert-->
                         <div class="progress-bar progress-bar-warning funding-bar" role="progressbar"
-                             aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"
-                             style="width:1%">
-                             <!--span class="funding-text">{{ $progressText }}</span-->
-                        <!-- variabler Wert-->
-                        <!--div class="progress-bar progress-bar-warning funding-bar" role="progressbar"
-                             aria-valuenow="{{ $localDonationsPercent }}" aria-valuemin="0" aria-valuemax="100"
-                             style="width:{{ $localDonationsPercent }}%"-->
+                             aria-valuenow="{{ $localPercent }}" aria-valuemin="0" aria-valuemax="100"
+                             style="width:{{ $localPercent }}%"-->
                              <!--span class="funding-text">{{ $progressText }}</span-->
                         </div>
                     </div>
