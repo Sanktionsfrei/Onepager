@@ -61,7 +61,7 @@
                         {{-- BUTTON --}}
                         <div class="buttons text-xs-center text-center" id="download-button">
 
-                            <a href="#kampagne" target="_blank" class="btn btn-default btn-lg standard-button">Mehr erfahren</a>
+                            <a href="#unterstuetzen" class="btn btn-default btn-lg standard-button">Jetzt unterstützen!</a>
 
                         </div>
                         {{-- /END BUTTONS --}}
