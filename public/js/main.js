@@ -21,6 +21,7 @@
     }
 }());
 
+// Place any jQuery/helper plugins in here.
 
 /* =================================
  LOADER
@@ -387,151 +388,68 @@ $('.feature').hover(function () {
 function notWorkingYet() {
     alert("Dies ist nur eine Vorschau. Noch sammeln wir Geld um diese Funktion anbieten zu können. Um auf dem Laufenden zu bleiben, kannst du dich unten in den Newsletter eintragen.");
 }
-var Progressbar = function () {
+$(document).ready(function () {
+    "use strict";
+    var Form = $('#form');
+    var Button = $('#form-button');
+    var Success = $('#success');
+    var Error = $('#error');
+    var Message = $('#error span');
 
-    /**
-     * Public api
-     */
-    return {
-        updateText: updateText,
-        animateBarValueTo: animateBarValueTo
-    };
+    Form.submit(function (event) {
 
-    var elBar = $('#bar');
-    var elText = $('#bar-text');
-    var animationSpeed = 1000;
+        Error.fadeOut(200);
 
-    function animateBarValueTo(value, speed) {
-        var dfd = jQuery.Deferred();
+        event.preventDefault();
 
-        elBar.animate({
-            width: value + '%'
-        }, speed, function () {
-            dfd.resolve();
-        });
+        var data = Form.serializeArray();
 
-        return dfd.promise();
+        var subscription = subscribe(data);
 
-    }
+        subscription.fail(handleError);
+        subscription.done(handleSuccess)
 
-    function updateText(text) {
-        elText.html(text);
-    }
+    });
 
-    function animate(value) {
-
-        countAnimationStart();
-
-        $.when(animateBarValueTo(100, animationSpeed))
-            .then(animateBarValueTo(0, 10))
-            .then(animateBarValueTo(value, animationSpeed));
-
-    }
-
-    function countAnimationStart() {
-        $('.count').each(function () {
-            $(this).prop('Counter', 0).animate({
-                Counter: $(this).text()
-            }, {
-                duration: 4000,
-                easing: 'swing',
-                step: function (now) {
-                    $(this).text(Math.ceil(now));
-                }
-            });
-        });
-    }
-
-};
-
-var Api = function () {
-
-    /**
-     * Public api
-     */
-    return {
-        getFundingInfo: getFundingInfo
-    };
-
-    var widgetUrl = 'https://www.startnext.com/sanktionsfrei/widget/?w=200&amp;h=300&amp;l=de';
-
-    function getHtmlString(url) {
+    function subscribe(data) {
         return $.ajax({
-            url: url
-        });
-    }
-
-    /**
-     * Get the current funding value
-     */
-    function getFundingInfo() {
-
-        var html = getHtmlString(widgetUrl);
-
-        html.error(function (error) {
-            console.error(error);
-        });
-
-        return html;
-    }
-
-};
-
-
-var Funding = function(Progressbar, Api){
-
-    return {
-        animateFundingStatus: animateFundingStatus
-
-    };
-
-    var progressbar = Progressbar;
-    var api = Api;
-
-    function animateFundingStatus() {
-        var data = api.getFundingInfo();
-        data.success(function (response) {
-
-            var widget = $(response);
-            var statusText = $('.status-text span', widget).text();
-            var statusParts = statusText.split(' ');
-
-            console.log( statusParts);
-
+            method: 'POST',
+            url: '/subscribe',
+            data: data
         })
     }
 
-
-};
-
-
-$(document).ready(function () {
-    "use strict";
-
-    /**
-     * avoid cors warnings
-     */
-    $.ajaxPrefilter(function (options) {
-        if (options.crossDomain && jQuery.support.cors) {
-            var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
-            options.url = http + '//crossorigin.me/' + options.url;
-            //options.url = "http://cors.corsproxy.io/url=" + options.url;
-        }
-    });
-
-    function boot() {
-        var progressBar = Object.create(Progressbar());
-        var api = Object.create(Api());
-
-        var funding = new Funding(progressBar, api);
-
-
-        funding.animateFundingStatus();
+    function handleSuccess(response) {
+        console.info(response);
+        Button.fadeOut(400, function () {
+            Success.fadeIn(400)
+        })
 
     }
 
-    boot();
+    function handleError(error) {
 
+        var messages = JSON.parse(error.responseText);
+
+        Message.text(messages.email);
+        Error.fadeIn(400);
+    }
+
+    $("#btnSave").click(function() {
+        alert('jup');
+        html2canvas($("#img2share"), {
+            onrendered: function(canvas) {
+                theCanvas = canvas;
+                document.body.appendChild(canvas);
+
+                // Convert and download as image
+                Canvas2Image.saveAsPNG(canvas);
+                $("#img-out").append(canvas);
+                // Clean up
+                //document.body.removeChild(canvas);
+            }
+        });
+    });
 
 });
 //# sourceMappingURL=main.js.map
