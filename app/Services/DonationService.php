@@ -50,7 +50,7 @@ class DonationService
 
     protected function getStartnextStatus()
     {
-        //$startnext = Cache::remember('startnext', 5, function () {
+        $startnext = Cache::remember('startnext', 5, function () {
 
         $c = curl_init(self::WIDGET_URI);
         curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
@@ -87,8 +87,8 @@ class DonationService
             ];
         }
 
-        //});
+        });
 
-        //return $startnext;
+        return $startnext;
     }
 }

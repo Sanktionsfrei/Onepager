@@ -7,10 +7,8 @@ namespace App\Http\Controllers;
 use App\Newsletter;
 use App\Services\DonationService;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
 use App\Services\NewsletterManager;
-use Symfony\Component\DomCrawler\Crawler;
 
 class WelcomeController extends Controller
 {
