@@ -11340,6 +11340,12 @@ footer .copyright {
      OWN STYLES
 **********************/
 
+.progress-bar {
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+}
+
 .progress.funding-bar {
   border-radius: 4px;
   height: 40px;

@@ -21,7 +21,6 @@
     }
 }());
 
-// Place any jQuery/helper plugins in here.
 
 /* =================================
  LOADER
@@ -388,52 +387,151 @@ $('.feature').hover(function () {
 function notWorkingYet() {
     alert("Dies ist nur eine Vorschau. Noch sammeln wir Geld um diese Funktion anbieten zu können. Um auf dem Laufenden zu bleiben, kannst du dich unten in den Newsletter eintragen.");
 }
+var Progressbar = function () {
+
+    /**
+     * Public api
+     */
+    return {
+        updateText: updateText,
+        animateBarValueTo: animateBarValueTo
+    };
+
+    var elBar = $('#bar');
+    var elText = $('#bar-text');
+    var animationSpeed = 1000;
+
+    function animateBarValueTo(value, speed) {
+        var dfd = jQuery.Deferred();
+
+        elBar.animate({
+            width: value + '%'
+        }, speed, function () {
+            dfd.resolve();
+        });
+
+        return dfd.promise();
+
+    }
+
+    function updateText(text) {
+        elText.html(text);
+    }
+
+    function animate(value) {
+
+        countAnimationStart();
+
+        $.when(animateBarValueTo(100, animationSpeed))
+            .then(animateBarValueTo(0, 10))
+            .then(animateBarValueTo(value, animationSpeed));
+
+    }
+
+    function countAnimationStart() {
+        $('.count').each(function () {
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+    }
+
+};
+
+var Api = function () {
+
+    /**
+     * Public api
+     */
+    return {
+        getFundingInfo: getFundingInfo
+    };
+
+    var widgetUrl = 'https://www.startnext.com/sanktionsfrei/widget/?w=200&amp;h=300&amp;l=de';
+
+    function getHtmlString(url) {
+        return $.ajax({
+            url: url
+        });
+    }
+
+    /**
+     * Get the current funding value
+     */
+    function getFundingInfo() {
+
+        var html = getHtmlString(widgetUrl);
+
+        html.error(function (error) {
+            console.error(error);
+        });
+
+        return html;
+    }
+
+};
+
+
+var Funding = function(Progressbar, Api){
+
+    return {
+        animateFundingStatus: animateFundingStatus
+
+    };
+
+    var progressbar = Progressbar;
+    var api = Api;
+
+    function animateFundingStatus() {
+        var data = api.getFundingInfo();
+        data.success(function (response) {
+
+            var widget = $(response);
+            var statusText = $('.status-text span', widget).text();
+            var statusParts = statusText.split(' ');
+
+            console.log( statusParts);
+
+        })
+    }
+
+
+};
+
+
 $(document).ready(function () {
     "use strict";
-    var Form = $('#form');
-    var Button = $('#form-button');
-    var Success = $('#success');
-    var Error = $('#error');
-    var Message = $('#error span');
 
-    Form.submit(function (event) {
-
-        Error.fadeOut(200);
-
-        event.preventDefault();
-
-        var data = Form.serializeArray();
-
-        var subscription = subscribe(data);
-
-        subscription.fail(handleError);
-        subscription.done(handleSuccess)
-
+    /**
+     * avoid cors warnings
+     */
+    $.ajaxPrefilter(function (options) {
+        if (options.crossDomain && jQuery.support.cors) {
+            var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
+            options.url = http + '//crossorigin.me/' + options.url;
+            //options.url = "http://cors.corsproxy.io/url=" + options.url;
+        }
     });
 
-    function subscribe(data) {
-        return $.ajax({
-            method: 'POST',
-            url: '/subscribe',
-            data: data
-        })
-    }
+    function boot() {
+        var progressBar = Object.create(Progressbar());
+        var api = Object.create(Api());
 
-    function handleSuccess(response) {
-        console.info(response);
-        Button.fadeOut(400, function () {
-            Success.fadeIn(400)
-        })
+        var funding = new Funding(progressBar, api);
+
+
+        funding.animateFundingStatus();
 
     }
 
-    function handleError(error) {
+    boot();
 
-        var messages = JSON.parse(error.responseText);
-
-        Message.text(messages.email);
-        Error.fadeIn(400);
-    }
 
 });
 //# sourceMappingURL=main.js.map
