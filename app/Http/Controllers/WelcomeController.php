@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 
 use App\Newsletter;
+use App\Services\DonationService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
@@ -14,96 +15,53 @@ use Symfony\Component\DomCrawler\Crawler;
 class WelcomeController extends Controller
 {
 
-    public function show()
+    public function show(DonationService $donationService)
     {
         $options = Config::get('onepager.options');
 
-        $progressBar = Cache::get('progressBar', function() {
+        $statusArray = $donationService->getDonationStatus();
 
-            $c = curl_init('https://www.startnext.com/sanktionsfrei/widget/?w=200&amp;h=300&amp;l=de');
-            curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
+        $displayString = "{$statusArray['amountTotal']} von 150.000 € finanziert, davon {$statusArray['amountSt']} € über Startnext ({$statusArray['percentTotal']}%)";
 
+        $viewData = array_merge([
+            'options' => $options,
+            'progressText' => $displayString,
+        ], $statusArray);
 
-            $html = curl_exec($c);
-
-            if (curl_error($c))
-                die(curl_error($c));
-
-            $status = curl_getinfo($c, CURLINFO_HTTP_CODE);
-
-            curl_close($c);
-
-            $percent = 0;
-
-            if($status == 200){
-                $crawler = new Crawler;
-                $crawler->addHTMLContent($html, 'UTF-8');
-
-                // get the percentage for the progressbar
-                $styleString = $crawler->filter('.bar.bar-1')->attr('style');
-                $stringArray = explode(':', $styleString);
-                $percent = substr($stringArray[1], 0,-2);
-                
-                // hardcoded, to be taken from admin panel later
-                $localDonations = 1500.00;
-                
-                $donationTarget = 150000.00;
--               $localPercent = $localDonations/$donationTarget*100;  
--              
-                // get the text for the progressbar
-                $textArray = $crawler->filter('.status-text span')->extract(['_text']);
-            }
-
-            
-
-            return [
-                'percent' => round($percent/2),
-                'progressText' => $textArray[0],
-                'localPercent' => round($localPercent),
-                'localDonations' => $localDonations,
-                'totalPercent' => floor($percent/2 + $localPercent)
-            ];
-
-        },5);
-
-        $stringArray = explode(' ', $progressBar['progressText']);
-
-        $displayString = substr($stringArray[0],0,-3) . " von 150.000 € finanziert, davon " . substr($localDonations,0,-3) . " € über Startnext (" . $progressBar['totalPercent'] . "%)";
-
-        return view('home', ['options' => $options, 'percent' => $progressBar['percent'], 'progressText' => $displayString], 'localPercent' => $progressBar['localPercent']);
+        return view('home', $viewData);
 
     }
 
     public function subscribe(Request $request, NewsletterManager $newsletterManager)
     {
         $this->validate($request, [
-            'email' => 'email|required|unique:newsletter,email'
+            'email' => 'email|required|unique:newsletter,email',
         ]);
 
         $options = Config::get('onepager.options');
         $onepager_options = [];
 
-        foreach($options as $option){
-            if($request->has($option['name'])){
+        foreach ($options as $option) {
+            if ($request->has($option['name'])) {
 
-                if($option['data']){
+                if ($option['data']) {
                     array_push($onepager_options, [
-                        'name' => $option['name'],
-                        'label' => $option['label'],
-                        'content' => $request->get($option['name'] . '_data')
+                        'name'    => $option['name'],
+                        'label'   => $option['label'],
+                        'content' => $request->get($option['name'] . '_data'),
                     ]);
-                }else{
+                } else {
                     array_push($onepager_options, [
-                        'name' => $option['name'],
-                        'label' => $option['label']
+                        'name'  => $option['name'],
+                        'label' => $option['label'],
                     ]);
                 }
             }
         }
 
         Newsletter::create([
-            'email' => $request->input('email'),
-            'onepager_options' => $onepager_options
+            'email'            => $request->input('email'),
+            'onepager_options' => $onepager_options,
         ]);
 
         $newsletterManager->addEmailToList($request->input('email'));

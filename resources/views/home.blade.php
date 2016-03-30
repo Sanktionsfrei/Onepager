@@ -49,13 +49,13 @@
 
                     <div class="progress progress-striped active funding-bar">
                         <div class="progress-bar progress-bar-success funding-bar" role="progressbar"
-                             aria-valuenow="{{ $percent }}" aria-valuemin="0" aria-valuemax="100"
-                             style="width:{{ $percent }}%">
+                             aria-valuenow="{{ $percentSt }}" aria-valuemin="0" aria-valuemax="100"
+                             style="width:{{ $percentSt }}%">
                              <span class="funding-text">{{ $progressText }}</span>
                         </div>
                         <div class="progress-bar progress-bar-warning funding-bar" role="progressbar"
-                             aria-valuenow="{{ $localPercent }}" aria-valuemin="0" aria-valuemax="100"
-                             style="width:{{ $localPercent }}%">
+                             aria-valuenow="{{ $percentLocal }}" aria-valuemin="0" aria-valuemax="100"
+                             style="width:{{ $percentLocal }}%">
                              <!--span class="funding-text">{{ $progressText }}</span-->
                         </div>
                     </div>

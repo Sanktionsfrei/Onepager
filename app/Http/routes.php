@@ -70,6 +70,9 @@ Route::group(['middleware' => 'auth', 'prefix' => 'dashboard', 'namespace' => 'D
         return redirect()->route('dashboard.newsletter.index');
     });
 
+    Route::resource('donation', 'DonationController');
+    
+
     Route::get('/export', function () {
 
         $newsletters = \App\Newsletter::get();
