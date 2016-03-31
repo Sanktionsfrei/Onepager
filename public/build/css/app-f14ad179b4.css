@@ -11358,6 +11358,10 @@ footer .copyright {
   background-color: #23C1CD;
 }
 
+.progress {
+  background-color: #E0E0E0;
+}
+
 .funding-text {
   font-size: 20px;
   font-family: 'Lane', sans-serif;
