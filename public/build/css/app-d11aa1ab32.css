@@ -10503,10 +10503,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
 }
-/* =======================================================================
-Kane - Responsive App Landing Page 1.7
-======================================================================= */
-
 /* --------------------------------------
 =========================================
 GLOBAL STYLES
@@ -11368,7 +11364,7 @@ footer .copyright {
   text-align: left;
   margin-left: 5px;
   display: block;
-  width: 1500px;
+  /* width: 1500px; why?! This crashes the layout. */
   color: #FFF;
   text-shadow: 2px 1px 2px rgba(155, 155, 155, 0.74);
   z-index: 1;
@@ -11415,6 +11411,8 @@ footer .copyright {
 .subscription-error {
   display: none;
 }
+
+/* hutt was here. */
 /* --------------------------------------
 =========================================
 COLOR : BLUE 
