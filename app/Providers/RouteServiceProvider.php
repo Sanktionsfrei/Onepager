@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Category;
+use App\Post;
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
@@ -24,7 +26,8 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
-        //
+        $router->model('post', Post::class);
+        $router->model('category', Category::class);
 
         parent::boot($router);
     }

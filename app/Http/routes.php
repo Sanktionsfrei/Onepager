@@ -25,7 +25,7 @@ Route::get('/impressum', function () {
     return view('imprint');
 });
 
-Route::get('/faq', function(){
+Route::get('/faq', function () {
     return view('faq');
 });
 
@@ -34,7 +34,7 @@ Route::get('/presse', function () {
 });
 
 Route::get('/support', function () {
-	return view('support');
+    return view('support');
 });
 
 Route::get('/hartzhurts', function () {
@@ -49,6 +49,30 @@ Route::get('/live', function () {
     return redirect('https://www.youtube.com/watch?v=gS65yoNcq88', 307);
 });
 
+Route::get('blog', [
+    'as'   => 'blog.posts.index',
+    'uses' => 'PostController@index',
+]);
+
+Route::get('blog/category/{category}', [
+    'as'   => 'blog.category.show',
+    'uses' => 'CategoryController@index',
+]);
+
+Route::get('blog/{post}', [
+    'as'   => 'blog.posts.show',
+    'uses' => 'PostController@show',
+]);
+
+Route::group(['prefix' => 'cdn'], function () {
+
+    Route::get('images/{file}', [
+        'as'   => 'cdn.image.show',
+        'uses' => 'Cdn\ImageController@show',
+    ]);
+
+});
+
 /*
  * Newsletter routes
  *
@@ -61,7 +85,24 @@ Route::group(['middleware' => 'auth', 'prefix' => 'dashboard', 'namespace' => 'D
     });
 
     Route::resource('donation', 'DonationController');
-    
+
+    Route::resource('posts', 'PostController', [
+        'parameters' => 'singular',
+    ]);
+
+    Route::resource('categories', 'CategoryController', [
+        'parameters' => 'singular',
+    ]);
+
+    /*
+   * Media routs
+   * ########################################################################
+   */
+    Route::resource('media', 'MediaController', [
+        'parameters' => 'singular',
+        'only'       => ['index', 'destroy', 'create', 'store'],
+    ]);
+
 
     Route::get('/export', function () {
 

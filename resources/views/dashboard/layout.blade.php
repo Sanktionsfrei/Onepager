@@ -18,7 +18,16 @@
         @include('dashboard._partials.nav')
     </section>
     <section class="content" role="presentation">
-        @yield('content')
+        <div class="container-fluid">
+            <div class="col-sm-2 hidden-xs-down">
+                <ul class="nav nav-pills nav-stacked">
+                    @yield('sidebar')
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-10">
+                @yield('content')
+            </div>
+        </div>
     </section>
     <footer role="contentinfo">
 

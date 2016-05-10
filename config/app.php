@@ -144,7 +144,11 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\RepositoryServiceProvider::class,
 
+        /*
+         * Third party Service Provider
+         */
         Skovmand\Mailchimp\MailchimpServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         Fideloper\Proxy\TrustedProxyServiceProvider::class
