@@ -43,31 +43,15 @@
             </div>
             {{-- /END ROW --}}
 
-            {{-- PROGRESS BAR ROW --}}
+            {{-- FUDING BUTTON ROW --}}
             <div class="row">
-                <div class="col-md-12 center wow fadeIn animated" data-wow-offset="20" data-wow-duration="1.5s">
 
-                    <div class="progress progress-striped active funding-bar">
-                        <div class="progress-bar progress-bar-success funding-bar" role="progressbar"
-                             aria-valuenow="{{ $percentSt }}" aria-valuemin="0" aria-valuemax="100"
-                             style="width:{{ $percentSt }}%">
-                             <span class="funding-text">{{ $progressText }}</span>
-                        </div>
-                        <div class="progress-bar progress-bar-warning funding-bar" role="progressbar"
-                             aria-valuenow="{{ $percentLocal }}" aria-valuemin="0" aria-valuemax="100"
-                             style="width:{{ $percentLocal }}%">
-                        </div>
-                    </div>
-
-                    {{-- BUTTON --}}
+                {{-- BUTTON --}}
                     <div class="buttons referer-button">
-
-                        <a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button">Jetzt bei Startnext unterstützen (ab 5 €)</a>
                         <a href="#donate" data-toggle="modal" data-taget="#donate" class="btn btn-default btn-lg standard-button" style="background-color: #23C1CD;">Beliebigen Betrag spenden</a>
 
                     </div>
 
-                </div>
             </div>
             {{-- /END ROW --}}
 
@@ -439,7 +423,6 @@
 
                                 <div class="buttons referer-button">
 
-                                    <a href="https://startnext.de/sanktionsfrei" class="btn btn-default btn-lg standard-button">Jetzt bei Startnext unterstützen (ab 5 €)</a>
                                     <a href="#donate" data-toggle="modal" data-taget="#donate" class="btn btn-default btn-lg standard-button">Beliebigen Betrag spenden</a>
 
                                 </div>
