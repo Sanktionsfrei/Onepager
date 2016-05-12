@@ -33,4 +33,3 @@
     <dd style="text-align: left;"><code>sanktionsfrei10</code> (mit 10 € unterstützen)</dd>
     <small>Für jede SMS führen wir 0,17 € an den Service-Betreiber ab.</small>
 </dl>
-<p>Da wir die Fundingschwelle von 75.000 € erreicht haben, überweisen wir Zuwendungen, die per SMS, Paypal oder Überweisung direkt an unseren Verein gehen, nicht mehr weiter an Startnext. Damit sparen wir Transaktionsgebühren in Höhe von 5% ein. Der vollständige Spendenstand wird in unserem Spendenbalken auf sanktionsfrei.de angezeigt. Die direkten Zuwendungen werden gesondert ausgewiesen. Leider ist es nicht möglich, die direkten Zuwendungen an unseren Verein bei Startnext anzuzeigen.</p>
