@@ -434,6 +434,8 @@
                             <h2 class=" wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
                                 Sanktionsfrei
                                 unterstützen</h2>
+                            <p>Das Crowdfunding ist beendet! Wir haben über 125.000 Euro eingenommen und sind damit Dank euch eine der erfolgreichsten Crowdfundingkampagnen Deutschlands. Herzlichen Dank für die unermüdliche Unterstützung! Wir befinden uns nun in der Entwicklungsphase. Neuste Informationen bekommt ihr per Newletter, im Blog und auf <a href="https://facebook.com/sanktionsfrei">Facebook</a>, sowie af <a href="https://twitter.com/sanktionsfrei">Twitter</a>. 
+</p>
 
                             {{-- BUTTONS --}}
                             <div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
