@@ -54,7 +54,7 @@
 
                 <h4 id="more" class="main-color" style="padding-top:25px;">Du hast noch mehr Fragen?</h4>
                 <p>Unter <a href="mailto:support@sanktionsfrei.de?subject=Frage zu Sanktionsfrei">support@sanktionsfrei.de</a> beantworten wir alle deine Fragen. Auch über Anregungen und Kritik freuen wir uns!</p>
-                <br>
+                <br/>
 
             </div>
         </div>
