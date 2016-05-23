@@ -19,7 +19,7 @@ class WelcomeController extends Controller
 
         $statusArray = $donationService->getDonationStatus();
 
-        $displayString = "{$statusArray['amountTotal']} von 150.000 € finanziert, davon {$statusArray['amountSt']} € über Startnext ({$statusArray['percentTotal']}%)";
+        $displayString = "{$statusArray['amountTotal']} von 150.000 € finanziert ({$statusArray['percentTotal']}%), davon {$statusArray['amountSt']} € über Startnext";
 
         $viewData = array_merge([
             'options' => $options,
