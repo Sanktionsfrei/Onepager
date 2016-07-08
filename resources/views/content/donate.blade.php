@@ -1,7 +1,7 @@
 <h3>Überweisung</h3>
 <dl class="dl-horizontal">
     <dt>Kontoinhaber</dt>
-    <dd>Sanktionsfrei n.e.V.</dd>
+    <dd>Sanktionsfrei e.V.</dd>
     <dt>Konto-Nr</dt>
     <dd>1181458700</dd>
     <dt>Bankleitzahl</dt>

@@ -1,6 +1,6 @@
 <h3>Angaben gemä&szlig; &sect; 5 TMG</h3>
 <address>
-    <strong>Sanktionsfrei n.e.V. (gemeinnützig)</strong><br>
+    <strong>Sanktionsfrei e.V. (gemeinnützig)</strong><br>
     Skalitzer Straße 85-86<br>
     10997 Berlin<br>
     <abbr title="Telefonnummer">Tel.:</abbr> +49 160 3772951<br>
@@ -22,7 +22,7 @@ Vertreten durch: Inge Hannemann, Helena Sophia Steinhaus
 <h3>Spenden</h3>
 <dl class="dl-horizontal">
     <dt>Kontoinhaber</dt>
-    <dd>Sanktionsfrei n.e.V.</dd>
+    <dd>Sanktionsfrei e.V.</dd>
     <dt>Konto-Nr</dt>
     <dd>1181458700</dd>
     <dt>Bankleitzahl</dt>
