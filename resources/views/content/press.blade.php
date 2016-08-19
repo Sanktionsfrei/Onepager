@@ -3,7 +3,7 @@
     <dt>E-Mail</dt>
     <dd>presse@sanktionsfrei.de</dd>
     <dt>Telefon</dt>
-    <dd>+49 160 3772951</dd>
+    <!--<dd>+49 160 3772951</dd>-->
 </dl>
 <h3>Material / Digitale Pressemappe</h3>
 <dl class="dl-horizontal">
