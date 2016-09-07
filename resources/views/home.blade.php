@@ -136,16 +136,14 @@
                         {{-- IMAGE --}}
                         <div class="image">
                             {{-- i class=" icon_quotations"></i --}}
-                            <img src="images/clients-pic/garen.jpg" alt="Garen">
+                            <img src="images/clients-pic/aa.jpg" alt="Agentur für Arbeit Logo">
                         </div>
 
                         <div class="message">
-                            Ich habe eine Bar aufgemacht und musste mit Hartz IV aufstocken. 10% Sanktion, da ich einen
-                            Termin versäumt habe, um meine Frau zur Geburtsvorbereitung zu begleiten. 1 Monat
-                            Vollsanktion, da ich 21 Tage Urlaub gemacht habe. Mir wurde mit Sanktionen gedroht, damit ich die <abbr
-                                    title="Eingliederungsvereinbarung">EGV</abbr> unterschreibe und an Maßnahmen
-                            teilnehme.
-                            Post vom Jobcenter belastet mich psychisch und macht mich krank.
+                            Erstmals war ich beim JobCenter Februar 2011, da war ich 62 Jahre alt.
+                            Man hat mich unmittelbar zu einer dieser Vermittlungszentren 50+ der DEKRA beordert. Dort saß ich mir den 
+                            ganzen Tag nur den Hintern vor einem Computer platt. Es gibt keinen Ausweg, wie mir die Vermittlerin beim JobCenter mitteilte, ansonsten müsse ich mit Sanktionen rechnen.
+                            und die Eingliederungsvereinbarung müsse ich auch unterschreiben. Nach den drei Monaten wurde ich dann doch in Frührente gezwungen.
                         </div>
 
                         <div class="white-line">
@@ -153,10 +151,10 @@
 
                         {{-- INFORMATION --}}
                         <div class="name">
-                            Garen K.
+                            Anonym
                         </div>
                         <div class="company-info">
-                            vom Jobcenter vollsanktioniert
+                            vom Jobcenter sanktioniert
                         </div>
 
                     </div>
