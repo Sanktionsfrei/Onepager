@@ -154,7 +154,7 @@
                             Anonym
                         </div>
                         <div class="company-info">
-                            vom Jobcenter sanktioniert
+                            vom Jobcenter mit Sanktionen bedroht
                         </div>
 
                     </div>
