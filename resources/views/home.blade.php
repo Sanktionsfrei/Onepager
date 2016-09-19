@@ -247,7 +247,7 @@
                 <div class="colored-line">
                 </div>
                 <div class="section-description">
-                    Mit diesen Funktionen wollen wir anfangen.
+                    Diese Funktionen wollen wir entwickeln. Mehr zum Stand der Entwicklung findest du in unserem <a href="https://www.startnext.com/sanktionsfrei/blog/">Blog</a>
                 </div>
                 <div class="colored-line">
                 </div>
