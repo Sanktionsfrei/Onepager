@@ -34,7 +34,8 @@
                         Sechs Millionen Menschen leben in Deutschland von Hartz IV - darunter 1,7 Millionen Kinder. Der Regelbedarf beträgt 404 € für eine alleinstehende Person. Was viele nicht wissen: Die Jobcenter verhängen gegen Menschen, die sich auf die finanzielle Hilfe des Staates verlassen müssen, Sanktionen. Sie kürzen die monatlichen Leistungen damit unter das Existenzminimum.<br/>
                         Wir finden Sanktionen unangemessen und menschenunwürdig.<br/>
                         <strong>Ein Existenzminimum muss ein Existenzminimum bleiben</strong>.<br/>
-                        Unser Ziel ist es, mit eurer Hilfe die Sanktionen abzuschaffen.
+                        Unser Ziel ist es, mit eurer Hilfe die Sanktionen abzuschaffen. Mehr Informationen über unsere aktuellen Aktionen 
+                        findest Du in unserem <a href="https://www.startnext.com/sanktionsfrei/blog/">Blog</a>.
                     </p>
 
                 </div>
