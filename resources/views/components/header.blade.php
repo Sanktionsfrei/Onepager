@@ -29,6 +29,7 @@
                         <li><a href="#features">Features</a></li>
                         <li><a href="#unterstuetzen">Unterstützen</a></li>
                         <li><a href="#newsletter">Newsletter</a></li>
+                        <li><a href="#newsletter">Blog</a></li>
                         <li><a href="#presse" data-toggle="modal" data-target="#press">Presse</a></li>
                         <li><a href="{{ url('/') }}/faq">Fragen</a></li>
                     </ul>
